@@ -43,6 +43,12 @@
             "custom_liquid": "{%- if product.metafields.custom.short_description != blank -%}\n{%- assign bulletPoint = product.metafields.custom.short_description  | newline_to_br | split: '<br \/>' -%}\n<div>\n  <ul style=\"padding-left: 0; list-style-position: inside\">\n    {%- for line in bulletPoint -%}\n      <li>{{line}}<\/li>\n    {%- endfor -%}\n  <\/ul>\n<\/div>\n{%- endif -%}"
           }
         },
+        "73cb9423-b030-4c20-b6c9-c4352c161ebf": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- if product.metafields.custom.addons != blank -%}\n<p>Test<\/p>\n<div class=\"product-recommendations page-width section-{{ section.id }}-padding isolate\">\n<h2 class=\"product-recommendations__heading h2\">Wichtiges Zubehör<\/h2>\n<ul class=\"grid product-grid grid--2-col-desktop grid--2-col-tablet-down\" role=\"list\">\n\n        {% for addon in product.metafields.custom.addons.value %}\n          <li class=\"grid__item\">\n            {% render 'card-product',\n              card_product: addon,\nshow_secondary_image:true     %}\n          <\/li>\n        {% endfor %}\n<\/ul>\n<\/div>\n{%- endif -%}"
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
@@ -84,6 +90,15 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "97085cf7-056b-41d8-bc87-e6992aa45868": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -94,11 +109,13 @@
         "quantity_selector",
         "buy_buttons",
         "a0dc0bba-189f-4dee-9eb0-8ccfe32c2cff",
+        "73cb9423-b030-4c20-b6c9-c4352c161ebf",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "97085cf7-056b-41d8-bc87-e6992aa45868"
       ],
       "settings": {
         "enable_sticky_info": true,
