@@ -147,7 +147,7 @@
     "73a1993f-d064-4a95-8a4e-ac91bcb211f9": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{%- if product.metafields.custom.important_addons != blank -%}\n\n<div class=\"product-recommendations page-width section-{{ section.id }}-padding isolate\">\n<h2 class=\"product-recommendations__heading h2\">Wichtiges Zubehör<\/h2>\n<ul class=\"grid product-grid grid--4-col-desktop grid--2-col-tablet-down\" role=\"list\">\n\n        {% for recommendation in product.metafields.custom.important_addons.value %}\n          <li class=\"grid__item\">\n            {% render 'card-product',\n              card_product: recommendation,\nshow_secondary_image:true     %}\n          <\/li>\n        {% endfor %}\n<\/ul>\n<\/div>\n{%- endif -%}",
+        "custom_liquid": "{%- if product.metafields.custom.important_addons != blank -%}\n\n<div class=\"product-recommendations page-width section-{{ section.id }}-padding isolate\">\n<h2 class=\"product-recommendations__heading h2\">Wichtiges Zubehör<\/h2>\n<ul class=\"grid product-grid grid--4-col-desktop grid--2-col-tablet-down\" role=\"list\">\n\n        {% for addon in product.metafields.custom.addons.value %}\n          <li class=\"grid__item\">\n            {% render 'card-product',\n              card_product: addon,\nshow_secondary_image:true     %}\n          <\/li>\n        {% endfor %}\n<\/ul>\n<\/div>\n{%- endif -%}",
         "color_scheme": "background-1",
         "padding_top": 12,
         "padding_bottom": 12
