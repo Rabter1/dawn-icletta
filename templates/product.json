@@ -46,7 +46,7 @@
         "73cb9423-b030-4c20-b6c9-c4352c161ebf": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- if product.metafields.custom.addons != blank -%}\n<p>Test<\/p>\n<div class=\"product-recommendations page-width section-{{ section.id }}-padding isolate\">\n<h2 class=\"product-recommendations__heading h2\">Wichtiges Zubehör<\/h2>\n<ul class=\"grid product-grid grid--2-col-desktop grid--2-col-tablet-down\" role=\"list\">\n\n        {% for addon in product.metafields.custom.addons.value %}\n          <li class=\"grid__item\">\n            {% render 'card-product',\n              card_product: addon,\nshow_secondary_image:true     %}\n          <\/li>\n        {% endfor %}\n<\/ul>\n<\/div>\n{%- endif -%}"
+            "custom_liquid": "{%- if product.metafields.custom.addons != blank -%}\n\n<div class=\"product-recommendations page-width section-{{ section.id }}-padding isolate\">\n<h2 class=\"product-recommendations__heading h2\">Wichtiges Zubehör<\/h2>\n<ul class=\"grid product-grid grid--2-col-desktop grid--2-col-tablet-down\" role=\"list\">\n\n        {% for addon in product.metafields.custom.addons.value %}\n          <li class=\"grid__item\">\n            {% render 'card-product',\n              card_product: addon,\nshow_secondary_image:true     %}\n          <\/li>\n        {% endfor %}\n<\/ul>\n<\/div>\n{%- endif -%}"
           }
         },
         "collapsible-row-0": {
