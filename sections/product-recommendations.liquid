@@ -21,7 +21,7 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient no-js-hidden">
-  <script>console.log("TEST"); console.log({{ section.settings.product_list.value }})</script>
+  <script>console.log({{ section.settings.product_list.value | json }})</script>
   {% if section.settings.product_list.value != blank %}
     <div class="product-recommendations page-width section-{{ section.id }}-padding isolate">
       <h2 class="product-recommendations__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
