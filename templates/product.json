@@ -91,12 +91,6 @@
             "share_label": "Share"
           }
         },
-        "d9a659bb-057c-4011-9c33-b97458e7aa01": {
-          "type": "product_list",
-          "settings": {
-            "product_list": "{{ product.metafields.custom.addons.value }}"
-          }
-        },
         "58887f34-e8d7-4f53-874d-0a6dab50304b": {
           "type": "complementary",
           "settings": {
