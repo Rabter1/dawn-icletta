@@ -204,6 +204,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
+        "product_list": "{{ product.metafields.custom.cross_sell_products.value }}",
         "heading": "You may also like",
         "heading_size": "h2",
         "products_to_show": 4,
