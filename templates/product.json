@@ -90,6 +90,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "d9a659bb-057c-4011-9c33-b97458e7aa01": {
+          "type": "product_list",
+          "settings": {
+            "product_list": "{{ product.metafields.custom.addons.value }}"
+          }
         }
       },
       "block_order": [
@@ -105,7 +111,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "d9a659bb-057c-4011-9c33-b97458e7aa01"
       ],
       "settings": {
         "enable_sticky_info": true,
