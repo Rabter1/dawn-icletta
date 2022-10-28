@@ -2144,6 +2144,9 @@
         "heading": {
           "label": "Überschrift"
         },
+        "product_list": {
+          "label": "Produktliste"
+        },
         "header__2": {
           "content": "Produktkarte"
         },
