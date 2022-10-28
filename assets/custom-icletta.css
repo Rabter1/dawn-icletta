@@ -17,10 +17,6 @@
     display: flex;
 }
 
-.complementary-products__container .quick-add__submit {
-    padding: 0.8rem 1rem;
-}
-
 .complementary-products__container .quick-add .button--secondary:after {
     border-radius: 5px
 }
