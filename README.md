@@ -6,12 +6,17 @@ Dawn theme of shopify but with changes for ICLETTA
 #### Rich Text
 Added an option that allows the content width to make use of 100% of the available width
 
-#### New section: 
+#### Product-recommendations
+Added setting to 
+ - input own product list
+ - set a second heading for own product list
 
+If a own product list is added and there are products inside, the second headding is used and the products are rendered. Otherwise the standard recommended products are shown.
+Also some CSS changes
 ### Active workarounds:
 Check, if these workarounds are still necesarry
 
-### 1) rich-text
+#### 1) rich-text
 It is not possible to use product description in rich text. So we pass `[product_description]` as a string and replace it in liquid code with the real deal.
 
 
