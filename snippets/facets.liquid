@@ -87,7 +87,7 @@
               {%- assign total_active_values = total_active_values | plus: filter.active_values.size -%}
               {% case filter.type %}
               {% when 'boolean' or 'list' %}
-                {% capture filterLabel %}{{ 'products.facets.metafield_filters.label.' | append: filter.label | escape  }} {% endcapture %}
+                {% capture filterLabel %}{{ 'products.facets.metafield_filters.label.' | append: filter.label | escape | t }} {% endcapture %}
                 <details id="Details-{{ forloop.index }}-{{ section.id }}" class="{% if filter_type == 'horizontal' %}disclosure-has-popup facets__disclosure{% else %} facets__disclosure-vertical{% endif %} js-filter" data-index="{{ forloop.index }}"{% if filter_type == 'vertical' and forloop.index == 1 %} open{% endif %}>
                   <summary class="facets__summary caption-large focus-offset" aria-label="{{ filter.label }} ({{ 'products.facets.filters_selected.one' | t: count: filter.active_values.size }})">
                     <div>
@@ -110,7 +110,7 @@
                       <legend class="visually-hidden">{{ filter.label | escape }}</legend>
                       <ul class="{% if filter_type != 'vertical' %} facets__list{% endif %} list-unstyled no-js-hidden" role="list">
                         {%- for value in filter.values -%}
-                          {% capture filterValue %}{{ 'products.facets.metafield_filters.value.' | append: value.label | escape  }} {% endcapture %}
+                          {% capture filterValue %}{{ 'products.facets.metafield_filters.value.' | append: value.label | escape | t }} {% endcapture %}
                           <li class="list-menu__item facets__item{% if forloop.index > 10 and filter_type == 'vertical' %} show-more-item hidden{% endif %}">
                             <label for="Filter-{{ filter.param_name | escape }}-{{ forloop.index }}" class="facet-checkbox{% if value.count == 0 and value.active == false %} facet-checkbox--disabled{% endif %}">
                               <input type="checkbox"
