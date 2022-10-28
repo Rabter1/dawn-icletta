@@ -1471,14 +1471,6 @@
     },
     "main-product": {
       "blocks": {
-        "addons": {
-          "name": "Produkte",
-          "settings": {
-            "product_list": {
-              "label": "Produkt Liste"
-            }
-          }
-        },
         "text": {
           "name": "Text",
           "settings": {
