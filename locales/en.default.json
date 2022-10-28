@@ -184,7 +184,7 @@
         "one": "{{ product_count }} of {{ count }} product",
         "other": "{{ product_count }} of {{ count }} products"
       },
-      "metafield_filter": {
+      "metafield_filters": {
         "label": {
           "Funktion": "Task",
           "Montageposition": "Mounting position"

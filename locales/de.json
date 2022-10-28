@@ -185,7 +185,7 @@
         "one": "{{ count }} Produkt",
         "other": "{{ count }} Produkte"
       },
-      "metafield_filter": {
+      "metafield_filters": {
         "label": {
           "Funktion": "Funktion",
           "Montageposition": "Montageposition"
