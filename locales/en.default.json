@@ -184,6 +184,23 @@
         "one": "{{ product_count }} of {{ count }} product",
         "other": "{{ product_count }} of {{ count }} products"
       },
+      "metafield_filter": {
+        "label": {
+          "Funktion": "Task",
+          "Montageposition": "Mounting position"
+        },
+        "value": {
+          "Antriebsstrang": "Powertrain",
+          "Halterung": "Bracket",
+          "Sicherheit": "Safety",
+          "Lenkung": "Steering",
+          "Komfort": "Comfort",
+          "Vorderrad": "Front wheel",
+          "Hinterrad": "Rear wheel",
+          "Lenker": "Steering",
+          "Rahmen": "Frame"
+        }
+      },
       "product_count_simple": {
         "one": "{{ count }} product",
         "other": "{{ count }} products"

@@ -185,6 +185,23 @@
         "one": "{{ count }} Produkt",
         "other": "{{ count }} Produkte"
       },
+      "metafield_filter": {
+        "label": {
+          "Funktion": "Funktion",
+          "Montageposition": "Montageposition"
+        },
+        "value": {
+          "Antriebsstrang": "Antriebsstrang",
+          "Halterung": "Halterung",
+          "Sicherheit": "Sicherheit",
+          "Lenkung": "Lenkung",
+          "Komfort": "Komfort",
+          "Vorderrad": "Vorderrad",
+          "Hinterrad": "Hinterrad",
+          "Lenker": "Lenker",
+          "Rahmen": "Rahmen"
+        }
+      },
       "reset": "Zurücksetzen",
       "sort_button": "Sortieren",
       "sort_by_label": "Sortieren nach:",
