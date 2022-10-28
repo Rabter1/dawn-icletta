@@ -2447,6 +2447,9 @@
         "heading": {
           "label": "Heading"
         },
+        "heading2": {
+          "label": "Heading for own product list"
+        },
         "product_list": {
           "label": "Product list"
         },
