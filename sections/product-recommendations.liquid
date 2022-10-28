@@ -21,15 +21,15 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient no-js-hidden">
-  <script>console.log("TEST"); console.log({{ section.settings.product_list.value.size }})</script>
-  {% if section.settings.product_list.value.size > 0 %}
+  <script>console.log("TEST"); console.log({{ section.settings.product_list.value }})</script>
+  {% if section.settings.product_list.value != blank %}
     <div class="product-recommendations page-width section-{{ section.id }}-padding isolate">
       <h2 class="product-recommendations__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
       <ul class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list">
         {% for complementary in section.settings.product_list.value %}
           <li class="grid__item">
             {% render 'card-product',
-              card_product: recommendation,
+              card_product: complementary,
               media_aspect_ratio: section.settings.image_ratio,
               show_secondary_image: section.settings.show_secondary_image,
               show_vendor: section.settings.show_vendor,
