@@ -96,6 +96,19 @@
           "settings": {
             "product_list": "{{ product.metafields.custom.addons.value }}"
           }
+        },
+        "58887f34-e8d7-4f53-874d-0a6dab50304b": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "dots",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
         }
       },
       "block_order": [
@@ -112,7 +125,8 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "d9a659bb-057c-4011-9c33-b97458e7aa01"
+        "d9a659bb-057c-4011-9c33-b97458e7aa01",
+        "58887f34-e8d7-4f53-874d-0a6dab50304b"
       ],
       "settings": {
         "enable_sticky_info": true,
