@@ -40,13 +40,20 @@
         "a0dc0bba-189f-4dee-9eb0-8ccfe32c2cff": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- if product.metafields.custom.short_description != blank -%}\n{%- assign bulletPoint = product.metafields.custom.short_description  | newline_to_br | split: '<br \/>' -%}\n<div>\n  <ul style=\"padding-left: 0; list-style-position: inside\">\n    {%- for line in bulletPoint -%}\n      <li>{{line}}<\/li>\n    {%- endfor -%}\n  <\/ul>\n<\/div>\n{%- endif -%}"
+            "custom_liquid": "{%- if product.metafields.custom.short_description != blank -%}\n{%- assign bulletPoint = product.metafields.custom.short_description | newline_to_br | split: '<br \/>' -%}\n<div>\n<ul style=\"padding-left: 0; list-style-position: inside\">\n{%- for line in bulletPoint -%}\n<li>{{line}}<\/li>\n{%- endfor -%}\n<\/ul>\n<\/div>\n{%- endif -%}"
           }
         },
-        "73cb9423-b030-4c20-b6c9-c4352c161ebf": {
-          "type": "custom_liquid",
+        "58887f34-e8d7-4f53-874d-0a6dab50304b": {
+          "type": "complementary",
           "settings": {
-            "custom_liquid": "{%- if product.metafields.custom.addons != blank -%}\n\n<h2 class=\"product-recommendations__heading h2\">Wichtiges Zubehör<\/h2>\n\n        {% for addon in product.metafields.custom.addons.value %}\n            {% render 'card-product',\n              card_product: addon,\nshow_quick_add:true,\nhorizontal_class:true,\nshow_secondary_image:true     %}\n        {% endfor %}\n{%- endif -%}"
+            "block_heading": "Produkterweiterungen",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "dots",
+            "image_ratio": "square",
+            "enable_quick_add": true
           }
         },
         "collapsible-row-0": {
@@ -89,19 +96,6 @@
           "type": "share",
           "settings": {
             "share_label": "Share"
-          }
-        },
-        "58887f34-e8d7-4f53-874d-0a6dab50304b": {
-          "type": "complementary",
-          "settings": {
-            "block_heading": "Produkterweiterungen",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 10,
-            "products_per_page": 3,
-            "pagination_style": "dots",
-            "image_ratio": "square",
-            "enable_quick_add": true
           }
         }
       },
