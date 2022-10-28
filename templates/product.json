@@ -40,7 +40,7 @@
         "a0dc0bba-189f-4dee-9eb0-8ccfe32c2cff": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- if product.metafields.custom.short_description != blank -%}\n{%- assign bulletPoint = product.metafields.custom.short_description | newline_to_br | split: '<br \/>' -%}\n<div>\n<ul style=\"padding-left: 0; list-style-position: inside\">\n{%- for line in bulletPoint -%}\n<li>{{line}}<\/li>\n{%- endfor -%}\n<\/ul>\n<\/div>\n{%- endif -%}"
+            "custom_liquid": "{%- if product.metafields.custom.short_description != blank -%}\n{%- assign bulletPoint = product.metafields.custom.short_description | newline_to_br | split: '<br \/>' -%}\n<ul style=\"padding-left: 0; list-style-position: inside\">\n{%- for line in bulletPoint -%}\n<li>{{line}}<\/li>\n{%- endfor -%}\n<\/ul>\n{%- endif -%}"
           }
         },
         "58887f34-e8d7-4f53-874d-0a6dab50304b": {
@@ -107,14 +107,12 @@
         "quantity_selector",
         "buy_buttons",
         "a0dc0bba-189f-4dee-9eb0-8ccfe32c2cff",
-        "73cb9423-b030-4c20-b6c9-c4352c161ebf",
+        "58887f34-e8d7-4f53-874d-0a6dab50304b",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "d9a659bb-057c-4011-9c33-b97458e7aa01",
-        "58887f34-e8d7-4f53-874d-0a6dab50304b"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -224,7 +222,6 @@
   "order": [
     "main",
     "cf2dd73b-1e49-4111-9f32-4640828dea03",
-    "73a1993f-d064-4a95-8a4e-ac91bcb211f9",
     "multicolumn",
     "product-recommendations"
   ]
