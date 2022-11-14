@@ -26,7 +26,7 @@
 /* Product page options */
 
 .product-form__input input[type=radio]:checked+label {
-   background-color: var(--gradient-base-accent-1);
+   background-color: var(--gradient-base-accent-1) !important;
 }
 
 /* Comment page you are editing! */
