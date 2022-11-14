@@ -1,4 +1,4 @@
-/* Product page */
+/* Product page addons */
 
 .complementary-products__container .card--horizontal .card__inner {
     max-width: 100%;
@@ -21,6 +21,12 @@
 
 .complementary-products__container .quick-add .button--secondary:after {
     border-radius: 5px
+}
+
+/* Product page options */
+
+.product-form__input input[type=radio]:checked+label {
+   background-color: var(--gradient-base-accent-1);
 }
 
 /* Comment page you are editing! */
