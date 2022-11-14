@@ -13,6 +13,9 @@ Added setting to
 
 If a own product list is added and there are products inside, the second headding is used and the products are rendered. Otherwise the standard recommended products are shown.
 Also some CSS changes
+
+#### Added global custom CSS file
+Added global CSS file to make quick changes (assets/custom-icletta.css)
 ### Active workarounds:
 Check, if these workarounds are still necesarry
 

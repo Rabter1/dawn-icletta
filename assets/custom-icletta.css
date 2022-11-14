@@ -1,3 +1,5 @@
+/* Product page */
+
 .complementary-products__container .card--horizontal .card__inner {
     max-width: 100%;
     flex-shrink: 2;
@@ -20,3 +22,5 @@
 .complementary-products__container .quick-add .button--secondary:after {
     border-radius: 5px
 }
+
+/* Comment page you are editing! */
