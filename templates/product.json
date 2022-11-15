@@ -204,7 +204,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "product_list": "{{ product.metafields.custom.cross_sell_products.value }}",
+        "product_list": "{{ product.metafields.custom.accessories.value }}",
         "heading": "Das könnte Ihnen auch gefallen",
         "heading2": "Zu diesem Artikel passende Produkte",
         "heading_size": "h2",
