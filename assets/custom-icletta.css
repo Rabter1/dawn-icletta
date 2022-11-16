@@ -1,7 +1,7 @@
 /* Product page addons */
 
 .complementary-products__container .card--horizontal .card__inner {
-    max-width: 100%;
+    max-width: 100% !important;
     flex-shrink: 2;
 }
 
