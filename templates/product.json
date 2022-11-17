@@ -62,15 +62,6 @@
             "enable_quick_add": true
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Gewicht",
-            "icon": "carrot",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
@@ -115,7 +106,6 @@
         "a0dc0bba-189f-4dee-9eb0-8ccfe32c2cff",
         "d69e4434-49d2-4f1c-870e-28a89ce600f3",
         "58887f34-e8d7-4f53-874d-0a6dab50304b",
-        "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
