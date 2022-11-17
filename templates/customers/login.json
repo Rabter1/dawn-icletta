@@ -1,21 +1,5 @@
 {
   "sections": {
-    "f9b4d5dd-1e3f-4edf-83d1-75b11ffd32f7": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/visual_account.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "main": {
       "type": "main-login",
       "settings": {
@@ -25,7 +9,6 @@
     }
   },
   "order": [
-    "f9b4d5dd-1e3f-4edf-83d1-75b11ffd32f7",
     "main"
   ]
 }
