@@ -40,7 +40,13 @@
         "a0dc0bba-189f-4dee-9eb0-8ccfe32c2cff": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- if product.metafields.custom.short_description != blank -%}\n{%- assign bulletPoint = product.metafields.custom.short_description | newline_to_br | split: '<br \/>' -%}\n<ul style=\"padding-left: 0; list-style-position: inside\">\n{%- for line in bulletPoint -%}\n<li>{{line}}<\/li>\n{%- endfor -%}\n<\/ul>\n{%- endif -%}"
+            "custom_liquid": "{%- if product.metafields.custom.short_description != blank -%}\n{%- assign bulletPoint = product.metafields.custom.short_description | newline_to_br | split: '<br \/>' -%}\n<ul style=\"padding-left: 1.2em\">\n{%- for line in bulletPoint -%}\n<li>{{line}}<\/li>\n{%- endfor -%}\n<\/ul>\n{%- endif -%}"
+          }
+        },
+        "d69e4434-49d2-4f1c-870e-28a89ce600f3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- if product.metafields.custom.note-for-addon != blank -%}\n<div class=\"note-for-complementary-products\">\n{{product.metafields.custom.note-for-addon | newline_to_br }}\n<\/div>\n{%- endif -%}"
           }
         },
         "58887f34-e8d7-4f53-874d-0a6dab50304b": {
@@ -107,6 +113,7 @@
         "quantity_selector",
         "buy_buttons",
         "a0dc0bba-189f-4dee-9eb0-8ccfe32c2cff",
+        "d69e4434-49d2-4f1c-870e-28a89ce600f3",
         "58887f34-e8d7-4f53-874d-0a6dab50304b",
         "collapsible-row-0",
         "collapsible-row-1",
