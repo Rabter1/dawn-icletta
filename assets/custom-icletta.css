@@ -23,6 +23,16 @@
     border-radius: 5px
 }
 
+.complementary-products__container .summary__title {
+    font-weight: bold;
+}
+
+/* Product page note */
+
+.note-for-complementary-products {
+    color: var(--gradient-base-accent-1);
+}
+
 /* Product page options */
 
 .product-form__input input[type=radio]:checked+label {
