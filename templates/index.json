@@ -4,7 +4,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/keyvisual-fairings-herbst-2022.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_content_position": "bottom-center",
