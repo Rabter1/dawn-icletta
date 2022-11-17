@@ -23,14 +23,19 @@
     border-radius: 5px
 }
 
-.complementary-products__container .summary__title {
+.complementary-products__container .summary__title h2 {
     font-weight: bold;
+    font-size: calc(var(--font-heading-scale) * 2rem);
 }
 
 /* Product page note */
 
 .note-for-complementary-products {
-    color: var(--gradient-base-accent-1);
+    color: rgb(var(--color-base-background-1));
+    background-color: var(--gradient-base-accent-1);
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: #00000060 0.2em 0.2em 1em;
 }
 
 /* Product page options */
