@@ -43,6 +43,118 @@
         "padding_bottom": 36
       }
     },
+    "e298752e-f10f-4baa-adcc-564701e93d51": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16752291545376__e298752e-f10f-4baa-adcc-564701e93d51-1668681435fae0d837-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Willkommen in der ICLETTA Themenwelt<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16752291545376__e298752e-f10f-4baa-adcc-564701e93d51-1668681435fae0d837-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "content_width": "default"
+      }
+    },
+    "c5146bc4-d7c5-49dd-9165-affbdec0dfaa": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16752291545376__c5146bc4-d7c5-49dd-9165-affbdec0dfaa-1668679157686d7e7f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "TerraCycle Firmenportrait",
+            "heading_size": "h1"
+          }
+        },
+        "template--16752291545376__c5146bc4-d7c5-49dd-9165-affbdec0dfaa-1668679157686d7e7f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Auf dieser Seite erfahren Sie alles über den Liegeradzubehör <br\/>Spezialisten aus den USA. ICLETTA vertreibt seit nunmehr fünfzehn Jahren die aufwändig gefrästen Anbauteile von TerraCycle in ganz Europa. Lernen Sie jetzt die Entstehungsgeschichte des familiär gehaltenen <br\/>Unternehmens und die Gesichter hinter den Produkten kennen.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16752291545376__c5146bc4-d7c5-49dd-9165-affbdec0dfaa-1668679157686d7e7f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Erfahren Sie mehr",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16752291545376__c5146bc4-d7c5-49dd-9165-affbdec0dfaa-1668679157686d7e7f-0",
+        "template--16752291545376__c5146bc4-d7c5-49dd-9165-affbdec0dfaa-1668679157686d7e7f-1",
+        "template--16752291545376__c5146bc4-d7c5-49dd-9165-affbdec0dfaa-1668679157686d7e7f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tw-firmenportrait.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16752291545376__b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0-1668679157686d7e7f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "TerraCycle Kettenleitrollen",
+            "heading_size": "h1"
+          }
+        },
+        "template--16752291545376__b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0-1668679157686d7e7f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sie hat schon immer das Innenleben einer Kettenleitrolle interessiert? Auf dieser Seite beantworten wir alle Fragen zu unseren CNC gefrästen Tuningrollen. Lernen Sie die Vorzüge der verschiedenen Ausführungen kennen und entdecken Sie, welche Rolle zu ihrem Liegerad passt.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16752291545376__b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0-1668679157686d7e7f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Erfahren Sie mehr",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16752291545376__b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0-1668679157686d7e7f-0",
+        "template--16752291545376__b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0-1668679157686d7e7f-1",
+        "template--16752291545376__b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0-1668679157686d7e7f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tw-kettenleitrolle.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "531902d4-1772-4c6e-9168-fe440a37f650": {
       "type": "multicolumn",
       "blocks": {
@@ -86,65 +198,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "531902d4-1772-4c6e-9168-fe440a37f650",
-    "collage",
-    "video"
+    "e298752e-f10f-4baa-adcc-564701e93d51",
+    "c5146bc4-d7c5-49dd-9165-affbdec0dfaa",
+    "b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0",
+    "531902d4-1772-4c6e-9168-fe440a37f650"
   ]
 }
