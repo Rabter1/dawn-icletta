@@ -6,9 +6,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "38216801-0481-4a84-912e-703b5629e37d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16752291905824__38216801-0481-4a84-912e-703b5629e37d-166878654697bf75da-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wir sind umgezogen",
+            "heading_size": "h1"
+          }
+        },
+        "template--16752291905824__38216801-0481-4a84-912e-703b5629e37d-166878654697bf75da-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sie benötigen ein neues Kundenkonto.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16752291905824__38216801-0481-4a84-912e-703b5629e37d-166878654697bf75da-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr Informationen",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16752291905824__38216801-0481-4a84-912e-703b5629e37d-166878654697bf75da-0",
+        "template--16752291905824__38216801-0481-4a84-912e-703b5629e37d-166878654697bf75da-1",
+        "template--16752291905824__38216801-0481-4a84-912e-703b5629e37d-166878654697bf75da-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "38216801-0481-4a84-912e-703b5629e37d"
   ]
 }
