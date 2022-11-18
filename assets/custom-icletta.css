@@ -62,7 +62,11 @@
 /* Youtube Video ifram in rich text */
 
 .rich-text__text iframe {
-    width: 100%;
+    height: 40vh;
+    width: auto;
+    max-width: 100%;
+    aspect-ratio: 16/9;
+
 }
 
 /* Comment page you are editing! */
