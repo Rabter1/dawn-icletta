@@ -59,5 +59,10 @@
     float: left;
 }
 
+/* Youtube Video ifram in rich text */
+
+.rich-text__text iframe {
+    width: 100%;
+}
 
 /* Comment page you are editing! */
