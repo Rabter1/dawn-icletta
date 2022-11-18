@@ -44,4 +44,18 @@
    background-color: var(--gradient-base-accent-1) !important;
 }
 
+/* Custom icon for cart button */
+
+.product-form__submit span {
+    padding-left: 1.5em;
+}
+
+.product-form__submit span::before {
+    content:'';
+    display:block;
+    background: url('icon-trike-cart.svg') no-repeat;
+    width: 1.5em;
+}
+
+
 /* Comment page you are editing! */
