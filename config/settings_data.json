@@ -169,18 +169,18 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-2": {
-            "type": "text",
-            "settings": {
-              "heading": "Kontaktinfo",
-              "subtext": "<p>ICLETTA GmbH<\/p><p>Niedergartenweg 22,<br\/>4331 Weiterstadt<\/p><p>Tel: +49 - 6150-592 29 66<\/p><p>Fax: +49 - 6150-592 29 68<\/p><p>Email: info@icletta.com<\/p>"
-            }
-          },
           "f29d242a-7285-487b-bc87-47cd03960e55": {
             "type": "link_list",
             "settings": {
               "heading": "Rechtliches",
               "menu": "rechtliches"
+            }
+          },
+          "footer-2": {
+            "type": "text",
+            "settings": {
+              "heading": "Kontaktinfo",
+              "subtext": "<p>ICLETTA GmbH<\/p><p>Niedergartenweg 22,<br\/>4331 Weiterstadt<\/p><p>Tel: +49 - 6150-592 29 66<\/p><p>Fax: +49 - 6150-592 29 68<\/p><p>Email: info@icletta.com<\/p>"
             }
           },
           "323092f4-aad7-48ed-ba5c-18c80b02765d": {
@@ -192,8 +192,8 @@
           }
         },
         "block_order": [
-          "footer-2",
           "f29d242a-7285-487b-bc87-47cd03960e55",
+          "footer-2",
           "323092f4-aad7-48ed-ba5c-18c80b02765d"
         ],
         "settings": {
