@@ -198,7 +198,7 @@
         ],
         "settings": {
           "color_scheme": "inverse",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Melde Sie sich für unserem Newsletter an",
           "show_social": true,
           "enable_country_selector": false,
