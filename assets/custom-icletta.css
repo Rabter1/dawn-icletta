@@ -59,7 +59,7 @@
     float: left;
 }
 
-/* Youtube Video ifram in rich text */
+/* Youtube Video iframe in rich text */
 
 .rich-text__text iframe {
     height: 40vh;
@@ -67,6 +67,12 @@
     max-width: 100%;
     aspect-ratio: 16/9;
 
+}
+
+/* Custom footer nav bar style */
+
+.footer-block__details-content .list-menu__item--link {
+    text-decoration: underline;
 }
 
 /* Comment page you are editing! */
