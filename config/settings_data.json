@@ -187,7 +187,7 @@
             "type": "text",
             "settings": {
               "heading": "Kontaktinfo",
-              "subtext": ""
+              "subtext": "<p>ICLETTA GmbH<\/p><p>Niedergartenweg 22,<br\/>4331 Weiterstadt<\/p><p>Tel: +49 - 6150-592 29 66<\/p><p>Fax: +49 - 6150-592 29 68<\/p><p>Email: <a href=\"javascript:openmail('info','icletta.com')\">info@icletta.com<\/a><\/p>"
             }
           }
         },
