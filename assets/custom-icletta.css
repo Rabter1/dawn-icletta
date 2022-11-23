@@ -89,6 +89,7 @@
 /* Fix nav menu bug of theme */
 .list-menu--disclosure {
     width: auto !important;
+    min-width: 20rem !important;
 }
 
 /* Comment page you are editing! */
