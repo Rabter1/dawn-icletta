@@ -65,7 +65,7 @@
         "241aac06-e200-4130-a4ca-f3938f5dcd17": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- if product.metafields.custom.assembly-instructions != blank -%}\n{%- assign instructions = product.metafields.custom.assembly-instructions.value -%}\n<ul style=\"padding-left: 1.2em\">\n{%- for file in instructions-%}\n<li><a href=\"{{file.url}}\" target=\"_blank\">{{file.url}}<\/a><\/li>\n{%- endfor -%}\n<\/ul>\n{%- endif -%}"
+            "custom_liquid": "{%- if product.metafields.custom.assembly-instructions != blank -%}\n{%- assign instructions = product.metafields.custom.assembly-instructions.value -%}\n<ul style=\"padding-left: 1.2em\">\n{%- for file in instructions-%}\n<li><a href=\"{{file.url}}\" target=\"_blank\">{{file.url| split: '\/' | last | split: '?' | first}}<\/a><\/li>\n{%- endfor -%}\n<\/ul>\n{%- endif -%}"
           }
         },
         "c160c6d9-cb01-463d-a9ed-b04fd61ee9c1": {
