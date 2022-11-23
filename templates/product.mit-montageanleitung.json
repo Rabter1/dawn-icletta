@@ -76,6 +76,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "241aac06-e200-4130-a4ca-f3938f5dcd17": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- if product.metafields.custom.assembly-instructions != blank -%}\n{%- assign instructions = product.metafields.custom.assembly-instructions.value -%}\n<ul style=\"padding-left: 1.2em\">\n{%- for file in instructions-%}\n<li><a href=\"{{file.url}}\" >{{file.url}}<\/a><\/li>\n{%- endfor -%}\n<\/ul>\n{%- endif -%}"
+          }
         }
       },
       "block_order": [
@@ -89,7 +95,8 @@
         "58887f34-e8d7-4f53-874d-0a6dab50304b",
         "a0dc0bba-189f-4dee-9eb0-8ccfe32c2cff",
         "c160c6d9-cb01-463d-a9ed-b04fd61ee9c1",
-        "share"
+        "share",
+        "241aac06-e200-4130-a4ca-f3938f5dcd17"
       ],
       "settings": {
         "enable_sticky_info": true,
