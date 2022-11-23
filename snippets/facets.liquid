@@ -110,7 +110,7 @@
             <script src="{{ 'show-more.js' | asset_url }}" defer="defer"></script>
             {% comment %} Filters for both horizontal and vertical filter {% endcomment %}
             {%- for filter in results.filters -%}
-              {% capture filterLabel %}{{ 'products.facets.metafield_filters.label.' | append: filter.label | escape }} {% endcapture %}
+              {% capture filterLabel %}{{ 'products.facets.metafield_filters.label.' | append: filter.label | escape | t }} {% endcapture %}
               {%- assign total_active_values = total_active_values | plus: filter.active_values.size -%}
               {% case filter.type %}
                 {% when 'boolean', 'list' %}
@@ -160,7 +160,7 @@
                           role="list"
                         >
                           {%- for value in filter.values -%}
-                            {% capture filterValue %}{{ 'products.facets.metafield_filters.value.' | append: value.label | escape }} {% endcapture %}
+                            {% capture filterValue %}{{ 'products.facets.metafield_filters.value.' | append: value.label | escape | t }} {% endcapture %}
                             <li class="list-menu__item facets__item{% if forloop.index > 10 and filter_type == 'vertical' %} show-more-item hidden{% endif %}">
                               <label
                                 for="Filter-{{ filter.param_name | escape }}-{{ forloop.index }}"
