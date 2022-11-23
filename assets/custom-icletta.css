@@ -30,12 +30,19 @@
 
 /* Product page note */
 
+.note-for-complementary-products::before {
+    content:'';
+    display:block;
+    background: url('warning-outline.svg') no-repeat;
+    width: 2.5em;
+    height: 1em;
+}
+
 .note-for-complementary-products {
-    color: rgb(var(--color-base-background-1));
-    background-color: var(--gradient-base-accent-1);
+    border: solid .2em rgb(var(--color-base-accent-2));
     border-radius: 1em;
     padding: 1em;
-    box-shadow: #00000060 0.2em 0.2em 1em;
+    /* box-shadow: #00000060 0.2em 0.2em 1em; */
 }
 
 /* Product page options */
