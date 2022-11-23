@@ -155,8 +155,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/tw-firmenportrait.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
+        "height": "small",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
@@ -199,8 +199,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/tw-kettenleitrolle.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
+        "height": "small",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
