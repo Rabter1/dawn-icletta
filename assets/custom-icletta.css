@@ -196,7 +196,7 @@ min-width: 30em;
 .absatz {
   text-align: justify;
   margin: 2em 0em;
-  padding: 0em 5em;
+  /*padding: 0em 5em;*/
 }
 
 .zitat-wrap {
