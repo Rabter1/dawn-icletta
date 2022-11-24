@@ -102,6 +102,7 @@
 /* Testzone Helge */
 .vorschaubox {
   /*outline: 1px solid grey;*/
+  width: 1300px;
   display:flex;
   margin: 0% 20%;
   flex-direction: row;
