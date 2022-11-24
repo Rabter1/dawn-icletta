@@ -252,6 +252,7 @@ min-width: 30em;
 
 .image {
   width: 80%;
+  box-shadow: none;
 }
 .image img{
   width: 100%;
