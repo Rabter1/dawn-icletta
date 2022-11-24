@@ -125,8 +125,8 @@
     }
 
 .vorschaubox-thumb {  
-    width: 100%;
-    height: auto;
+    width: 20em;
+    height: 20em;
     outline: 1px solid light-grey;
     background-image: url("https://cdn.shopify.com/s/files/1/0667/7725/2128/files/tw-kettenleitrolle.jpg");
     background-size: auto 100%;
