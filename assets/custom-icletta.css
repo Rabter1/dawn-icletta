@@ -100,3 +100,66 @@
     image-width:100% !important;
 }
 /* Testzone Helge */
+.vorschaubox {
+    /*outline: 1px solid grey;*/
+    display:flex;
+    margin: 0% 30%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0%;
+    border-radius: 10px;
+    background-color: lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+
+.vorschaubox-info {
+    /*outline: 1px solid blue;*/
+    margin: 0px 0px 0px 15px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: px;
+    }
+
+.vorschaubox-thumb {  
+    width: 115px;
+    height: 115px;
+    outline: 1px solid light-grey;
+    background-image: url("https://cdn.shopify.com/s/files/1/0667/7725/2128/files/tw-kettenleitrolle.jpg");
+    background-size: auto 100%;
+    background-position: center;
+    padding: 30px;
+    margin: 0px;
+    flex: 0 1 auto;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+
+.vorschaubox-box {  
+    /*outline: 1px solid black;*/
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0px 10px;
+    margin: 0px;
+    flex: 1 0 auto;
+    /*border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;*/
+    }
+  
+.vorschaubox-button {  
+    /*outline: 1px solid blue;*/
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    line-height: 0.5em;
+    padding: 0px 10px;    
+    background-color: #01314b;
+    margin: 0px;
+    flex: 1 0 auto;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+
