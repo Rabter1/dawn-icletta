@@ -103,7 +103,7 @@
 .vorschaubox {
     /*outline: 1px solid grey;*/
     display:flex;
-    margin: 0% 0%;
+    margin: 0% 10% 10% 10%;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
