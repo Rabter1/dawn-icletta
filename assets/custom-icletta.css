@@ -256,6 +256,7 @@ min-width: 30em;
 }
 .image img{
   width: 100%;
+box-shadow: none !important;
 }
 .headline {
   font-size: 3em;
