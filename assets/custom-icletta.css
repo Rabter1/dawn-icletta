@@ -190,6 +190,7 @@ min-width: 30em;
 
 .titelbild img {
   width:100%
+  box-shadow: 0 0 0 0 !important;
 }
 
 .absatz {
