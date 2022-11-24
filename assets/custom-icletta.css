@@ -115,7 +115,7 @@
 
 .vorschaubox-info {
     /*outline: 1px solid blue;*/
-    margin: 0px 0px 0px 15px;
+    margin: 0px 0px 0px 0px;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
