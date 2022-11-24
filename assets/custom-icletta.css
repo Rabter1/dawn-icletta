@@ -192,7 +192,7 @@ min-width: 30em;
  }
 
 .titelbild img {
-  width:100%
+  width:100%; 
   box-shadow: none !important;
 }
 
