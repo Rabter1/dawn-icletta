@@ -178,7 +178,7 @@ min-width: 30em;
 .le-main-content {
   display: flex;
   flex-direction: column;
-  width: 1300px;
+  /*width: 1300px;*/
   justify-content: center;
   align-items: center;
 }
