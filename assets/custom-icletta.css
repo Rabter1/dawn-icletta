@@ -188,12 +188,12 @@ min-width: 30em;
 
 .titelbild {
   margin-bottom: 3.5 em;
-  box-shadow: 0 0 0 0 !important;
+  box-shadow: none !important;
  }
 
 .titelbild img {
   width:100%
-  box-shadow: 0 0 0 0 !important;
+  box-shadow: none !important;
 }
 
 .absatz {
