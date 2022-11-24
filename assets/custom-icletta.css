@@ -240,7 +240,7 @@ min-width: 30em;
   font-weight: bold;
 }
 .yt-thumb{
-  width:70%;
+  width:100%;
 }
 
 .yt-thumb img{
@@ -248,7 +248,7 @@ min-width: 30em;
 }
 
 .image {
-  width: 50%;
+  width: 80%;
 }
 .image img{
   width: 100%;
@@ -258,7 +258,7 @@ min-width: 30em;
   padding: 2em 0em 0em 0em;
 }
 .meilenstein{
-  width: 50%;
+  width: 90%;
   background-color: lightgrey;
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px   6px 12px -2px, rgba(0, 0, 0, 0.3) 0px     3px 7px -3px;
