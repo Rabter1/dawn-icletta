@@ -223,7 +223,7 @@ min-width: 30em;
 
 .bild-fullwidth img{
   width: 100%;
-}
+  }
 
 .button-wrap{
   
@@ -292,12 +292,8 @@ box-shadow: none !important;
 }
 .page-titelbild img {
   .width:100%;
+  box-shadow: none !important;
+  border-radius: none;
 }
-.main-page-title page-title h0 {
-display:none !important;
-background:color:black;
-}
-
-
 
 
