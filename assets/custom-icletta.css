@@ -297,11 +297,11 @@ box-shadow: none !important;
 }
 
 .meilen-container {
-    display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;  
-  padding: 0em 1em 1em;
+  /*padding: 0em 1em 1em;/*
 }
 .meilen-icon {
   width: 20px;
