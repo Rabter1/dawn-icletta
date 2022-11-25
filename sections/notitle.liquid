@@ -20,13 +20,7 @@
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
-    <h2 class="page-title {{ section.settings.heading_size }}">
-      {%- if section.settings.page.title != blank -%}
-        {{ section.settings.page.title | t }}
-      {%- else -%}
-        {{ 'sections.page.title' | t }}
-      {%- endif -%}
-    </h2>
+    
     <div class="rte">
       {%- if section.settings.page.content != blank -%}
         {{ section.settings.page.content }}
@@ -130,3 +124,10 @@
   ]
 }
 {% endschema %}
+section#shopify-section-template--14168045518950__main {
+display: none!important;
+}
+
+.spaced-section {
+margin-top: 0!important;
+}
