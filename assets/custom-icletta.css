@@ -293,7 +293,7 @@ box-shadow: none !important;
 .page-titelbild img {
   width:100%;
   box-shadow: none !important;
-  border-radius: none;
+  border-radius: none !important;
 }
 
 
