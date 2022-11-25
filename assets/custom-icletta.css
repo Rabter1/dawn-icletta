@@ -300,8 +300,8 @@ box-shadow: none !important;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;  
-  padding: 0em 1em 1em;
+  /*align-items: center;  
+  padding: 0em 1em 1em;/*
 }
 .meilen-icon {
   width: 40px;
