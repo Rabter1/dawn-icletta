@@ -296,4 +296,10 @@ box-shadow: none !important;
   border-radius: 2 !important;
 }
 
-
+.meilen-container{
+  display: flex;
+  
+}
+.meilen.icon img {
+  width: 100%;
+}
