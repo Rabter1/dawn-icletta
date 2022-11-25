@@ -299,7 +299,7 @@ box-shadow: none !important;
 .meilen-container {
     display: flex;
   flex-direction: row;
-  justify-conten: flex-start;
+  justify-content: flex-start;
  align-items: center;  
   padding: 0em 1em 1em;
 }
