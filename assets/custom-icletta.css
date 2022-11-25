@@ -301,7 +301,7 @@ box-shadow: none !important;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;  
-  /*padding: 0em 1em 1em;/*
+  padding: 0em 1em 1em;
 }
 .meilen-icon {
   width: 20px;
