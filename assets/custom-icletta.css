@@ -286,6 +286,17 @@ box-shadow: none !important;
   padding: 0em 1em;
   }
 
+/*CSS für Pages*/
+.page-titelbild {
+  .width:100%;
+}
+.page-titelbild img {
+  .width:100%;
+}
+.main-page-title page-title h0 {
+display:none !important;
+background:color:black;
+}
 
 
 
