@@ -2459,12 +2459,6 @@
         "heading": {
           "label": "Heading"
         },
-        "heading2": {
-          "label": "Heading for own product list"
-        },
-        "product_list": {
-          "label": "Product list"
-        },
         "products_to_show": {
           "label": "Maximum products to show"
         },

@@ -6,14 +6,6 @@ Dawn theme of shopify but with changes for ICLETTA
 #### Rich Text
 Added an option that allows the content width to make use of 100% of the available width
 
-#### Product-recommendations
-Added setting to 
- - input own product list
- - set a second heading for own product list
-
-If a own product list is added and there are products inside, the second headding is used and the products are rendered. Otherwise the standard recommended products are shown.
-Also some CSS changes
-
 #### Added global custom CSS file
 Added global CSS file to make quick changes (assets/custom-icletta.css)
 ### Active workarounds:

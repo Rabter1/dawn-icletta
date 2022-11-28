@@ -17,14 +17,14 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient no-js-hidden">
-  {% if section.settings.product_list != blank %}
-    <div class="product-recommendations page-width section-{{ section.id }}-padding isolate">
-      <h2 class="product-recommendations__heading {{ section.settings.heading_size }}">{{ section.settings.heading2 | escape }}</h2>
+  <product-recommendations class="product-recommendations page-width section-{{ section.id }}-padding isolate" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.products_to_show }}">
+    {% if recommendations.performed and recommendations.products_count > 0 %}
+      <h2 class="product-recommendations__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
       <ul class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list">
-        {% for complementary in section.settings.product_list %}
+        {% for recommendation in recommendations.products %}
           <li class="grid__item">
             {% render 'card-product',
-              card_product: complementary,
+              card_product: recommendation,
               media_aspect_ratio: section.settings.image_ratio,
               show_secondary_image: section.settings.show_secondary_image,
               show_vendor: section.settings.show_vendor,
@@ -32,28 +32,9 @@
             %}
           </li>
         {% endfor %}
-        </ul>
-    </div>
-  {% else %}
-    <product-recommendations class="product-recommendations page-width section-{{ section.id }}-padding isolate" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.products_to_show }}">
-      {% if recommendations.performed and recommendations.products_count > 0 %}
-        <h2 class="product-recommendations__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
-        <ul class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list">
-          {% for recommendation in recommendations.products %}
-            <li class="grid__item">
-              {% render 'card-product',
-                card_product: recommendation,
-                media_aspect_ratio: section.settings.image_ratio,
-                show_secondary_image: section.settings.show_secondary_image,
-                show_vendor: section.settings.show_vendor,
-                show_rating: section.settings.show_rating
-              %}
-            </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </product-recommendations>
-  {% endif %}
+      </ul>
+    {% endif %}
+  </product-recommendations>
 </div>
 
 {% schema %}
@@ -67,21 +48,10 @@
       "content": "t:sections.product-recommendations.settings.paragraph__1.content"
     },
     {
-      "type": "product_list",
-      "id": "product_list",
-      "label": "t:sections.product-recommendations.settings.product_list.label"
-    },
-    {
       "type": "text",
       "id": "heading",
       "default": "You may also like",
       "label": "t:sections.product-recommendations.settings.heading.label"
-    },
-    {
-      "type": "text",
-      "id": "heading2",
-      "default": "Products matching this article",
-      "label": "t:sections.product-recommendations.settings.heading2.label"
     },
     {
       "type": "select",
