@@ -141,7 +141,7 @@ min-width: 25em;
   
 }
 .vorschaubox-info {
-  margin: 0px 0px 0px 15px;
+  /*margin: 0px 0px 0px 15px;*/
   display:flex;
   flex-direction: column;
   /*justify-content: center;*/
