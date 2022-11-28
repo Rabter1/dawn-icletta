@@ -141,7 +141,6 @@ min-width: 25em;
   
 }
 .vorschaubox-info {
-  outline: 1px solid blue;
   margin: 0px 0px 0px 15px;
   display:flex;
   flex-direction: column;
@@ -152,7 +151,7 @@ min-width: 25em;
   }
 
 .vorschaubox-box {  
-  /*outline: 1px solid black;*/
+  outline: 1px solid black;
   /*font-weight: bold;*/
   font-size: 1.2em;
   line-height: 1.2em;
