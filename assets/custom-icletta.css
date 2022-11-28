@@ -304,8 +304,7 @@ box-shadow: none !important;
   padding: 0em 1em 1em;
 }
 .meilen-icon {
-  width: 1.5em;
-  border: 1px solid red;
+  width: 1.8em;
   flex-shrink: 0;
 }
 .meilen-icon img {
