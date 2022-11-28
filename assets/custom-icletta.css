@@ -151,13 +151,11 @@ min-width: 25em;
   }
 
 .vorschaubox-box-heading {  
-  outline: 1px solid black;
   padding: 0px !important;
     }
 
 .vorschaubox-box {  
-  outline: 1px solid black;
-  /*font-weight: bold;*/
+    /*font-weight: bold;*/
   font-size: 1.2em;
   line-height: 1.2em;
   padding: 0px 0px;
