@@ -151,7 +151,7 @@ min-width: 25em;
   }
 
 .vorschaubox-heading {  
-  outline: 1px solid black;
+  outline: 3px solid black;
   /*font-weight: bold;*/
   font-size: 1.2em;
   line-height: 1.2em;
