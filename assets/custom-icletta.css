@@ -144,10 +144,21 @@ min-width: 25em;
   margin: 0px 0px 0px 15px;
   display:flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: flex-center;
+  align-items: flex-Center;
   padding: 2em;
   gap: 1em;
+  }
+
+.vorschaubox-titel {  
+  outline: 1px solid black;
+  /*font-weight: bold;*/
+  font-size: 1.2em;
+  line-height: 1.2em;
+  padding: 0px 0px;
+  margin: 0px;
+  /*border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px   6px 12px -2px, rgba(0, 0, 0, 0.3) 0px     3px 7px -3px;*/
   }
 
 .vorschaubox-box {  
@@ -160,6 +171,9 @@ min-width: 25em;
   /*border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px   6px 12px -2px, rgba(0, 0, 0, 0.3) 0px     3px 7px -3px;*/
   }
+
+
+
 /*CSS für Themenwelt Seiten*/
 .body{
   background-color: white !important;
