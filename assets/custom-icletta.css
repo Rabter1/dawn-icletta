@@ -141,7 +141,7 @@ min-width: 25em;
   
 }
 .vorschaubox-info {
-  /*outline: 1px solid blue;*/
+  outline: 1px solid blue;
   margin: 0px 0px 0px 15px;
   display:flex;
   flex-direction: column;
