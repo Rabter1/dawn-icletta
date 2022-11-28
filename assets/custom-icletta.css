@@ -144,7 +144,7 @@ min-width: 25em;
   margin: 0px 0px 0px 15px;
   display:flex;
   flex-direction: column;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: flex-start;
   padding: 2em;
   gap: 1em;
