@@ -193,7 +193,7 @@
           "8794fdf6-f72e-44ce-8df4-8a2e345495f7": {
             "type": "html",
             "settings": {
-              "section_html": "<p style=\"color: green; background-color:white;\">your code here<\/p>"
+              "section_html": "<p><\/p><h3>Über ICLETTA<\/h3><p><\/p>\n<p style=\"\">Unser Enthusiasmus und unser Engagement gilt der Fahrradkultur. Wir importieren exklusiv die englischen ICE Dreiräder sowie das Liegeradzubehör von TerraCycle aus Portland, USA.<br><br>\nMit neuen Ideen und authentischen Produkten bringen wir frischen Wind in die Liegerad- und Dreiradwelt.<\/p>"
             }
           }
         },
