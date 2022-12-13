@@ -57,6 +57,8 @@
               {%- endif -%}
 
               {%- case block.type -%}
+                 {%- when 'custom_liquid' -%}
+                {{ block.settings.html_area }}
                 {%- when 'text' -%}
                   <div class="footer-block__details-content rte">
                     {{ block.settings.subtext }}
