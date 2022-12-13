@@ -193,7 +193,7 @@
           "c378e68f-4894-476d-a10f-a29c8351598a": {
             "type": "custom_liquid",
             "settings": {
-              "custom_liquid": "<p style=\"color: white;\">test<\/p>"
+              "custom_liquid": "<p style=\"color: white;\">test<\/p>\n<img src=\"https:\/\/www.icletta.com\/images\/sehen-sie-auf-tour-mit-ice-auf-youtube.jpg\">"
             }
           }
         },
