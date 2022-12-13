@@ -190,10 +190,10 @@
               "subtext": "<p>Unser Enthusiasmus und unser Engagement gilt der Fahrradkultur. Wir importieren exklusiv die englischen ICE Dreiräder sowie das Liegeradzubehör von TerraCycle aus Portland, USA.<\/p><p>Mit neuen Ideen und authentischen Produkten bringen wir frischen Wind in die Liegerad- und Dreiradwelt.<\/p>"
             }
           },
-          "dfc1575a-8b71-411b-895a-fb0bf6147a84": {
+          "c378e68f-4894-476d-a10f-a29c8351598a": {
             "type": "custom_liquid",
             "settings": {
-              "custom_liquid": "Hahahaha"
+              "custom_liquid": "test"
             }
           }
         },
@@ -201,7 +201,7 @@
           "f29d242a-7285-487b-bc87-47cd03960e55",
           "footer-2",
           "323092f4-aad7-48ed-ba5c-18c80b02765d",
-          "dfc1575a-8b71-411b-895a-fb0bf6147a84"
+          "c378e68f-4894-476d-a10f-a29c8351598a"
         ],
         "settings": {
           "color_scheme": "inverse",
