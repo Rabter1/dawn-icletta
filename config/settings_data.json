@@ -183,25 +183,24 @@
               "subtext": "<p>ICLETTA GmbH<\/p><p>Niedergartenweg 22<br\/>4331 Weiterstadt<\/p><p>Tel: +49 - 6150-592 29 66<br\/>Fax: +49 - 6150-592 29 68<\/p><p>Email: info@icletta.com<\/p>"
             }
           },
-          "323092f4-aad7-48ed-ba5c-18c80b02765d": {
-            "type": "text",
-            "settings": {
-              "heading": "Über ICLETTA",
-              "subtext": "<p>Unser Enthusiasmus und unser Engagement gilt der Fahrradkultur. Wir importieren exklusiv die englischen ICE Dreiräder sowie das Liegeradzubehör von TerraCycle aus Portland, USA.<\/p><p>Mit neuen Ideen und authentischen Produkten bringen wir frischen Wind in die Liegerad- und Dreiradwelt.<\/p>"
-            }
-          },
           "8794fdf6-f72e-44ce-8df4-8a2e345495f7": {
             "type": "html",
             "settings": {
               "section_html": "<p><\/p><h3>Über ICLETTA<\/h3><p><\/p>\n<p style=\"\">Unser Enthusiasmus und unser Engagement gilt der Fahrradkultur. Wir importieren exklusiv die englischen ICE Dreiräder sowie das Liegeradzubehör von TerraCycle aus Portland, USA.<br><br>\nMit neuen Ideen und authentischen Produkten bringen wir frischen Wind in die Liegerad- und Dreiradwelt.<\/p>"
+            }
+          },
+          "737fece2-af4a-45aa-b466-c3e233ac2196": {
+            "type": "html",
+            "settings": {
+              "section_html": "<p><\/p><h3>Rechtliches<\/h3><p><\/p>\n<div style=\"border-bottom: 1px solid grey;\"><a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/policies\/legal-notice\" style=\"font-size: 1.4rem;\">Impressum<\/a><\/div>\n<div style=\"border-bottom: 1px solid grey;\"><a href=\"\">AGB<\/a><\/div><a href=\"\">\n<div style=\"border-bottom: 1px solid grey;\">Versand<\/div>\n<div style=\"border-bottom: 1px solid grey;\">Datenschutz<\/div>\n<div style=\"border-bottom: 1px solid grey;\">Widerrufsbelehrung<\/div>\n<div style=\"border-bottom: 1px solid grey;\">Zum Kontaktformular<\/div><\/a>"
             }
           }
         },
         "block_order": [
           "f29d242a-7285-487b-bc87-47cd03960e55",
           "footer-2",
-          "323092f4-aad7-48ed-ba5c-18c80b02765d",
-          "8794fdf6-f72e-44ce-8df4-8a2e345495f7"
+          "8794fdf6-f72e-44ce-8df4-8a2e345495f7",
+          "737fece2-af4a-45aa-b466-c3e233ac2196"
         ],
         "settings": {
           "color_scheme": "inverse",
