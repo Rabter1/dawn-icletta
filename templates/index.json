@@ -70,6 +70,51 @@
         "padding_bottom": 52
       }
     },
+    "0cdad188-d3c1-488b-b748-c653e418b586": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<img src=\"https:\/\/icletta.com\/images\/Webshop\/banner-t-cycle.jpg\" style=\"width:100%\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "2406d1a1-bda6-4900-8105-d71a7d549f0b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "terracycle",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 4,
+        "padding_bottom": 0
+      }
+    },
+    "880c9ff7-d435-4050-9b8e-71ea15118304": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width button-container\">\n<a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/collections\/marke-t-cycle\/\" target=\"_blank\">\n<div class=\"t-cycle-button\">\n  Zu den T-Cycle Produkten &#10132;<\/div><\/a><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
     "0fe1796e-fe07-4c90-9b06-4a6a193e2996": {
       "type": "multicolumn",
       "blocks": {
@@ -298,6 +343,9 @@
     "ec9b5c99-3c09-44de-a344-314ae5f4053c",
     "featured_collection",
     "b5cd2511-d36c-418c-9d3a-615783d1e6ca",
+    "0cdad188-d3c1-488b-b748-c653e418b586",
+    "2406d1a1-bda6-4900-8105-d71a7d549f0b",
+    "880c9ff7-d435-4050-9b8e-71ea15118304",
     "0fe1796e-fe07-4c90-9b06-4a6a193e2996",
     "09e28f4b-ccb4-4b57-94fb-dd018bd83cdd",
     "e298752e-f10f-4baa-adcc-564701e93d51",

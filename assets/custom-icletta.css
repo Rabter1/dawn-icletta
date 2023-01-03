@@ -392,8 +392,16 @@ background: rgba(1,48,74,0.9);
 }
 /*-------------Buttons-------------*/
 .ICE-button{
-  
   background: orange;
+  padding: 10px 15px 10px 15px;
+  font-weight: bold;
+  color: white;
+  font-size: 1.3em;
+  font-family: Tahoma, arial, sans-serif;
+  text-align: center;
+  }
+.t-cycle-button{
+  background: red;
   padding: 10px 15px 10px 15px;
   font-weight: bold;
   color: white;
