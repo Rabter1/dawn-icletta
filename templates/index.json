@@ -28,16 +28,16 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Unsere Produkte",
+        "title": "",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
@@ -50,6 +50,15 @@
         "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
+      }
+    },
+    "b5cd2511-d36c-418c-9d3a-615783d1e6ca": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"ICE-Button\">\n  <span style=\"align:justify\">Zu den ICE Produkten &#10132;<\/span>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "0fe1796e-fe07-4c90-9b06-4a6a193e2996": {
@@ -278,6 +287,7 @@
     "image_banner",
     "ffe33e2d-5b38-4356-9ec8-3f599006a4a6",
     "featured_collection",
+    "b5cd2511-d36c-418c-9d3a-615783d1e6ca",
     "0fe1796e-fe07-4c90-9b06-4a6a193e2996",
     "09e28f4b-ccb4-4b57-94fb-dd018bd83cdd",
     "e298752e-f10f-4baa-adcc-564701e93d51",
