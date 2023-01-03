@@ -322,55 +322,61 @@ box-shadow: none !important;
 }
 /*CSS für Kachelmenu Startseite*/
 .tiles-container {
-/*  width: 80%;*/
-  display: grid;
-  gap: 1%;
+  width: 80%;  
+ display: grid;
+ gap: 10px 10px;
  grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
   grid-template-rows: auto;
   grid-template-areas: 
     "eins zwei drei drei"
     "vier fuenf sechs sieben";
-  background-color: yellow;  
-}
+ }
 .tile{
-  background: green;
-  width:100%;  
+  background: blue;
   display: grid;
-  grid-template-rows: auto;
+grid-template-rows: auto;
   grid-template-areas: 
     "eins"
     "zwei"
-    "drei";
-  /*justify-items: stretch;*/
+    "drei";  
   align-items: end;
  }
 
 .tile-button{
-background: rgba(228,0,255,0.7);  
-padding: 10px 0px 10px 10px;
+background: rgba(1,48,74,0.7);  
+padding: 15px 0px 15px 15px;
 grid-column-start: 1;
 grid-row-start: 1;
+}
+.button-text{
+  font-weight: bold;
+  color: white;
+  font-size: 1.5em;
+  font-family: Tahoma, arial, sans-serif;
 }
 .tile-image{
   grid-column-start: 1;
   grid-row-start: 1;
+  
 }
 .tile-image img{
-    display: block;
+ display: block;
+ width: 100%;
 }
 .tile-button:hover{
-background: rgba(228,0,255,0.9);  
+background: rgba(1,48,74,0.9);  
 }
 /*-------------TILES EINZELN-------------*/
 .tile-eins{
-  grid-area: eins;
-  
+  grid-area: eins;  
 }
 .tile-zwei{
   grid-area: zwei;
+  background: cyan;
 }
 .tile-drei{
   grid-area: drei;
+  background: magenta;
 }
 .tile-vier{
   grid-area: vier;
