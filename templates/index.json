@@ -43,6 +43,15 @@
         "padding_bottom": 36
       }
     },
+    "ffe33e2d-5b38-4356-9ec8-3f599006a4a6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"tiles-container\">\n  \n  <div class=\"tile tile-eins\">\n    <div class=\"tile-image\">\n      <img src=\"https:\/\/icletta.com\/images\/test.jpg\" width=\"100%\">\n    <\/div>\n    <div class=\"tile-button\">\n      <span class=\"button-text\">eins<\/span>\n    <\/div>\n    <\/div>\n  <div class=\"tile tile-zwei\">\n  <div class=\"tile-image\">\n    <img src=\"https:\/\/icletta.com\/images\/test.jpg\" width=\"100%\">\n    <\/div>\n    <div class=\"tile-button\">\n      <span class=\"button-text\">zwei<\/span>\n  <\/div>\n  <\/div>\n  <div class=\"tile tile-drei\">\n  <div class=\"tile-image\">\n      <img src=\"https:\/\/icletta.com\/images\/test.jpg\" width=\"50%\">\n    <\/div>\n    <div class=\"tile-button\">\n      <span class=\"button-text\">drei<\/span>\n    <\/div>\n  <\/div>\n  <div class=\"tile tile-vier\">\n <div class=\"tile-image\">\n      <img src=\"https:\/\/icletta.com\/images\/test.jpg\" width=\"100%\">\n    <\/div>\n    <div class=\"tile-button\">\n      <span class=\"button-text\">vier<\/span>\n    <\/div>\n  <\/div>\n  <div class=\"tile tile-fuenf\">\n  <div class=\"tile-image\">\n      <img src=\"https:\/\/icletta.com\/images\/test.jpg\" width=\"100%\">\n    <\/div>\n    <div class=\"tile-button\">\n      <span class=\"button-text\">fuenf<\/span>\n    <\/div>\n  <\/div>\n  <div class=\"tile tile-sechs\">\n  <div class=\"tile-image\">\n      <img src=\"https:\/\/icletta.com\/images\/test.jpg\" width=\"100%\">\n    <\/div>\n    <div class=\"tile-button\">\n      <span class=\"button-text\">sechs<\/span>\n    <\/div>\n  <\/div>\n  <div class=\"tile tile-sieben\">\n  <div class=\"tile-image\">\n      <img src=\"https:\/\/icletta.com\/images\/test.jpg\" width=\"100%\">\n    <\/div>\n    <div class=\"tile-button\">\n      <span class=\"button-text\">sieben<\/span>\n    <\/div>\n  <\/div>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "0fe1796e-fe07-4c90-9b06-4a6a193e2996": {
       "type": "multicolumn",
       "blocks": {
@@ -268,6 +277,7 @@
   "order": [
     "image_banner",
     "featured_collection",
+    "ffe33e2d-5b38-4356-9ec8-3f599006a4a6",
     "0fe1796e-fe07-4c90-9b06-4a6a193e2996",
     "09e28f4b-ccb4-4b57-94fb-dd018bd83cdd",
     "e298752e-f10f-4baa-adcc-564701e93d51",
