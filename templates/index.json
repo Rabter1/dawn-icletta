@@ -21,8 +21,8 @@
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n<div class=\"tiles-container\">\n  \n  <div class=\"tile tile-eins\">\n    \n<div class=\"tile-image\">\n<a href=\"\" target=\"_blank\">     <img src=\"https:\/\/icletta.com\/images\/Webshop\/ICE-liegerad.jpg\"><\/a>\n    <\/div>\n  <a href=\"\" target=\"_blank\"> <div class=\"tile-button\">\n      <span class=\"button-text\">ICE Ersatzteile<\/span><\/a>\n    <\/div>\n    <\/div>\n  <div class=\"tile tile-zwei\">\n  <div class=\"tile-image\">\n    <img src=\"https:\/\/icletta.com\/images\/Webshop\/liegerad-kettenleitrollen.jpg\">\n    <\/div>\n    <div class=\"tile-button\">\n      <span class=\"button-text\">T-Cycle Kettenleitrollen<\/span>\n  <\/div>\n  <\/div>\n  <div class=\"tile tile-drei\">\n  <div class=\"tile-image\">\n      <img src=\"https:\/\/icletta.com\/images\/Webshop\/liegerad-frontverkleidung.jpg\">\n    <\/div>\n    <div class=\"tile-button\">\n      <span class=\"button-text\">T-Cycle Frontverkleidungen<\/span>\n    <\/div>\n  <\/div>\n  <div class=\"tile tile-vier\">\n <div class=\"tile-image\">\n      <img src=\"https:\/\/icletta.com\/images\/Webshop\/liegerad-selbstbau.jpg\">\n    <\/div>\n <div class=\"tile-button\">\n      <span class=\"button-text\">Liegerad Selbstbau<\/span>\n    <\/div>\n  <\/div>\n  <div class=\"tile tile-fuenf\">\n  <div class=\"tile-image\">\n      <img src=\"https:\/\/icletta.com\/images\/Webshop\/liegerad-sitze.jpg\">\n    <\/div>\n    <div class=\"tile-button\">\n      <span class=\"button-text\">Trike Sitzkomfort<\/span>\n    <\/div>\n  <\/div>\n  <div class=\"tile tile-sechs\">\n  <div class=\"tile-image\">\n      <img src=\"https:\/\/icletta.com\/images\/Webshop\/liegerad-laufradbau.jpg\" >\n    <\/div>\n    <div class=\"tile-button\">\n      <span class=\"button-text\">Liegerad Laufradbau<\/span>\n    <\/div>\n  <\/div>\n  <div class=\"tile tile-sieben\">\n  <div class=\"tile-image\">\n      <img src=\"https:\/\/icletta.com\/images\/Webshop\/t-cycle-zubehoerhalter.jpg\">\n    <\/div>\n <div class=\"tile-button\">\n      <span class=\"button-text\">T-Cycle Zubehörhalter<\/span>\n    <\/div>\n  <\/div>\n<\/div>\n<\/div>",
         "color_scheme": "background-1",
-        "padding_top": 20,
-        "padding_bottom": 52
+        "padding_top": 40,
+        "padding_bottom": 20
       }
     },
     "ec9b5c99-3c09-44de-a344-314ae5f4053c": {
@@ -30,7 +30,7 @@
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n<a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/collections\/marke-ice\/\" target=\"_blank\"><img src=\"https:\/\/icletta.com\/images\/Webshop\/banner-ICE.jpg\" style=\"width:100%\"><\/a><\/div>",
         "color_scheme": "background-1",
-        "padding_top": 40,
+        "padding_top": 20,
         "padding_bottom": 0
       }
     },
