@@ -320,3 +320,64 @@ box-shadow: none !important;
   box-shadow: none !important;
   border-radius: 0 !important;
 }
+/*CSS für Kachelmenu Startseite*/
+.tiles-container {
+  width: 80%;
+  display: grid;
+  gap: 1%;
+ grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "eins zwei drei drei"
+    "vier fuenf sechs sieben";
+  background-color: yellow;  
+}
+.tile{
+  background: green;
+  width:100%;  
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "eins"
+    "zwei"
+    "drei";
+  /*justify-items: stretch;*/
+  align-items: end;
+ }
+
+.tile-button{
+background: rgba(228,0,255,0.7);  
+padding: 10px 0px 10px 10px;
+grid-column-start: 1;
+grid-row-start: 1;
+}
+.tile-image{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.tile-button:hover{
+background: rgba(228,0,255,0.9);  
+}
+/*-------------TILES EINZELN-------------*/
+.tile-eins{
+  grid-area: eins;
+  
+}
+.tile-zwei{
+  grid-area: zwei;
+}
+.tile-drei{
+  grid-area: drei;
+}
+.tile-vier{
+  grid-area: vier;
+}
+.tile-fuenf{
+  grid-area: fuenf;
+}
+.tile-sechs{
+  grid-area: sechs;
+}
+.tile-sieben{
+  grid-area: sieben;
+}
