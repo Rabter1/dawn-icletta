@@ -55,7 +55,7 @@
     "b5cd2511-d36c-418c-9d3a-615783d1e6ca": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"ICE-Button\">\n  <span style=\"align:justify\">Zu den ICE Produkten &#10132;<\/span>",
+        "custom_liquid": "<div class=\"ICE-button\">\n  Zu den ICE Produkten &#10132;<\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
