@@ -354,7 +354,9 @@ grid-row-start: 1;
 .tile-image{
   grid-column-start: 1;
   grid-row-start: 1;
-  display: block;
+}
+.tile-image img{
+    display: block;
 }
 .tile-button:hover{
 background: rgba(228,0,255,0.9);  
