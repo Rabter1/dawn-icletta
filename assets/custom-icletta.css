@@ -400,4 +400,7 @@ background: rgba(1,48,74,0.9);
   font-size: 1.3em;
   font-family: Tahoma, arial, sans-serif;
   text-align: center;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
 }
