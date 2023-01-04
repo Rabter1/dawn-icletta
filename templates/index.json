@@ -2,6 +2,7 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/keyvisual-fairings-herbst-2022.jpg",
         "image_overlay_opacity": 0,
@@ -14,6 +15,15 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "5b6b80ed-6a67-4797-8cec-596b5ef75119": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"keyvisual-flex\">\n  <div class=\"keyvisual-image\">\n<img src=\"https:\/\/icletta.com\/images\/Webshop\/keyvisual-webshop.jpg\" style=\"width: 100%\">\n<\/div>\n  <div class=\"keyvisual-flex-center\">\n  <div class=\"keyvisual-claim-box\">\n  <div class=\"keyvisual-main-claim claim-typo\">\n    ENDLICH REGEN!?\n    <\/div>\n    <div class=\"keyvisual-sub-claim claim-typo\">\n      FRONTVERKLEIDUNGEN\n      <\/div>\n      <div class=\"keyvisual-sub-claim claim-typo\">\n        VON TERRACYCLE\n  <\/div>\n  <\/div>\n  <\/div>\n  <\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "ffe33e2d-5b38-4356-9ec8-3f599006a4a6": {
@@ -339,6 +349,7 @@
   },
   "order": [
     "image_banner",
+    "5b6b80ed-6a67-4797-8cec-596b5ef75119",
     "ffe33e2d-5b38-4356-9ec8-3f599006a4a6",
     "ec9b5c99-3c09-44de-a344-314ae5f4053c",
     "featured_collection",
