@@ -322,7 +322,7 @@ box-shadow: none !important;
 }
 /*CSS für Kachelmenu Startseite*/
 .tiles-container {
-
+  width: 100%;  
  display: grid;
  gap: 10px 10px;
  grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
