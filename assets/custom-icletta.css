@@ -332,6 +332,53 @@ box-shadow: none !important;
   border-radius: 0 !important;
 }
 
+/*-------------STARTSEITE: CSS für Keyvisual Text-------------*/
+/*Überlagerung der Bild und Text DIVs*/
+.keyvisual-flex{
+  display: grid;
+}
+
+.keyvisual-image {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  width: 100%;
+}
+
+/*Zentrierung der Claims im Bild*/
+.keyvisual-flex-center{
+  grid-column-start: 1;
+  grid-row-start: 1;
+  display: flex;
+  justify-content: end;
+}
+
+/*Positionierung der Claims*/
+.keyvisual-claim-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; 
+}
+
+.claim-typo{
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  font-family: Tahoma, arial, sans-serif; 
+  padding: 10px 15px 10px 15px;
+  justify-self: end;  
+}
+
+.keyvisual-main-claim{
+  background: #01304a;
+  color: white;
+    
+}
+.keyvisual-sub-claim{
+  background: white;
+  color: #01304a;
+}
+
 /*-------------STARTSEITE: CSS für Kachelmenu-------------*/
 /*Container Definition*/
 
