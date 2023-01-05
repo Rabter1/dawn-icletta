@@ -1,23 +1,5 @@
-/* unvisited link */
-a:link {
-  color: green !important;
-  text-decoration: none!important;
-}
-
-/* visited link */
 a:visited {
- color: green!important; 
   text-decoration: none!important;
-}
-
-/* mouse over link */
-a:hover {
-  color: green!important;
-}
-
-/* selected link */
-a:active {
-  color: green;
 }
 /* Product page addons */
 
