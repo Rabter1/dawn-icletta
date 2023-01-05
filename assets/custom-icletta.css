@@ -497,3 +497,18 @@ background: rgba(1,48,74,0.9);
   align-items: center; 
   justify-content: center;
 }
+
+/*-------------STARTSEITE: Herstellerlogos-------------*/
+
+.container-logomenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  background: green;
+  width: 100%;
+  height: auto; 
+  justify-content: center;
+}
+.small-logo{
+  background: pink;
+}
