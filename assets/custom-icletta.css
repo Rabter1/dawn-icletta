@@ -1,3 +1,22 @@
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+ color: green; 
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: green;
+}
 /* Product page addons */
 
 .complementary-products__container .card--horizontal .card__inner {
@@ -490,7 +509,7 @@ background: rgba(1,48,74,0.9);
   font-size: 1.3em;
   font-family: Tahoma, arial, sans-serif;
   text-align: center;
-   text-decoration: none;
+  text-decoration: none;
   text-transform: uppercase;
   }
 
