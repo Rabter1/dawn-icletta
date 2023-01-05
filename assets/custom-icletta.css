@@ -1,16 +1,16 @@
 /* unvisited link */
 a:link {
-  color: green;
+  color: green !important;
 }
 
 /* visited link */
 a:visited {
- color: green; 
+ color: green!important; 
 }
 
 /* mouse over link */
 a:hover {
-  color: green;
+  color: green!important;
 }
 
 /* selected link */
