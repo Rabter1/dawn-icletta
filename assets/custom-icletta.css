@@ -1,11 +1,13 @@
 /* unvisited link */
 a:link {
   color: green !important;
+  text-decoration: none!important;
 }
 
 /* visited link */
 a:visited {
  color: green!important; 
+  text-decoration: none!important;
 }
 
 /* mouse over link */
