@@ -125,6 +125,15 @@
         "padding_bottom": 52
       }
     },
+    "7550a264-8282-4e95-9391-6b8aa994a571": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container-logomenu\">\n  <div class=\"small-logo\"><img src=\"https:\/\/icletta.com\/images\/webshop\/main\/small-logo-ice.jpg\">\n    <\/div>\n    <div class=\"small-logo\"><img src=\"https:\/\/icletta.com\/images\/webshop\/main\/small-logo-t-cycle.jpg\"><\/div>\n      <div class=\"small-logo\"><img src=\"https:\/\/icletta.com\/images\/webshop\/main\/small-logo-klickfix.jpg\"><\/div>\n  <div class=\"small-logo\"><img src=\"https:\/\/icletta.com\/images\/webshop\/main\/small-logo-remerx.jpg\"><\/div>\n  <\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "0fe1796e-fe07-4c90-9b06-4a6a193e2996": {
       "type": "multicolumn",
       "blocks": {
@@ -357,6 +366,7 @@
     "0cdad188-d3c1-488b-b748-c653e418b586",
     "2406d1a1-bda6-4900-8105-d71a7d549f0b",
     "880c9ff7-d435-4050-9b8e-71ea15118304",
+    "7550a264-8282-4e95-9391-6b8aa994a571",
     "0fe1796e-fe07-4c90-9b06-4a6a193e2996",
     "09e28f4b-ccb4-4b57-94fb-dd018bd83cdd",
     "e298752e-f10f-4baa-adcc-564701e93d51",
