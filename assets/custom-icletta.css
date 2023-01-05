@@ -520,3 +520,21 @@ background: rgba(1,48,74,0.9);
 }
 .small-logo{
   }
+
+/*-------------STARTSEITE: Trio-Box-------------*/
+
+.trio-box-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  background: green;
+  width: 100%;
+  height: auto; 
+  justify-content: center;
+}
+
+.trio-box-element {
+border-radius: var(--text-boxes-radius);
+box-shadow: var(--text-boxes-shadow-horizontal-offset) var(--text-boxes-shadow-vertical-offset) var(--text-boxes-shadow-blur-radius) rgba(var(--color-shadow),var(--text-boxes-shadow-opacity)); 
+background-color: eef2f6;
+}
