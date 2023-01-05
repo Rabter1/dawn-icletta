@@ -526,7 +526,7 @@ background: rgba(1,48,74,0.9);
 .trio-box-container{
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
+  justify-content: space-between;
   background: green;
   width: 100%;
   height: auto; 
