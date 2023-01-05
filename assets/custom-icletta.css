@@ -537,4 +537,6 @@ background: rgba(1,48,74,0.9);
 border-radius: var(--text-boxes-radius);
 box-shadow: var(--text-boxes-shadow-horizontal-offset) var(--text-boxes-shadow-vertical-offset) var(--text-boxes-shadow-blur-radius) rgba(var(--color-shadow),var(--text-boxes-shadow-opacity)); 
 background-color: eef2f6;
+  width:300 px;
+  height: 200px;
 }
