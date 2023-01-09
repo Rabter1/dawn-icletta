@@ -389,7 +389,7 @@ box-shadow: none !important;
 /*-------------STARTSEITE: CSS für Kachelmenu-------------*/
 /*Container Definition*/
 
-.tiles-container {   
+.tiles-legrid-container {   
  display: grid;
  gap: 10px 10px;
  grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
@@ -401,7 +401,7 @@ box-shadow: none !important;
 
 /*Einzelelement Definition*/
 
-.tile{
+.legrid-tile{
   background: blue;
   display: grid;
 grid-template-rows: auto;
@@ -412,68 +412,74 @@ grid-template-rows: auto;
   align-items: end;
 }
 
-.tile-image{
+.legrid-tile-image{
   grid-column-start: 1;
   grid-row-start: 1;
 }
 
-.tile-image img{
+.legrid-tile-image img{
  display: block;
  width: 100%;
 }
 
-.tile-button{
+.legrid-tile-button{
 background: rgba(1,48,74,0.7);  
 padding: 15px 0px 15px 15px;
 grid-column-start: 1;
 grid-row-start: 1;
 }
 
-.button-text{
+.legrid-button-text{
   font-weight: bold;
   color: white;
   font-size: 1.2em;
   font-family: Tahoma, arial, sans-serif;
+
+}
+.legrid-button-subtext{
+  color: white;
+  font-size: 0.9em;
+  font-family: Tahoma, arial, sans-serif;
 }
 
-.tile-button:hover{
+.legrid-tile-button:hover{
 background: rgba(1,48,74,0.9);  
 }
 
 /*Positionierung der "Tile" Elemente*/
 
-.tile-eins{
+.legrid-tile-eins{
   grid-area: eins;  
 }
 
-.tile-zwei{
+.legrid-tile-zwei{
   grid-area: zwei;
   background: cyan;
 }
 
-.tile-drei{
+.legrid-tile-drei{
   grid-area: drei;
   background: magenta;
 }
 
-.tile-vier{
+.legrid-tile-vier{
   grid-area: vier;
   background: magenta;
 }
 
-.tile-fuenf{
+.legrid-tile-fuenf{
   grid-area: fuenf;
 }
 
-.tile-sechs{
+.legrid-tile-sechs{
   grid-area: sechs;
 }
 
-.tile-sieben{
+.legrid-tile-sieben{
   grid-area: sieben;
 }
 
-.tile-acht{
+.legrid-tile-acht{
   grid-area: acht;
 }
 
