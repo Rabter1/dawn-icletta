@@ -428,17 +428,19 @@ padding: 15px 0px 15px 15px;
 grid-column-start: 1;
 grid-row-start: 1;
 line-height: 1em !important;
+color: light-grey;
 }
 
 .legrid-button-text{
   font-weight: bold;
-  color: white;
+color: light-grey;
+  
   font-size: 1em;
   font-family: Tahoma, arial, sans-serif;
  
 }
 .legrid-button-subtext{
-  color: white;
+
   font-size: 0.7em;
   font-family: Tahoma, arial, sans-serif;
 }
