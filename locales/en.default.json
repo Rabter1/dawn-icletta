@@ -457,9 +457,9 @@
       "question": "How can this even be real?"
     }
   },
-  "bilder": {
-    "test": {
-      "face": "sad.jpg"
+  "start": {
+    "keyvisual": {
+      "banner": "keyvisual-adventure-ergoluxe.jpg"
     }
   }
 }
