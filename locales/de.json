@@ -456,5 +456,10 @@
     "first": {
       "question": "Wie kann das überhaupt real sein?"
     }
+  },
+  "bilder": {
+    "test": {
+      "face": "happy.jpg"
+    }
   }
 }
