@@ -29,7 +29,7 @@
     "54ad0c0a-e98c-465b-9a0c-2abc21de9307": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{{ 'test.first.question' | t }}",
+        "custom_liquid": "{{ 'test.first.question' | t }}\n\n<img\n src=\"{{ 'bilder.test.face' | t | file_img_url: '1500x' }}\">",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
