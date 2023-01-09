@@ -452,14 +452,9 @@
       "print_gift_card": "Drucken"
     }
   },
-  "test": {
-    "first": {
-      "question": "Wie kann das überhaupt real sein?"
-    }
-  },
-  "bilder": {
-    "test": {
-      "face": "happy.jpg"
+  "start": {
+    "keyvisual": {
+      "banner": "https:\/\/www.icletta.com\/images\/webshop\/main\/keyvisual-webshop.jpg"
     }
   }
 }
