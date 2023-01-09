@@ -435,14 +435,12 @@ line-height: 1em !important;
   color: white;
   font-size: 1em;
   font-family: Tahoma, arial, sans-serif;
-  line-height: 0.5em !important;
-
+ 
 }
 .legrid-button-subtext{
   color: white;
   font-size: 0.7em;
   font-family: Tahoma, arial, sans-serif;
-  line-height: 2.5em !important;
 }
 
 .legrid-tile-button:hover{
