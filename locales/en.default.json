@@ -452,13 +452,11 @@
       "print_gift_card": "Print"
     }
   },
-  "test": {
-    "first": {
-      "question": "How can this even be real?"
-    }
-  },
   "start": {
     "keyvisual": {
+      "tagline-1": "FINALLY RAIN?",
+      "tagline-2": "OUR TRIKE FAIRINGS",
+      "tagline-3": "FROM T-CYCLE",
       "banner": "keyvisual-adventure-ergoluxe.jpg"
     }
   }
