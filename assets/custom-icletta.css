@@ -427,7 +427,7 @@ background: rgba(1,48,74,0.7);
 padding: 15px 0px 15px 15px;
 grid-column-start: 1;
 grid-row-start: 1;
-    line-height: 0.5em !important;
+line-height: 1em !important;
 }
 
 .legrid-button-text{
