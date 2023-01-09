@@ -434,12 +434,14 @@ grid-row-start: 1;
   color: white;
   font-size: 1em;
   font-family: Tahoma, arial, sans-serif;
+  line-height: 0.5em;
 
 }
 .legrid-button-subtext{
   color: white;
   font-size: 0.7em;
   font-family: Tahoma, arial, sans-serif;
+  line-height: 2.5em;
 }
 
 .legrid-tile-button:hover{
