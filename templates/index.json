@@ -26,6 +26,15 @@
         "padding_bottom": 0
       }
     },
+    "54ad0c0a-e98c-465b-9a0c-2abc21de9307": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"font-size: 2em;color: red\"><span {{ 'test.first.question' | t }} <\/span><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "ffe33e2d-5b38-4356-9ec8-3f599006a4a6": {
       "type": "custom-liquid",
       "settings": {
@@ -74,7 +83,7 @@
     "b5cd2511-d36c-418c-9d3a-615783d1e6ca": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width button-container\">\n<a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/collections\/marke-ice\/\" target=\"_blank\">\n<div class=\"ICE-button\">\n<span {{ 'test.first.question' | t }} <\/span>  \nZu den ICE Produkten &#10132;<\/div><\/a><\/div>",
+        "custom_liquid": "<div class=\"page-width button-container\">\n<a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/collections\/marke-ice\/\" target=\"_blank\">\n<div class=\"ICE-button\">Zu den ICE Produkten &#10132;<\/div><\/a><\/div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -368,6 +377,7 @@
   "order": [
     "image_banner",
     "5b6b80ed-6a67-4797-8cec-596b5ef75119",
+    "54ad0c0a-e98c-465b-9a0c-2abc21de9307",
     "ffe33e2d-5b38-4356-9ec8-3f599006a4a6",
     "ec9b5c99-3c09-44de-a344-314ae5f4053c",
     "featured_collection",
