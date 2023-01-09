@@ -451,5 +451,10 @@
       "copy_code_success": "Code erfolgreich kopiert",
       "print_gift_card": "Drucken"
     }
+  },
+  "test": {
+    "first": {
+      "question": "Wie kann das überhaupt real sein?"
+    }
   }
 }
