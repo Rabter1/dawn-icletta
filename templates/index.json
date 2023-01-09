@@ -29,7 +29,7 @@
     "54ad0c0a-e98c-465b-9a0c-2abc21de9307": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\"font-size: 2em;color: red\"><span {{ 'test.first.question' | t }} <\/span><br><span {{ 'gift_cards.issued.title' | t }} <\/span>\n<\/div>",
+        "custom_liquid": "<div style=\"font-size: 2em;color: red\"><span {{ 'test.first.question' | t }} <\/span><br><span {{ 'gift_cards.issued.subtext' | t }} <\/span>\n<\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
