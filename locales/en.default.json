@@ -484,6 +484,10 @@
       "s-headline-6": "Wheels for your ICE trike",
       "s-headline-7": "Mount almost anything on your trike",
       "s-headline-8": "Versatile mounts for your project"
+    },
+    "produktslider": {
+      "button-ICE-produkte": "Zu den ICE Produkten &#10132;",
+      "button-t-cycle-produkte": "Zu den T-Cycle Produkten &#10132;"
     }
   }
 }
