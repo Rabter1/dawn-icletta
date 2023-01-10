@@ -567,7 +567,7 @@ background-color: eef2f6;
 .start-divider-heading{
   font-size: 1.4em;
   font-family: Tahoma, arial, sans-serif;
-  font-weight: 900;
+  /*font-weight: 900;*/
   text-align: center;
   color: #6c7f92;
   /*color: #01304a;  */
