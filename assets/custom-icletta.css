@@ -565,7 +565,7 @@ background-color: eef2f6;
   flex-grow: 4;
 }
 .start-divider-heading{
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-family: Tahoma, arial, sans-serif;
   font-weight: 900;
   text-align: center;
@@ -574,5 +574,5 @@ background-color: eef2f6;
 .start-divider-stripe {
   width:100%;
   background: #01304a;
-  height: 3px;
+  height: 2px;
 }
