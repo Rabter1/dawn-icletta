@@ -125,6 +125,15 @@
         "padding_bottom": 52
       }
     },
+    "0b798f3f-9536-4c1d-a6e6-cba0667bfd91": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"start-divider-container\">\n  <div class=\"start-divider-stripe\">\n    <\/div>\n  <div class=\"start-divider-centerbox\"><span class=\"start-divider-heading\">HERSTELLER<\/span><\/div>\n      <div class=\"start-divider-stripe\">\n  <\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "7550a264-8282-4e95-9391-6b8aa994a571": {
       "type": "custom-liquid",
       "settings": {
@@ -375,6 +384,7 @@
     "0cdad188-d3c1-488b-b748-c653e418b586",
     "2406d1a1-bda6-4900-8105-d71a7d549f0b",
     "880c9ff7-d435-4050-9b8e-71ea15118304",
+    "0b798f3f-9536-4c1d-a6e6-cba0667bfd91",
     "7550a264-8282-4e95-9391-6b8aa994a571",
     "0fe1796e-fe07-4c90-9b06-4a6a193e2996",
     "826e2446-a0c1-477c-9c6a-03bbc7be17e2",
