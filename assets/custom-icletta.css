@@ -547,3 +547,32 @@ background-color: eef2f6;
   width: 300px;
   height: 200px;
 }
+
+/*-------------STARTSEITE: Trennlinie mit Schlagwort-------------*/
+
+.start-divider-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto; 
+  gap: 2em;  
+}
+.start-divider-centerbox{
+  width: 20%;
+  height: auto;    
+  flex-grow: 4;
+}
+.start-divider-heading{
+  font-size: 2em;
+  font-family: Tahoma, arial, sans-serif;
+  font-weight: 900;
+  text-align: center;
+  color: #01304a;  
+}
+.start-divider-stripe {
+  width:100%;
+  background: #01304a;
+  height: 3px;
+}
