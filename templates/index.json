@@ -74,7 +74,7 @@
     "b5cd2511-d36c-418c-9d3a-615783d1e6ca": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width button-container\">\n<a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/collections\/marke-ice\/\" target=\"_blank\">\n<div class=\"ICE-button\">Zu den ICE Produkten &#10132;<\/div><\/a><\/div>",
+        "custom_liquid": "<div class=\"page-width button-container\">\n<a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/collections\/marke-ice\/\" target=\"_blank\">\n<div class=\"ICE-button\">{{ 'start.produktslider.button-ICE-produkte' | t }}<\/div><\/a><\/div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -119,7 +119,7 @@
     "880c9ff7-d435-4050-9b8e-71ea15118304": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width button-container\">\n<a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/collections\/terracycle\/\" target=\"_blank\">\n<div class=\"t-cycle-button\">\n  Zu den T-Cycle Produkten &#10132;<\/div><\/a><\/div>",
+        "custom_liquid": "<div class=\"page-width button-container\">\n<a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/collections\/terracycle\/\" target=\"_blank\">\n<div class=\"t-cycle-button\">{{ 'start.produktslider.button-t-cycle-produkte' | t }}<\/div><\/a><\/div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 52
