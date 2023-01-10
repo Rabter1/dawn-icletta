@@ -569,10 +569,11 @@ background-color: eef2f6;
   font-family: Tahoma, arial, sans-serif;
   font-weight: 900;
   text-align: center;
-  color: #01304a;  
+  background: #777777;
+  /*color: #01304a;  */
 }
 .start-divider-stripe {
   width:100%;
-  background: #01304a;
+  background: #777777;
   height: 2px;
 }
