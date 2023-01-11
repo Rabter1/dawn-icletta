@@ -588,6 +588,7 @@ background-color: eef2f6;
   content-align: center; 
   gap: 3em;
   flex-wrap: nowrap;
+  padding: 0 5% 0 5%;
 }
 .shipping-content-iconbox{
   display: flex;
