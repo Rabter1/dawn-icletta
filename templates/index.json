@@ -146,7 +146,7 @@
     "71f6d0df-b5f6-4e7b-bd19-1173da1317aa": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"content-container--full-width\" style=\"background: #01304a;\">\n<div class=\"page-width\">\n<div class=\"start-divider-container-invert\">\n  <div class=\"start-divider-stripe-invert\">\n    <\/div>\n  <div class=\"start-divider-centerbox\"><span class=\"start-divider-heading\"><a id=\"shipping\">{{ 'start.divider.versand' | t }}<\/a><\/span><\/div>\n      <div class=\"start-divider-stripe-invert\">\n  <\/div>\n  <\/div>\n  <\/div>",
+        "custom_liquid": "<div class=\"content-container--full-width\" style=\"background: #01304a;\">\n<div class=\"page-width\">\n<div class=\"start-divider-container-invert\">\n  <div class=\"start-divider-stripe-invert\">\n    <\/div>\n  <div class=\"start-divider-centerbox\"><span class=\"start-divider-heading-invert\"><a id=\"shipping\">{{ 'start.divider.versand' | t }}<\/a><\/span><\/div>\n      <div class=\"start-divider-stripe-invert\">\n  <\/div>\n  <\/div>\n  <\/div>\n  <\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 0
