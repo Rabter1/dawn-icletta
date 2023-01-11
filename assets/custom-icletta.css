@@ -559,22 +559,45 @@ background-color: eef2f6;
   height: auto; 
   gap: 2em;  
 }
+
 .start-divider-centerbox{
   width: 20%;
   height: auto;    
   flex-grow: 4;
 }
+
+.start-divider-centerbox{
+  width: 20%;
+  height: auto;    
+  flex-grow: 4;
+  background: #01304a;
+}
+
 .start-divider-heading{
   font-size: 1.4em;
   font-family: Tahoma, arial, sans-serif;
   /*font-weight: 900;*/
   text-align: center;
   color: #6c7f92;
-  /*color: #01304a;  */
 }
+
+  .start-divider-heading-invert{
+  font-size: 1.4em;
+  font-family: Tahoma, arial, sans-serif;
+  /*font-weight: 900;*/
+  text-align: center;
+  color: #bdc9d0;
+}
+
 .start-divider-stripe {
   width:100%;
   background: #6c7f92;
+  height: 1px;
+}
+
+.start-divider-stripe-invert {
+  width:100%;
+  background: #bdc9d0;
   height: 1px;
 }
 
