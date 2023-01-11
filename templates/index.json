@@ -152,6 +152,34 @@
         "padding_bottom": 20
       }
     },
+    "5de1f3fd-3ddf-40ef-9f2d-e63e9da20f24": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16752291545376__5de1f3fd-3ddf-40ef-9f2d-e63e9da20f24-16734294759cb1c2d4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir versenden alle Bestellungen täglich per DHL. <\/p><p><strong>Versandkosten:<br\/>Deutschland:<\/strong> 6,90 Euro<br\/><strong>Europäische Union:<\/strong> 9,90 Euro<br\/><strong>CH \/ NO \/ UK:<\/strong> 19,90 Euro<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16752291545376__5de1f3fd-3ddf-40ef-9f2d-e63e9da20f24-16734294759cb1c2d4-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/titel-versand.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "f96b7dea-995f-45b4-b456-8b182a27ca0b": {
       "type": "custom-liquid",
       "settings": {
@@ -213,78 +241,6 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1325ac5b-d6c1-437b-942f-27c1ed80823e": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--16752291545376__1325ac5b-d6c1-437b-942f-27c1ed80823e-167342947654c93dee-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/titel-versand.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16752291545376__1325ac5b-d6c1-437b-942f-27c1ed80823e-167342947654c93dee-1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16752291545376__1325ac5b-d6c1-437b-942f-27c1ed80823e-167342947654c93dee-0",
-        "template--16752291545376__1325ac5b-d6c1-437b-942f-27c1ed80823e-167342947654c93dee-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "5de1f3fd-3ddf-40ef-9f2d-e63e9da20f24": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16752291545376__5de1f3fd-3ddf-40ef-9f2d-e63e9da20f24-16734294759cb1c2d4-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Wir versenden alle Bestellungen täglich per DHL. <\/p><p><strong>Versandkosten:<br\/>Deutschland:<\/strong> 6,90 Euro<br\/><strong>Europäische Union:<\/strong> 9,90 Euro<br\/><strong>CH \/ NO \/ UK:<\/strong> 19,90 Euro<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--16752291545376__5de1f3fd-3ddf-40ef-9f2d-e63e9da20f24-16734294759cb1c2d4-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/titel-versand.jpg",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -477,10 +433,9 @@
     "0b798f3f-9536-4c1d-a6e6-cba0667bfd91",
     "7550a264-8282-4e95-9391-6b8aa994a571",
     "71f6d0df-b5f6-4e7b-bd19-1173da1317aa",
+    "5de1f3fd-3ddf-40ef-9f2d-e63e9da20f24",
     "f96b7dea-995f-45b4-b456-8b182a27ca0b",
     "0fe1796e-fe07-4c90-9b06-4a6a193e2996",
-    "1325ac5b-d6c1-437b-942f-27c1ed80823e",
-    "5de1f3fd-3ddf-40ef-9f2d-e63e9da20f24",
     "826e2446-a0c1-477c-9c6a-03bbc7be17e2",
     "09e28f4b-ccb4-4b57-94fb-dd018bd83cdd",
     "e298752e-f10f-4baa-adcc-564701e93d51",
