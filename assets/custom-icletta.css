@@ -582,6 +582,7 @@ background-color: eef2f6;
 
 .shipping-content-container{
   width: 100%;
+  background: #01304a;
   display: flex;
   flex-direction: row;
   justify-content: center;
