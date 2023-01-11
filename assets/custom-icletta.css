@@ -560,17 +560,21 @@ background-color: eef2f6;
   gap: 2em;  
 }
 
+.start-divider-container-invert{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto; 
+  gap: 2em;  
+  background: #01304a;
+}
+
 .start-divider-centerbox{
   width: 20%;
   height: auto;    
   flex-grow: 4;
-}
-
-.start-divider-centerbox-invert{
-  width: 20%;
-  height: auto;    
-  flex-grow: 4;
-  background: #01304a;
 }
 
 .start-divider-heading{
