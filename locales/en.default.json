@@ -488,6 +488,10 @@
     "produktslider": {
       "button-ICE-produkte": "Browse all our ICE products &#10132;",
       "button-t-cycle-produkte": "Browse all our T-Cycle products &#10132;"
+    },
+    "divider": {
+      "hersteller": "BRANDS",
+      "versand": "SHIPPING"
     }
   }
 }
