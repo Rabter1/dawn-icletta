@@ -169,7 +169,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p><br\/><br\/><\/p><p><strong><br\/>Versandkosten:<\/strong><\/p><p><strong><br\/>Deutschland:<\/strong> 6,90 Euro<br\/><strong>Europäische Union:<\/strong> 9,90 Euro<br\/><strong>CH \/ NO \/ UK:<\/strong> 19,90 Euro<\/p>",
+            "text": "<p><strong><br\/>Versandkosten:<\/strong><\/p><p><strong><br\/>Deutschland:<\/strong> 6,90 Euro<br\/><strong>Europäische Union:<\/strong> 9,90 Euro<br\/><strong>CH \/ NO \/ UK:<\/strong> 19,90 Euro<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -178,7 +178,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p><strong>Europaweiter Spezialversand<\/strong><br\/><br\/>Seit über 15 Jahren beliefert ICLETTA Kunden in ganz Europa mit authentischem Liegerad Zubehör. Im Regelfall können eigehende Bestellungen bereits am Folgetag versendet werden. Durch unseren langjährigen Logistikpartner DHL steht einer schnellen Lieferung Ihre Ware dann auch nichts mehr im Wege. <\/p>",
+            "text": "<p><strong><br\/>Europaweiter Spezialversand<\/strong><br\/><br\/>Seit über 15 Jahren beliefert ICLETTA Kunden in ganz Europa mit authentischem Liegerad Zubehör. Im Regelfall können eingehende Bestellungen bereits am Folgetag versendet werden. Durch unseren langjährigen Logistikpartner DHL steht einer schnellen Lieferung Ihre Ware dann auch nichts mehr im Wege. <\/p>",
             "link_label": "",
             "link": ""
           }
