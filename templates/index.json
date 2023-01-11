@@ -152,8 +152,63 @@
         "padding_bottom": 20
       }
     },
+    "0fe1796e-fe07-4c90-9b06-4a6a193e2996": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16752291545376__0fe1796e-fe07-4c90-9b06-4a6a193e2996-1669197272f1478b88-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/titel-versand.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16752291545376__0fe1796e-fe07-4c90-9b06-4a6a193e2996-1669197272f1478b88-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Wir versenden alle Bestellungen per DHL<\/p><p><strong>Deutschland:<\/strong> 6,90 Euro<br\/><strong>Europäische Union:<\/strong> 9,90 Euro<br\/><strong>CH \/ NO \/ UK:<\/strong> 19,90 Euro<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16752291545376__0fe1796e-fe07-4c90-9b06-4a6a193e2996-1669197272f1478b88-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Europaweiter Spezialversand<\/strong><\/p><p>Seit über 15 Jahren beliefert ICLETTA Kunden in ganz Europa mit authentischem Liegerad Zubehör. Im Regelfall können eigehende Bestellungen bereits am Folgetag versendet werden. Durch unseren langjährigen Logistikpartner DHL steht einer schnellen Lieferung Ihre Ware dann nichts mehr im Wege.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16752291545376__0fe1796e-fe07-4c90-9b06-4a6a193e2996-1669197272f1478b88-0",
+        "template--16752291545376__0fe1796e-fe07-4c90-9b06-4a6a193e2996-1669197272f1478b88-1",
+        "template--16752291545376__0fe1796e-fe07-4c90-9b06-4a6a193e2996-1669197272f1478b88-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "5de1f3fd-3ddf-40ef-9f2d-e63e9da20f24": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--16752291545376__5de1f3fd-3ddf-40ef-9f2d-e63e9da20f24-16734294759cb1c2d4-1": {
           "type": "text",
@@ -187,60 +242,6 @@
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "0fe1796e-fe07-4c90-9b06-4a6a193e2996": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--16752291545376__0fe1796e-fe07-4c90-9b06-4a6a193e2996-1669197272f1478b88-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/titel-versand.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16752291545376__0fe1796e-fe07-4c90-9b06-4a6a193e2996-1669197272f1478b88-1": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>Wir versenden alle Bestellungen per DHL<\/p><p><strong>Deutschland:<\/strong> 6,90 Euro<br\/><strong>Europäische Union:<\/strong> 9,90 Euro<br\/><strong>CH \/ NO \/ UK:<\/strong> 19,90 Euro<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16752291545376__0fe1796e-fe07-4c90-9b06-4a6a193e2996-1669197272f1478b88-2": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p><strong>Europaweiter Spezialversand<\/strong><\/p><p>Seit über 15 Jahren beliefert ICLETTA Kunden in ganz Europa mit authentischem Liegerad Zubehör. Im Regelfall können eigehende Bestellungen bereits am Folgetag versendet werden. Durch unseren langjährigen Logistikpartner DHL steht einer schnellen Lieferung Ihre Ware dann nichts mehr im Wege.<\/p><p><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16752291545376__0fe1796e-fe07-4c90-9b06-4a6a193e2996-1669197272f1478b88-0",
-        "template--16752291545376__0fe1796e-fe07-4c90-9b06-4a6a193e2996-1669197272f1478b88-1",
-        "template--16752291545376__0fe1796e-fe07-4c90-9b06-4a6a193e2996-1669197272f1478b88-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "826e2446-a0c1-477c-9c6a-03bbc7be17e2": {
@@ -431,9 +432,9 @@
     "0b798f3f-9536-4c1d-a6e6-cba0667bfd91",
     "7550a264-8282-4e95-9391-6b8aa994a571",
     "71f6d0df-b5f6-4e7b-bd19-1173da1317aa",
+    "0fe1796e-fe07-4c90-9b06-4a6a193e2996",
     "5de1f3fd-3ddf-40ef-9f2d-e63e9da20f24",
     "f96b7dea-995f-45b4-b456-8b182a27ca0b",
-    "0fe1796e-fe07-4c90-9b06-4a6a193e2996",
     "826e2446-a0c1-477c-9c6a-03bbc7be17e2",
     "09e28f4b-ccb4-4b57-94fb-dd018bd83cdd",
     "e298752e-f10f-4baa-adcc-564701e93d51",
