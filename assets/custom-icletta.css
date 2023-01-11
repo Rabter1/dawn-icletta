@@ -586,12 +586,10 @@ background-color: eef2f6;
   flex-direction: row;
   justify-content: center;
   content-align: center; 
-  background: purple;
   gap: 3em;
   flex-wrap: nowrap;
 }
 .shipping-content-iconbox{
-  background: magenta;
   display: flex;
   flex-direction: column;  
   align-items: center;
@@ -600,11 +598,9 @@ background-color: eef2f6;
 .shipping-content-icon{
   width: 4em;
   height: auto;
-  background: yellow;
   padding-bottom: 1em;
 }
 .shipping-content-icontext{
-  background: cyan;
   font-family: Tahoma, arial, sans-serif;  
   font-weight: 900;
   color: #01304a;
