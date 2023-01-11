@@ -605,7 +605,7 @@ background-color: eef2f6;
 .shipping-content-icontext{
   font-family: Tahoma, arial, sans-serif;  
   font-weight: 400;
-  color: rgba(var(--color-foreground),.75)!important;
+  color: #bdc9d0;
   text-align: center;
 }
 
