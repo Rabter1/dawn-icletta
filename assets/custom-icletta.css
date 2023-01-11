@@ -602,8 +602,8 @@ background-color: eef2f6;
 }
 .shipping-content-icontext{
   font-family: Tahoma, arial, sans-serif;  
-  font-weight: 900;
-  color: #01304a;
+  /*font-weight: 900;*/
+  color: #777777;
   text-align: center;
 }
 
