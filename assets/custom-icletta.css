@@ -452,6 +452,9 @@ color: #ffffff;
 .legrid-tile-eins{
   grid-area: eins;  
 }
+.legrid-tile-eins:hover{
+  grid-area: zwei;  
+}
 
 .legrid-tile-zwei{
   grid-area: zwei;
