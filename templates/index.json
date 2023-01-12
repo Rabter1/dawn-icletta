@@ -244,8 +244,18 @@
         "padding_bottom": 52
       }
     },
+    "302a94ab-df26-4fd7-8580-922b1aa2d018": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"content-container--full-width\"><div \nstyle=\"width: 100%; height: auto; background-image: url(\"https:\/\/www.icletta.com\/images\/webshop\/main\/banner-ICE.jpg\"); background-size: cover;\">fffffest<\/div><\/div><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--16752291545376__b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0-1668679157686d7e7f-0": {
           "type": "heading",
@@ -286,6 +296,37 @@
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "7c2d53f4-6166-47c5-9281-a59d992fea08": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16752291545376__7c2d53f4-6166-47c5-9281-a59d992fea08-1673535091d2e24a3f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16752291545376__7c2d53f4-6166-47c5-9281-a59d992fea08-1673535091d2e24a3f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16752291545376__7c2d53f4-6166-47c5-9281-a59d992fea08-1673535091d2e24a3f-0",
+        "template--16752291545376__7c2d53f4-6166-47c5-9281-a59d992fea08-1673535091d2e24a3f-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "content_width": "default"
       }
     },
     "531902d4-1772-4c6e-9168-fe440a37f650": {
@@ -358,7 +399,9 @@
     "0fe1796e-fe07-4c90-9b06-4a6a193e2996",
     "5de1f3fd-3ddf-40ef-9f2d-e63e9da20f24",
     "f96b7dea-995f-45b4-b456-8b182a27ca0b",
+    "302a94ab-df26-4fd7-8580-922b1aa2d018",
     "b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0",
+    "7c2d53f4-6166-47c5-9281-a59d992fea08",
     "531902d4-1772-4c6e-9168-fe440a37f650",
     "a03a15e0-1179-4afb-a34e-bf19fa9e4014"
   ]
