@@ -26,6 +26,14 @@
             "picker_type": "button"
           }
         },
+        "a774fef6-8b72-4f09-8bb5-7f0c5fcdf1ca": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 0,
+            "show_inventory_quantity": true
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -80,6 +88,7 @@
         "title",
         "price",
         "variant_picker",
+        "a774fef6-8b72-4f09-8bb5-7f0c5fcdf1ca",
         "quantity_selector",
         "buy_buttons",
         "d69e4434-49d2-4f1c-870e-28a89ce600f3",
@@ -137,11 +146,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "product_list": [
-
-        ],
         "heading": "Das könnte Ihnen auch gefallen",
-        "heading2": "Zu diesem Artikel passende Produkte",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
