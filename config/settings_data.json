@@ -186,13 +186,13 @@
           "8794fdf6-f72e-44ce-8df4-8a2e345495f7": {
             "type": "html",
             "settings": {
-              "section_html": "<p><\/p><h3 style=\"margin: 0; padding: 0;\">Über ICLETTA<\/h3><p><\/p>\n<p style=\"\">Unser Enthusiasmus und unser Engagement gilt der Fahrradkultur. Wir importieren exklusiv die englischen ICE Dreiräder sowie das Liegeradzubehör von TerraCycle aus Portland, USA.<br><br>\nMit neuen Ideen und authentischen Produkten bringen wir frischen Wind in die Liegerad- und Dreiradwelt.<\/p>"
+              "section_html": "<h3 style=\"margin: 0; padding: 0;\">Über ICLETTA<\/h3>\n<p style=\"padding-right:2em;\">Unser Enthusiasmus und unser Engagement gilt der Fahrradkultur. Wir importieren exklusiv die englischen ICE Dreiräder sowie das Liegeradzubehör von TerraCycle aus Portland, USA.<br><br>\nMit neuen Ideen und authentischen Produkten bringen wir frischen Wind in die Liegerad- und Dreiradwelt.<\/p>"
             }
           },
           "737fece2-af4a-45aa-b466-c3e233ac2196": {
             "type": "html",
             "settings": {
-              "section_html": "<p><\/p><h3 style=\"margin: 0; padding: 0;\">Rechtliches<\/h3>\n<div style=\"border-bottom: 1px solid grey;\"><a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/policies\/legal-notice\" style=\"font-size: 1.4rem;\">Impressum<\/a><\/div>\n<div style=\"border-bottom: 1px solid grey;\"><a href=\"\">AGB<\/a><\/div><a href=\"\">\n<div style=\"border-bottom: 1px solid grey;\">Versand<\/div><\/a>\n<div style=\"border-bottom: 1px solid grey;\">Datenschutz<\/div>\n<div style=\"border-bottom: 1px solid grey;\">Widerrufsbelehrung<\/div>\n<div style=\"border-bottom: 1px solid grey;\">Zum Kontaktformular<\/div>"
+              "section_html": "<p><\/p><h3 style=\"margin: 0; padding: 0;\">Rechtliches<\/h3><p><\/p>\n<div style=\"border-bottom: 1px solid grey;\"><a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/policies\/legal-notice\" style=\"font-size: 1.4rem;\">Impressum<\/a><\/div>\n<div style=\"border-bottom: 1px solid grey;\"><a href=\"\">AGB<\/a><\/div><a href=\"\">\n<div style=\"border-bottom: 1px solid grey;\">Versand<\/div><\/a>\n<div style=\"border-bottom: 1px solid grey;\">Datenschutz<\/div>\n<div style=\"border-bottom: 1px solid grey;\">Widerrufsbelehrung<\/div>\n<div style=\"border-bottom: 1px solid grey;\">Zum Kontaktformular<\/div>"
             }
           }
         },
