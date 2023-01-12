@@ -411,6 +411,9 @@ grid-template-rows: auto;
     "drei";  
   align-items: end;
 }
+.legrid-tile:hover .legrid-tile-button{
+  background: rgba(1,48,74,0.9); 
+}
 
 .legrid-tile-image{
   grid-column-start: 1;
