@@ -371,7 +371,7 @@ box-shadow: none !important;
   font-size: 1.5em;
   font-weight: bold;
   letter-spacing: .2rem;
-  font-family: Tahoma, arial, sans-serif; 
+  /*font-family: Tahoma, arial, sans-serif; */
   padding: 10px 15px 10px 15px;
   justify-self: end;  
 }
