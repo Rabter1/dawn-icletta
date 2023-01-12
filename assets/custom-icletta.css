@@ -635,15 +635,15 @@ background-color: eef2f6;
   font-weight: 400;
   color: #bdc9d0;
   text-align: center;
+
+/*-------------STARTSEITE: FIrmenprofil-------------*/
+
 }
 .boing {
   background-image: url("https://www.icletta.com/images/webshop/main/webshop-parts.jpg");
   background-size: cover;
   background-position: center;
    height: 200px;
-   width: 800px;
-    /*background: green;*/
-    color: red;
-    
+   width: 100%;
 }
 
