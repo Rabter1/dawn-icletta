@@ -247,7 +247,7 @@
     "302a94ab-df26-4fd7-8580-922b1aa2d018": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"content-container--full-width\"><div \nstyle=\"width: 100%; height: auto; background-image: url(\"https:\/\/www.icletta.com\/images\/webshop\/main\/banner-ICE.jpg\"); background-size: cover;\">fffffest<\/div><\/div><\/div>",
+        "custom_liquid": "<div class=\"content-container--full-width\"><div \nstyle=\"width: 100%; height: 300px; background-image: url(\"https:\/\/www.icletta.com\/images\/webshop\/main\/webshop-parts.jpg\"); background-size: cover; background-position: center; color: red;\">fffffest<\/div><div class=\"boing\">teest<\/div><\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
