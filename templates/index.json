@@ -17,6 +17,33 @@
         "show_text_below": false
       }
     },
+    "d43ad182-6258-4e24-9f2b-a478ec4bace4": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16752291545376__d43ad182-6258-4e24-9f2b-a478ec4bace4-167352030924ddbdb0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "GESPERRT",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16752291545376__d43ad182-6258-4e24-9f2b-a478ec4bace4-167352030924ddbdb0-0"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "5b6b80ed-6a67-4797-8cec-596b5ef75119": {
       "type": "custom-liquid",
       "settings": {
@@ -247,7 +274,7 @@
     "302a94ab-df26-4fd7-8580-922b1aa2d018": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"content-container--full-width\"><div \nstyle=\"width: 100%; height: 300px; background-image: url(\"https:\/\/www.icletta.com\/images\/webshop\/main\/webshop-parts.jpg\"); background-size: cover; background-position: center; color: red;\">fffffest<\/div><div class=\"boing\">teest<\/div><\/div>",
+        "custom_liquid": "<div class=\"content-container--full-width\"><div class=\"boing\"><div class=\"multicolumn-card content-container\" style=\"width: 100px; height: 200px;\">sdgipsigisgrhijsgri<\/div>\n<\/div><\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -385,6 +412,7 @@
   },
   "order": [
     "image_banner",
+    "d43ad182-6258-4e24-9f2b-a478ec4bace4",
     "5b6b80ed-6a67-4797-8cec-596b5ef75119",
     "ffe33e2d-5b38-4356-9ec8-3f599006a4a6",
     "ec9b5c99-3c09-44de-a344-314ae5f4053c",
