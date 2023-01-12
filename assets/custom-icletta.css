@@ -441,7 +441,7 @@ color: #F5F5F5;
 .legrid-button-text{
   font-weight: bold;
   font-size: 1em;
-  font-family: Tahoma, arial, sans-serif;
+  /*font-family: Tahoma, arial, sans-serif;*/
  
 }
 .legrid-button-subtext{
