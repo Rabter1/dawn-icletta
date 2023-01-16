@@ -384,10 +384,10 @@ width: 100%;
 
 @media only screen and (max-width: 1400px) {
  .claim-typo{
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: bold;
   letter-spacing: .2rem;
-  padding: 2px 5px 2px 5px;   
+  padding: 5px 10px 5px 10px;   
 }
 }
 
