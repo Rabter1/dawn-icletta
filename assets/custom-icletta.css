@@ -449,6 +449,8 @@ position: absolute;
   color: white;
   font-size: 0.7em;
   font-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*@media only screen and (max-width: 768px) {
