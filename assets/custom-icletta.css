@@ -467,13 +467,12 @@ position: absolute;
 }
 
 @media only screen and (max-width: 768px) {
-  .legrid-tiles-container {
+  .legrid-tile-container {
     grid-template-columns: repeat(2, 1fr);
     }
   .legrid-tile-fuenf {
     grid-column-start: 1;
-    display: none;
-  }
+ }
   .legrid-tile-button {
     height: 6em;
   }
