@@ -74,7 +74,7 @@
     "b5cd2511-d36c-418c-9d3a-615783d1e6ca": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width button-container\"><a href=\"{{ 'start.produktslider.button.ICE.produkte' | t }} target=\"_blank\">\n<div class=\"ICE-button\">{{ 'start.produktslider.button-ICE-produkte' | t }}<\/div><\/a><\/div>",
+        "custom_liquid": "<div class=\"page-width button-container\"><a href=\"{{ 'start.produktslider.button.ICE.produkte' | t }}\" target=\"_blank\">\n<div class=\"ICE-button\">{{ 'start.produktslider.button-ICE-produkte' | t }}<\/div><\/a><\/div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
