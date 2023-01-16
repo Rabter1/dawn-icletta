@@ -345,6 +345,7 @@ box-shadow: none !important;
   width: 100%;  
   /*object-fit: cover;*/
   position: relative;
+  background: green;
 }
 .keyvisual-flex img{  
 width: 100%;
@@ -353,6 +354,10 @@ width: 100%;
 /*Positionierung der Claims*/
 .keyvisual-claim-box{
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
   right: 0px;
   top: 30%;  
 }
@@ -362,18 +367,22 @@ width: 100%;
   font-weight: bold;
   letter-spacing: .2rem;
   /*font-family: Tahoma, arial, sans-serif; */
+  padding: 10px 15px 10px 015px;
   
-  text-align: right;  
+    
 }
 
 .keyvisual-main-claim{
-  background: #01304a;
+  
+ background: #01304a;
   color: white;
-    
+  text-align: right; 
+  margin-right: 0px;
 }
 .keyvisual-sub-claim{
   background: white;
   color: #01304a;
+  text-align: right;
 }
 
 /*-------------STARTSEITE: CSS für Kachelmenu-------------*/
