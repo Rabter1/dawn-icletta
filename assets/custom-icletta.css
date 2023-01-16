@@ -450,11 +450,10 @@ position: absolute;
 .legrid-button-text{
   font-weight: bold;
   font-size: 1em;
-  color: white !important;
+  color: white!important;
   font-decoration: none;
   margin-top: 0;
   margin-bottom: 0;  
- 
 }
 
 .legrid-button-subtext{
