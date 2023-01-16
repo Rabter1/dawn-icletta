@@ -420,10 +420,6 @@ box-shadow: none !important;
   object-fit: cover;
 }
 
-.legrid-tile-image img{
- width: 100%;
-}
-
 .legrid-tile-doppelt{
   grid-column: span 2;
 }
