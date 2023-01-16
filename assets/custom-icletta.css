@@ -454,15 +454,13 @@ position: absolute;
   font-decoration: none;
   margin-top: 0;
   margin-bottom: 0;  
-  a {color: rgb(var(--color-foreground));
-}
+ }
 
 .legrid-button-subtext{
   color: white;
   font-size: 0.7em;
   font-decoration: none; 
-  a {color: rgb(var(--color-foreground));
-}
+  }
 
 @media only screen and (max-width: 768px) {
   .legrid-tile-container {
