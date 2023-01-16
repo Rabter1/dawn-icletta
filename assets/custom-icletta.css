@@ -382,6 +382,15 @@ width: 100%;
   text-align: right;
 }
 
+@media only screen and (max-width: 1400px) {
+ .claim-typo{
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  padding: 2px 5px 2px 5px;   
+}
+}
+
 @media only screen and (max-width: 768px) {
  .claim-typo{
   font-size: 1em;
