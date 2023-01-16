@@ -496,6 +496,23 @@ position: absolute;
  
 }
 
+/*-------------STARTSEITE: Hersteller Banner für  Kategorien-------------*/
+
+.start-marken-banner-container{
+  width: 100%;
+  background: #01304a;
+  height: 100%;
+  display: flex;
+  position: relative;
+  margin-top: 10%;
+}
+.start-marken-banner-produkt{
+  height: 250%;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+}
+
 /*-------------STARTSEITE: "Alles Ansehen" Buttons für  Kategorien-------------*/
 
 .ICE-button{
@@ -644,7 +661,7 @@ background-color: eef2f6;
   color: #bdc9d0;
   text-align: center;
 
-/*-------------STARTSEITE: FIrmenprofil-------------*/
+/*-------------STARTSEITE: Firmenprofil-------------*/
 
 }
 .boing {
