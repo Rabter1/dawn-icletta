@@ -470,7 +470,10 @@ position: absolute;
   .legrid-tiles-container {
     grid-template-columns: repeat(2, 1fr);
     }
-
+  .legrid-tile-fuenf {
+    grid-column-start: 1;
+    display: none;
+  }
   .legrid-tile-button {
     height: 6em;
   }
