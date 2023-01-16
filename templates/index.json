@@ -83,9 +83,9 @@
     "0cdad188-d3c1-488b-b748-c653e418b586": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/collections\/terracycle\/\" target=\"_blank\">\n<img src=\"https:\/\/icletta.com\/images\/webshop\/main\/banner-t-cycle.jpg\" style=\"width:100%\"><\/a><\/div>",
+        "custom_liquid": "<div class=\"page-width\">\n<div class=\"start-marken-banner-container\">\n<img src=\"https:\/\/icletta.com\/images\/webshop\/main\/t-cycle-start-banner-logo.jpg\" height=\"50em\">  \n<div class=\"start-marken-banner-produkt\">\n<img src=\"https:\/\/icletta.com\/images\/webshop\/main\/t-cycle-start-banner-produkt.png\" height=\"100%\">  \n<\/div>\n<\/div>",
         "color_scheme": "background-1",
-        "padding_top": 20,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
