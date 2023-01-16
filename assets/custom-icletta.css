@@ -408,8 +408,7 @@ width: 100%;
  display: grid;
  gap: 10px 10px;
  grid-template-columns: repeat(5, 1fr);
- background-color: yellow;  
-}
+ }
 
 /*Einzelelement Definition*/
 
@@ -455,7 +454,6 @@ position: absolute;
   font-decoration: none;
   margin-top: 0;
   margin-bottom: 0;  
-  /*font-family: Tahoma, arial, sans-serif;*/
  
 }
 
