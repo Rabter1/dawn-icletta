@@ -363,7 +363,7 @@ width: 100%;
   letter-spacing: .2rem;
   /*font-family: Tahoma, arial, sans-serif; */
   padding: 10px 15px 10px 15px;
-  justify-self: end;  
+  text-align: right;  
 }
 
 .keyvisual-main-claim{
