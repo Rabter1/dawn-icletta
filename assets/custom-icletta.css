@@ -472,12 +472,20 @@ position: absolute;
     }
   .legrid-tile-vier {
     grid-row-start: 4;
- }
+   }
   
   .legrid-tile-fuenf {
     grid-row-start: 4;
-    
- }
+    }
+
+  .legrid-tile-sechs {
+    grid-row-start: 5;
+    }
+  
+  .legrid-tile-sieben {
+    grid-row-start: 5;
+    }
+
   .legrid-tile-button {
     height: 6em;
   }
