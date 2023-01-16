@@ -571,8 +571,8 @@ position: absolute;
  }
 
 .t-cycle-button a:visited {
-  color: white;
-  text-decoration: none;
+  color: white!important;
+  text-decoration: none!important;
 }
 
 .button-container{
