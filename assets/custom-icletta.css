@@ -366,22 +366,29 @@ width: 100%;
   font-weight: bold;
   letter-spacing: .2rem;
   /*font-family: Tahoma, arial, sans-serif; */
-  padding: 10px 15px 10px 015px;
-  
-    
+  padding: 10px 15px 10px 15px;   
 }
 
-.keyvisual-main-claim{
-  
- background: #01304a;
+.keyvisual-main-claim{  
+  background: #01304a;
   color: white;
   text-align: right; 
   margin-right: 0px;
 }
+
 .keyvisual-sub-claim{
   background: white;
   color: #01304a;
   text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+ .claim-typo{
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  padding: 2px 5px 2px 5px;   
+}
 }
 
 /*-------------STARTSEITE: CSS für Kachelmenu-------------*/
@@ -450,7 +457,7 @@ position: absolute;
   
 }
 
-/*@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .legrid-tiles-container {
     grid-template-columns: repeat(2, 1fr);
     }
@@ -460,7 +467,7 @@ position: absolute;
   .legrid-tile-button {
     height: 6em;
   }
-}/*
+}
 
 /*Positionierung der "Tile" Elemente*/
 
