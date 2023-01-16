@@ -513,6 +513,15 @@ position: absolute;
   bottom: 0;
 }
 
+@media only screen and (max-width: 768px) {
+ .start-marken-banner-produkt{
+  height: 180%;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+}
+}
+
 /*-------------STARTSEITE: "Alles Ansehen" Buttons für  Kategorien-------------*/
 
 .ICE-button{
