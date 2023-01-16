@@ -402,8 +402,7 @@ box-shadow: none !important;
 .legrid-tile{
   position: relative;
   background: cyan;
-  color: white;
-  font-family: Tahoma, arial, sans-serif; 
+  color: white;  
   width: 100%;
   overflow: hidden;
  }
@@ -437,7 +436,7 @@ position: absolute;
 .legrid-button-text{
   font-weight: bold;
   font-size: 1em;
-  color: white;
+  color: white !important;
   font-decoration: none;
   margin-top: 0;
   margin-bottom: 0;
