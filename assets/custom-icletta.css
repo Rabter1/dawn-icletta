@@ -470,8 +470,13 @@ position: absolute;
   .legrid-tile-container {
     grid-template-columns: repeat(2, 1fr);
     }
+  .legrid-tile-vier {
+    grid-row-start: 4;
+ }
+  
   .legrid-tile-fuenf {
-    grid-column-start: 1;
+    grid-row-start: 3;
+    
  }
   .legrid-tile-button {
     height: 6em;
