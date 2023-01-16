@@ -495,7 +495,9 @@
     },
     "produktslider": {
       "button-ICE-produkte": "Zu den ICE Produkten &#10132;",
-      "button-t-cycle-produkte": "Zu den T-Cycle Produkten &#10132;"
+      "button-t-cycle-produkte": "Zu den T-Cycle Produkten &#10132;",
+      "button-ICE-link": "collections\/marke-ice\/",
+      "button-t-cycle-link": "collections\/marke-t-cycle\/"
     },
     "divider": {
       "hersteller": "HERSTELLER",
