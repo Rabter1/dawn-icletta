@@ -446,11 +446,12 @@ position: absolute;
 }
 
 .legrid-button-subtext{
+  background-color: red;
   color: white;
   font-size: 0.7em;
   font-decoration: none;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 
 /*@media only screen and (max-width: 768px) {
