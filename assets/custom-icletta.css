@@ -389,7 +389,7 @@ box-shadow: none !important;
 /*-------------STARTSEITE: CSS für Kachelmenu-------------*/
 /*Container Definition*/
 
-.tiles-container {
+.tiles-legrid-container {
  width: 80%;  
  display: grid;
  gap: 10px 10px;
