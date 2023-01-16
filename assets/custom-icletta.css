@@ -439,6 +439,8 @@ position: absolute;
   font-size: 1em;
   color: white;
   font-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
   /*font-family: Tahoma, arial, sans-serif;*/
  
 }
