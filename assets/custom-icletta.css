@@ -407,7 +407,7 @@ box-shadow: none !important;
   overflow: hidden;
  }
 .legrid-tile:hover{
-  transform: scale(1.1);
+  /*transform: scale(1.1);*/
 }
 .legrid-tile:hover .legrid-tile-button{
   background: rgba(1,48,74,0.9);
