@@ -446,13 +446,14 @@ position: absolute;
   /*font-family: Tahoma, arial, sans-serif;*/
  
 }
+
 .legrid-button-subtext{
   color: white;
   font-size: 0.7em;
   font-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
   .legrid-tiles-container {
     grid-template-columns: repeat(2, 1fr);
     }
@@ -462,7 +463,7 @@ position: absolute;
   .legrid-tile-button {
     height: 6em;
   }
-}
+}/*
 
 /*Positionierung der "Tile" Elemente*/
 
