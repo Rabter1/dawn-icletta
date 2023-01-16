@@ -389,53 +389,53 @@ box-shadow: none !important;
 /*-------------STARTSEITE: CSS für Kachelmenu-------------*/
 /*Container Definition*/
 
-.tiles-legrid-container {   
+.tiles-container {
+ width: 80%;  
  display: grid;
  gap: 10px 10px;
- grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
-  grid-template-rows: auto;
-  grid-template-areas: 
-    "eins zwei drei drei vier"
-    "fuenf fuenf sechs sieben acht";
+ grid-template-columns: repeat(5, 1fr);
+ background-color: yellow;  
 }
 
 /*Einzelelement Definition*/
 
 .legrid-tile{
-  background: blue;
-  display: grid;
-grid-template-rows: auto;
-  grid-template-areas: 
-    "eins"
-    "zwei"
-    "drei";  
-  align-items: end;
-  transition: 0.5s ease-out;
-}
+  position: relative;
+  background: cyan;
+  color: white;
+  font-family: Tahoma, arial, sans-serif; 
+  width: 100%;
+  overflow: hidden;
+ }
 .legrid-tile:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .legrid-tile:hover .legrid-tile-button{
   background: rgba(1,48,74,0.9);
 }
 
-.legrid-tile-image{
-  grid-column-start: 1;
-  grid-row-start: 1;
+.legrid-tile img {
+  height: 100%;
+  width: 100%;  
+  object-fit: cover;
 }
 
 .legrid-tile-image img{
- display: block;
  width: 100%;
+}
+
+.legrid-tile-doppelt{
+  grid-column: span 2;
 }
 
 .legrid-tile-button{
 background: rgba(1,48,74,0.7);  
 padding: 15px 0px 15px 15px;
-grid-column-start: 1;
-grid-row-start: 1;
-line-height: 1em !important;
-color: #F5F5F5;
+position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;  
+  height: 4em;
 }
 
 .legrid-button-text{
@@ -446,30 +446,38 @@ color: #F5F5F5;
 }
 .legrid-button-subtext{
   font-size: 0.7em;
-  font-family: Tahoma, arial, sans-serif;
 }
+
+@media only screen and (max-width: 768px) {
+  .legrid-tiles-container {
+    grid-template-columns: repeat(2, 1fr);
+    }
+  .legrid-tile-fuenf {
+    grid-column-start: 1;
+  }
+  .legrid-tile-button {
+    height: 6em;
+  }
+}
+
 /*Positionierung der "Tile" Elemente*/
 
 .legrid-tile-eins{
-  grid-area: eins;  
 }
 .legrid-tile-zwei{
-  grid-area: zwei;
   background: cyan;
 }
 
 .legrid-tile-drei{
-  grid-area: drei;
+
   background: magenta;
 }
 
 .legrid-tile-vier{
-  grid-area: vier;
   background: magenta;
 }
 
 .legrid-tile-fuenf{
-  grid-area: fuenf;
 }
 
 .legrid-tile-sechs{
