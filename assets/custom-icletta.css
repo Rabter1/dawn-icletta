@@ -471,18 +471,22 @@ position: absolute;
     grid-template-columns: repeat(2, 1fr);
     }
   .legrid-tile-vier {
-    grid-row-start: 4;
+    grid-row-start: 3;
    }
   
   .legrid-tile-fuenf {
     grid-row-start: 4;
     }
-
+ 
   .legrid-tile-sechs {
+    grid-row-start: 3;
+    }
+ 
+  .legrid-tile-sieben {
     grid-row-start: 5;
     }
   
-  .legrid-tile-sieben {
+  .legrid-tile-acht {
     grid-row-start: 5;
     }
 
