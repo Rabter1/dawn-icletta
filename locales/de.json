@@ -507,7 +507,7 @@
       "recycle_html": "Recycling&shyverpackung",
       "versand": "Versand ab Lager",
       "ausgang": "Täglicher Warenausgang",
-      "tracking": "Sendungs&shyverfolgung",
+      "tracking_html": "Sendungs&shyverfolgung",
       "lieferung": "Europaweite Lieferung"
     }
   }
