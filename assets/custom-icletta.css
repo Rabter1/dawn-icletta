@@ -727,6 +727,7 @@ background-color: eef2f6;
   }
     .shipping-content-iconbox{
     width: 30%!important; 
+      border: 1px solid cyan;
     }
     }
 
