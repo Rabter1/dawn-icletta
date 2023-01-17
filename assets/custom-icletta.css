@@ -722,6 +722,11 @@ background-color: eef2f6;
   color: #bdc9d0;
   text-align: center;
 
+  @media only screen and (max-width: 768px) {
+  .shipping-content-iconbox{
+    flex-wrap: wrap;
+  }
+
 /*-------------STARTSEITE: Firmenprofil-------------*/
 
 }
