@@ -724,9 +724,10 @@ background-color: eef2f6;
   @media only screen and (max-width: 768px) {
   .shipping-content-container{
     flex-wrap: wrap!important;
+    border: 1px solid magenta;
   }
     .shipping-content-iconbox{
-    width: 25%!important; 
+    padding: 15px;
       border: 1px solid cyan;
     
     }
