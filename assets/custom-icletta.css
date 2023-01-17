@@ -613,6 +613,9 @@ position: absolute;
     height: 2em!important;
     /*width: 50%!important;*/
 }
+  .small-logo-square{
+    height: 4em!important;
+  }
   }
 
 /*-------------STARTSEITE: Trio-Box-------------*/
