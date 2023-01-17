@@ -729,9 +729,14 @@ background-color: eef2f6;
   }
     .shipping-content-iconbox{    
       border: 1px solid cyan;
-      width: 10%!important;
-    
+      width: 10%!important;      
     }
+.shipping-content-icontext{
+  font-size: 1em;
+  font-weight: 400;
+  color: #bdc9d0;
+  text-align: center;
+  }  
     }
 
 /*-------------STARTSEITE: Firmenprofil-------------*/
