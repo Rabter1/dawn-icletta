@@ -725,6 +725,10 @@ background-color: eef2f6;
   .shipping-content-container{
     flex-wrap: wrap!important;
   }
+    .shipping-content-iconbox{
+    width: 30%!important; 
+    }
+    }
 
 /*-------------STARTSEITE: Firmenprofil-------------*/
 
