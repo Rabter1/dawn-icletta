@@ -614,7 +614,7 @@ position: absolute;
     /*width: 50%!important;*/
 }
   .small-logo-square{
-    width:100%!important;
+    height:100%!important;
   }
   
   .small-logo-square img{
