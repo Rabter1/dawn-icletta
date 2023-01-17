@@ -606,11 +606,12 @@ position: absolute;
    justify-content: center;*/
   }
 .small-logo{
-  width: 50%!important;
+  
   background: red;
 }
   .small-logo img{    
     height: 2em!important;
+    width: 50%!important;
 }
   }
 
