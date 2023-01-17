@@ -595,7 +595,6 @@ position: absolute;
  .container-logomenu{
    margin: auto;
    width: 95%;
-   background: green;
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -605,9 +604,6 @@ position: absolute;
    grid-template-columns: auto auto;
    justify-content: center;*/
   }
-.small-logo{  
-  background: red;
-}
   .small-logo img{    
     height: 2em!important;
     /*width: 50%!important;*/
