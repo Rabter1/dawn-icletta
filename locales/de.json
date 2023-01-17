@@ -502,6 +502,13 @@
     "divider": {
       "hersteller": "HERSTELLER",
       "versand": "VERSAND"
+    },
+    "versand": {
+      "recycle": "Recycling&shyverpackung",
+      "versand": "Versand ab Lager",
+      "ausgang": "Täglicher Warenausgang",
+      "tracking": "Sendungs&shyverfolgung",
+      "lieferung": "Europaweite Lieferung"
     }
   }
 }
