@@ -730,6 +730,7 @@ background-color: eef2f6;
          width: 10%!important;      
     }
 .shipping-content-icontext{
+  width: 20%;
   font-size: 0.7em;
   padding: 0 20% 0% 20%!important;
   word-break: break-word;
