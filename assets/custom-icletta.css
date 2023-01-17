@@ -596,6 +596,7 @@ position: absolute;
   display: grid;
    grid-template-rows: auto auto auto;
    grid-template-columns: auto auto;
+   justify-content: center;
   }
 }
 
