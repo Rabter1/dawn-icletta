@@ -723,7 +723,7 @@ background-color: eef2f6;
  }
   @media only screen and (max-width: 768px) {
   .shipping-content-container{
-    flex-wrap: wrap!important;
+    /*flex-wrap: wrap!important;*/
     padding: 0 20% 0% 20%!important;
     border: 3px solid magenta!important;
   }
