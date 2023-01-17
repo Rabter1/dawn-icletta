@@ -610,7 +610,7 @@ position: absolute;
   background: red;
 }
   .small-logo img{
-    width: 70%;
+    width: 70%!important;
 }
   }
 
