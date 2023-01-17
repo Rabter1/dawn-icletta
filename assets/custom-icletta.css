@@ -593,8 +593,9 @@ position: absolute;
 }
 @media only screen and (max-width: 768px) {
  .container-logomenu{
-  flex-wrap: wrap;
-   flex-direction: column;
+  display: grid;
+   grid-template-rows: 3;
+   grid-template-columns: 2;
   }
 }
 
