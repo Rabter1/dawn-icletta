@@ -593,7 +593,8 @@ position: absolute;
 }
 @media only screen and (max-width: 768px) {
  .container-logomenu{
-  width: 70%;
+   margin: auto;
+   width: 70%;
    background: green;
    display: grid;
    grid-template-rows: auto auto auto;
