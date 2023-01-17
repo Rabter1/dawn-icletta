@@ -727,13 +727,10 @@ background-color: eef2f6;
     gap: 4.2em!important;
   }
     .shipping-content-iconbox{    
-              
+         width: 10%!important;      
     }
 .shipping-content-icontext{
   font-size: 0.7em;
-  font-weight: 400;
-  color: #bdc9d0;
-  text-align: center;
   padding: 0 20% 0% 20%!important;
   }  
     }
