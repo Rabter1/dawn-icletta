@@ -737,7 +737,8 @@ background-color: eef2f6;
   font-size: 0.7em;
   
   /*word-break: break-word;*/
-  overflow-wrap: break-word;
+  /*overflow-wrap: break-word;*/
+  hyphens: auto;
   }  
     }
 
