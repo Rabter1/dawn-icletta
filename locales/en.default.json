@@ -502,6 +502,13 @@
     "divider": {
       "hersteller": "BRANDS",
       "versand": "SHIPPING"
+    },
+    "versand": {
+      "recycle_html": "Recycled packaging",
+      "versand": "Local warehouse",
+      "ausgang": "Daily shipping",
+      "tracking_html": "Shipment Tracking",
+      "lieferung": "Europe-wide delivery"
     }
   }
 }
