@@ -509,6 +509,13 @@
       "ausgang": "Täglicher Warenausgang",
       "tracking_html": "Sendungs&shyverfolgung",
       "lieferung": "Europaweite Lieferung"
+    },
+    "brands": {
+      "ice": "collections\/marke-ice",
+      "t-cycle": "collections\/terracycle",
+      "mirrycle": "collections\/spiegel",
+      "klickfix": "collections\/marke-klickfix",
+      "remerx": "collections\/marke-remerx"
     }
   }
 }
