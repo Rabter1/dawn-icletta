@@ -605,14 +605,16 @@ position: absolute;
    grid-template-columns: auto auto;
    justify-content: center;*/
   }
-.small-logo{
-  
+.small-logo{  
   background: red;
 }
   .small-logo img{    
     height: 2em!important;
     /*width: 50%!important;*/
 }
+  .small-logo-wide{
+    height: 1.5em!important;
+  }
   .small-logo-square{
     height:50%!important;
   }
