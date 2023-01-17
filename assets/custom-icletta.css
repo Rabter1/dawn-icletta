@@ -717,13 +717,12 @@ background-color: eef2f6;
   padding-bottom: 1em;
 }
 .shipping-content-icontext{
-  font-family: Tahoma, arial, sans-serif;  
   font-weight: 400;
   color: #bdc9d0;
   text-align: center;
 
   @media only screen and (max-width: 768px) {
-  .shipping-content-container{
+  .shipping-content-iconbox{
     flex-wrap: wrap;
   }
 
