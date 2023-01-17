@@ -611,7 +611,7 @@ position: absolute;
 }
   .small-logo img{    
     height: 2em!important;
-    width: 50%!important;
+    /*width: 50%!important;*/
 }
   }
 
