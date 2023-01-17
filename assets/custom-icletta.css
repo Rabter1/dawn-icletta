@@ -596,13 +596,17 @@ position: absolute;
    margin: auto;
    width: 70%;
    background: green;
-   display: grid;
+   display: flex;
+   flex-wrap: wrap;
+   
+   /*display: grid;
    grid-template-rows: auto auto auto;
    grid-template-columns: auto auto;
-   justify-content: center;
+   justify-content: center;*/
   }
 .small-logo{
-  width: 20%;
+  width: 50%;
+  background: red;
 }
 }
 
