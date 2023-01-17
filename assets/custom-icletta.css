@@ -600,6 +600,9 @@ position: absolute;
    grid-template-columns: auto auto;
    justify-content: center;
   }
+.small-logo{
+  width: 60%;
+}
 }
 
 /*-------------STARTSEITE: Trio-Box-------------*/
