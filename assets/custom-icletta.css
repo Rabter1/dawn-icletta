@@ -591,8 +591,10 @@ position: absolute;
   height: auto; 
   justify-content: center;
 }
-.small-logo{
-  }
+@media only screen and (max-width: 768px) {
+ .container-logomenu{
+  flex-wrap: wrap;
+}
 
 /*-------------STARTSEITE: Trio-Box-------------*/
 
