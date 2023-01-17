@@ -504,7 +504,7 @@
       "versand": "VERSAND"
     },
     "versand": {
-      "recycle": "Recycling&shyverpackung",
+      "recycle_html": "Recycling&shyverpackung",
       "versand": "Versand ab Lager",
       "ausgang": "Täglicher Warenausgang",
       "tracking": "Sendungs&shyverfolgung",
