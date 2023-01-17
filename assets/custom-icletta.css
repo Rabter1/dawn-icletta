@@ -613,6 +613,10 @@ position: absolute;
     height: 2em!important;
     /*width: 50%!important;*/
 }
+  .small-logo-square{
+    width:100%!important;
+  }
+  
   .small-logo-square img{
     aspect-ratio: 1!important;
     height: 4em!important;
