@@ -609,6 +609,8 @@ position: absolute;
   width: 30%;
   background: red;
 }
+  .small-logo img{
+    width: 30%;
 }
 
 /*-------------STARTSEITE: Trio-Box-------------*/
