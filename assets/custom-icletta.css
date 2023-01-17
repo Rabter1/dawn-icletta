@@ -594,7 +594,7 @@ position: absolute;
 @media only screen and (max-width: 768px) {
  .container-logomenu{
    margin: auto;
-   width: 70%;
+   width: 80%;
    background: green;
    display: flex;
    flex-wrap: wrap;
@@ -606,7 +606,7 @@ position: absolute;
    justify-content: center;*/
   }
 .small-logo{
-  width: 50%;
+  width: 30%;
   background: red;
 }
 }
