@@ -607,7 +607,7 @@ position: absolute;
   }
 .small-logo{
   width: 50%;
-  height: 50%!important;
+  height: 1opx!important;
   background: red;
 }
   .small-logo img{
