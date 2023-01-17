@@ -726,8 +726,7 @@ background-color: eef2f6;
     flex-wrap: wrap!important;
     border: 3px solid magenta!important;
   }
-    .shipping-content-iconbox{
-    padding: 15px;
+    .shipping-content-iconbox{    
       border: 1px solid cyan;
     
     }
