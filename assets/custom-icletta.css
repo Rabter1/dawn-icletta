@@ -614,12 +614,12 @@ position: absolute;
     /*width: 50%!important;*/
 }
   .small-logo-square{
-    height:100%!important;
+    height:80%!important;
   }
   
   .small-logo-square img{
     aspect-ratio: 1!important;
-    height: 100%!important;
+    height: 80%!important;
   }
   }
 
