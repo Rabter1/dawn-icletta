@@ -729,8 +729,7 @@ background-color: eef2f6;
   }
     .shipping-content-iconbox{    
          width: 20%!important;
-      border: 1px solid red;
-      padding: 0 20px 0 20px!important;
+      border: 1px solid red;      
     }
 .shipping-content-icontext{
   border: 1px solid cyan;
