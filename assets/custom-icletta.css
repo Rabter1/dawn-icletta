@@ -607,10 +607,11 @@ position: absolute;
   }
 .small-logo{
   width: 50%;
+  height: 50%;
   background: red;
 }
   .small-logo img{
-    width: 30%!important;
+    width: 50%!important;
 }
   }
 
