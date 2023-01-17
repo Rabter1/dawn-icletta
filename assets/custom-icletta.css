@@ -723,14 +723,11 @@ background-color: eef2f6;
  }
   @media only screen and (max-width: 768px) {
   .shipping-content-container{
-    /*flex-wrap: wrap!important;*/
     padding: 0 20% 0% 20%!important;
-    border: 3px solid magenta!important;
     gap: 4.2em!important;
   }
     .shipping-content-iconbox{    
-      border: 1px solid cyan;
-      width: 10%!important;      
+              
     }
 .shipping-content-icontext{
   font-size: 0.7em;
