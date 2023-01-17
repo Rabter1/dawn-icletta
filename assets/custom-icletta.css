@@ -722,7 +722,7 @@ background-color: eef2f6;
   text-align: center;
 
   @media only screen and (max-width: 768px) {
-  .shipping-content-iconbox{
+  .shipping-content-container{
     flex-wrap: wrap;
   }
 
