@@ -607,11 +607,11 @@ position: absolute;
   }
 .small-logo{
   width: 50%;
-  height: 10px!important;
   background: red;
 }
   .small-logo img{
     width: 50%!important;
+    height: 4em;
 }
   }
 
