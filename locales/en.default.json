@@ -509,6 +509,13 @@
       "ausgang": "Daily shipping",
       "tracking_html": "Tracking Services",
       "lieferung": "Europe-wide delivery"
+    },
+    "brands": {
+      "ice": "en\/collections\/marke-ice",
+      "t-cycle": "en\/collections\/terracycle",
+      "mirrycle": "en\/collections\/spiegel",
+      "klickfix": "en\/collections\/marke-klickfix",
+      "remerx": "en\/collections\/marke-remerx"
     }
   }
 }
