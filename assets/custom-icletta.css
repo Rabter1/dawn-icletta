@@ -753,9 +753,11 @@ background-color: eef2f6;
 
 .collection-hero__description {
     max-width: 100%!important;
+    font-size: 1em!important;
 }
 
 .collection-hero__title{
   /*display: none!important;*/
-  font-size: 1em!important;
+  font-size: 1.2em!important;
+  font-weight: 900!important;
 }
