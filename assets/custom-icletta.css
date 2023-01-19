@@ -98,6 +98,10 @@ a:visited {
     width: auto !important;
     min-width: 20rem !important;
 }
+/* Own search bar in header */
+.icletta-search-modal {
+  max-width: 40ch;
+}
 
 /* Comment page you are editing! */
 
