@@ -100,7 +100,9 @@ a:visited {
 }
 /* Own search bar in header */
 .icletta-search-modal {
-  max-width: 40ch;
+  display: flex;
+  align-items: center;
+  max-width: min(100em, 90%);
 }
 
 /* Comment page you are editing! */
