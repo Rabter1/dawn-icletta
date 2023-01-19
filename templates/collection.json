@@ -1,57 +1,5 @@
 {
   "sections": {
-    "1da78b1d-6729-4bc8-a262-7ddc67bab5ff": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/collections\/marke-ice\/\" target=\"_blank\"><img src=\"https:\/\/icletta.com\/images\/Webshop\/banner-ICE.jpg\" style=\"width:100%\"><\/a><\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "319ea0ad-4d73-4197-af8a-7037853a04be": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16752292167968__319ea0ad-4d73-4197-af8a-7037853a04be-1672849136a375ad33-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h2"
-          }
-        },
-        "template--16752292167968__319ea0ad-4d73-4197-af8a-7037853a04be-1672849136a375ad33-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<\/p>"
-          }
-        },
-        "template--16752292167968__319ea0ad-4d73-4197-af8a-7037853a04be-1672849136a375ad33-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16752292167968__319ea0ad-4d73-4197-af8a-7037853a04be-1672849136a375ad33-0",
-        "template--16752292167968__319ea0ad-4d73-4197-af8a-7037853a04be-1672849136a375ad33-1",
-        "template--16752292167968__319ea0ad-4d73-4197-af8a-7037853a04be-1672849136a375ad33-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52,
-        "content_width": "default"
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -111,8 +59,6 @@
     }
   },
   "order": [
-    "1da78b1d-6729-4bc8-a262-7ddc67bab5ff",
-    "319ea0ad-4d73-4197-af8a-7037853a04be",
     "banner",
     "product-grid",
     "9d2fa561-0021-4af8-8aef-3a0b243b023b"
