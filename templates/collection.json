@@ -67,6 +67,13 @@
             "heading_size": "h2"
           }
         },
+        "2f5a306e-9d8c-46f8-8d0f-ba72222022d4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>{{ collection.metafields.custom[\"seo-description\"] | metafield_tag }}{{ collection.title }}<\/p>",
+            "heading_size": "h2"
+          }
+        },
         "template--16752292167968__31b33854-1000-47c3-9cfd-2760172663d3-1674154947d8697547-1": {
           "type": "text",
           "settings": {
@@ -76,6 +83,7 @@
       },
       "block_order": [
         "template--16752292167968__31b33854-1000-47c3-9cfd-2760172663d3-1674154947d8697547-0",
+        "2f5a306e-9d8c-46f8-8d0f-ba72222022d4",
         "template--16752292167968__31b33854-1000-47c3-9cfd-2760172663d3-1674154947d8697547-1"
       ],
       "settings": {
