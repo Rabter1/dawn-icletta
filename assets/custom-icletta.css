@@ -754,3 +754,7 @@ background-color: eef2f6;
 .collection-hero__description {
     max-width: 100%!important;
 }
+
+.collection-hero__title{
+  display: hidden!important;
+}
