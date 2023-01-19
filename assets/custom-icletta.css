@@ -751,3 +751,6 @@ background-color: eef2f6;
    width: 100%;
 }
 
+.collection-hero__description {
+    max-width: 100%!important;
+}
