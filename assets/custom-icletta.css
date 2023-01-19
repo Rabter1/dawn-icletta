@@ -756,5 +756,5 @@ background-color: eef2f6;
 }
 
 .collection-hero__title{
-  display: hidden!important;
+  display: none!important;
 }
