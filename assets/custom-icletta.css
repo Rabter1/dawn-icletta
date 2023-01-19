@@ -102,7 +102,7 @@ a:visited {
 .icletta-search-modal {
   display: flex;
   align-items: center;
-  max-width: min(100em, 90%);
+  width: 100%;
 }
 
 /* Comment page you are editing! */
