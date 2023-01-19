@@ -756,5 +756,6 @@ background-color: eef2f6;
 }
 
 .collection-hero__title{
-  display: none!important;
+  /*display: none!important;*/
+  font-size: 1em!important;
 }
