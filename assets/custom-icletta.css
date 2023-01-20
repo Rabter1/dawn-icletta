@@ -764,7 +764,7 @@ background-color: eef2f6;
   text-align: center!important;
 }
 
- .facets__summary .icon-caret {
+ .icon-caret {
     right: 1rem;
     background: aquamarine;
     border: 1px solid black!important;
