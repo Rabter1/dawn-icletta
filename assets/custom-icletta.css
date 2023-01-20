@@ -110,8 +110,8 @@ a:visited {
   position: relative;
 }
 .predictive-search__item--term .icon-arrow {
-  width: calc(var(--font-heading-scale) * 2.2rem);
-  height: calc(var(--font-heading-scale) * 2.2rem);
+  width: calc(var(--font-heading-scale) * 2.2rem) !important;
+  height: calc(var(--font-heading-scale) * 2.2rem) !important;
 }
 
 
