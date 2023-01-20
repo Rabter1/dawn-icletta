@@ -108,7 +108,9 @@ a:visited {
 
 .icletta-search-modal predictive-search {
   position: relative;
+  z-index: 1; /* Fix box shadow clipping */ 
 }
+
 .predictive-search__item--term .icon-arrow {
   width: calc(var(--font-heading-scale) * 2.2rem) !important;
   height: calc(var(--font-heading-scale) * 2.2rem) !important;
