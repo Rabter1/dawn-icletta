@@ -109,6 +109,10 @@ a:visited {
 .icletta-search-modal predictive-search {
   position: relative;
 }
+.predictive-search__item--term .icon-arrow {
+  width: calc(var(--font-heading-scale) * 2.2rem);
+  height: calc(var(--font-heading-scale) * 2.2rem);
+}
 
 
 
@@ -119,7 +123,7 @@ a:visited {
 #Slide-template--16752291545376__0fe1796e-fe07-4c90-9b06-4a6a193e2996-1 {
     font-weight: bold !important;
     font-size: 200% !important;
-    image-width:100% !important;
+    image-width: 100% !important;
 }
 /*-------------Themenwelt Artikel Vorschaubox-------------*/
 .vorschaubox {
