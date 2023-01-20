@@ -541,6 +541,7 @@
       {%- endif -%}
     {%- endif -%}
 
+    {% comment %}
     <div class="header__icons">
       <details-modal class="header__search">
         <details>
@@ -623,6 +624,7 @@
           </div>
         </details>
       </details-modal>
+      {% endcomment %}
 
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
