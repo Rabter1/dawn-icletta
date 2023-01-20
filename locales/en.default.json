@@ -246,6 +246,7 @@
       },
       "title": "Search results",
       "search_for": "Search for “{{ terms }}”",
+      "show_all": "Show all search results",
       "suggestions": "Suggestions",
       "pages": "Pages"
     },

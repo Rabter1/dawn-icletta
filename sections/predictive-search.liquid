@@ -1,11 +1,10 @@
 {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
-{%- if predictive_search.performed and search.performed -%}
+{%- if predictive_search.performed -%}
 {% assign first_column_results_size = predictive_search.resources.queries.size
 | plus: predictive_search.resources.collections.size
 | plus: predictive_search.resources.pages.size
 | plus: predictive_search.resources.articles.size
 %}
-{% assign total_results_size = first_column_results_size | plus: predictive_search.resources.products.size %}
   <div id="predictive-search-results" role="listbox">
     {%- if first_column_results_size > 0 or predictive_search.resources.products.size > 0 -%}
       <div class="predictive-search__results-groups-wrapper{% unless predictive_search.resources.products.size > 0 %} predictive-search__results-groups-wrapper--no-products{% endunless %}{% unless predictive_search.resources.queries.size > 0 or predictive_search.resources.collections.size > 0 %} predictive-search__results-groups-wrapper--no-suggestions{% endunless %}">
@@ -154,8 +153,7 @@
         role="option"
         aria-selected="false"
       >
-        {% comment %} {{ 'templates.search.search_for' | t: terms: predictive_search.terms }} {% endcomment %}
-        {{ 'templates.search.results_with_count_and_term' | t: terms: predictive_search.terms, count: search.results_count }}
+        {{ 'templates.search.show_all' | t }}
         {% render 'icon-arrow' %}
       </button>
     </div>
