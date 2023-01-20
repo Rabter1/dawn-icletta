@@ -6,6 +6,12 @@ Dawn theme of shopify but with changes for ICLETTA
 #### Rich Text
 Added an option that allows the content width to make use of 100% of the available width
 
+#### Main search
+Commented out the main search input since it is in header in custom liquid
+
+#### Header search
+Commented out the search icon since it is above header in custom liquid
+
 #### Added global custom CSS file
 Added global CSS file to make quick changes (assets/custom-icletta.css)
 ### Active workarounds:

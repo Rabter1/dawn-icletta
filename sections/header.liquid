@@ -308,6 +308,7 @@
       </header-drawer>
     {%- endif -%}
 
+  {% comment %} 
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
       <details-modal class="header__search">
         <details>
@@ -391,6 +392,7 @@
         </details>
       </details-modal>
     {%- endif -%}
+  {% endcomment %}
 
     {%- if section.settings.logo_position != 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
