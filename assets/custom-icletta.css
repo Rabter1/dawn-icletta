@@ -767,6 +767,6 @@ background-color: eef2f6;
  .facets__summary .icon-caret {
     right: 1rem;
     background: aquamarine;
-    font-size: 1.5em;
+    font-size: 1.5em!important;
     border: 8px solid black!important;
 }
