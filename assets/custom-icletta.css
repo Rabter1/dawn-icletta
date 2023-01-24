@@ -776,12 +776,11 @@ background-color: eef2f6;
 }
 
 .kat-beschreibung-container{
-  background: red;
   display: flex; 
   flex-direction: row; 
   align-items: center;
   justify-content: center;
-  padding: 0 15rem 0 15rem;
+  padding: 0 15rem 0 10rem;
   /*box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);*/
 }
 .kat-beschreibung-image{
