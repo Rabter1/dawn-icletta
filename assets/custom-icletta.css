@@ -809,7 +809,7 @@ mark {
   -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
           animation: 1.5s highlight 1.5s 1 normal forwards;
   background-color: none;
-  background: linear-gradient(90deg, #f9fafb 50%, rgba(255, 255, 255, 0) 50%);
+  background: #f9fafb;
   background-size: 200% 100%;
   background-position: 100% 0;
 }
