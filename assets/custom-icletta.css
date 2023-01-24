@@ -824,7 +824,7 @@ background-color: eef2f6;
  width: 50%;
 }
 .kat-beschreibung-text h2:after {
- background: linear-gradient(90deg, #f9fafb 70%, #6dd7ff 60%);
+ background: linear-gradient(270deg, #f9fafb 70%, #6dd7ff 60%);
  content: "";
  display: inline-block;
  height: 1px;
