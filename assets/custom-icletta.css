@@ -794,3 +794,9 @@ background-color: eef2f6;
   font-size: 1.4rem;  
 }
 
+.kat-beschreibung-titel {
+  font-size: 1.2em!important;
+  margin-bottom: 0!important;
+  font-weight: 900!important;
+  text-align: center!important;
+}
