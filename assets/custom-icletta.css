@@ -781,6 +781,7 @@ background-color: eef2f6;
   flex-direction: row; 
   align-items: center;
   justify-content: center;
+  padding: 0 15rem 0 15rem;
   /*box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);*/
 }
 .kat-beschreibung-image{
@@ -795,7 +796,7 @@ background-color: eef2f6;
   text-align: justify;
   font-size: 1.4rem; 
   line-height: calc(1 + 0.7 / var(--font-body-scale));
-  padding: 0 15rem 5rem 0;
+  padding: 0 0rem 5rem 0;
   }
 
 .kat-beschreibung-titel {
