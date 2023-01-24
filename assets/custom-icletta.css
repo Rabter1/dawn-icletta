@@ -816,7 +816,7 @@ background-color: eef2f6;
 }
 .kat-beschreibung-text h2:before,
 .kat-beschreibung-text h2:after {
- background-color: #333;
+ background-color: #6dd7ff;
  content: "";
  display: inline-block;
  height: 1px;
