@@ -839,7 +839,8 @@ mark {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: -5rem;
+  margin-top: -4rem;
+  margin-bottom: -4rem;
 }
   .kat-beschreibung-mobileimage{
   display: block;
