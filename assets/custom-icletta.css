@@ -805,15 +805,13 @@ background-color: eef2f6;
   text-align: center!important;  
 }
 
-/*
+
 .kat-beschreibung-text h2{
- background: linear-gradient(
-   to bottom, 
-   transparent 50%, 
-   #6dd7ff 50%
-   );
- padding: 0 5px;
-}*/
+ text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
+               3px 4px 4px rgba(179, 147, 211, 0.15),
+               4px 6px 4px rgba(179, 147, 211, 0.2),
+               5px 8px 4px rgab(179, 147, 211, 0.25);
+}
 
 .kat-beschreibung-imagecenter{
   display: none;
