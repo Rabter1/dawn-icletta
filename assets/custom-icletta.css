@@ -831,7 +831,8 @@ background-color: eef2f6;
 }
 .kat-beschreibung-text h2:after {
  left: 0.5em;
- margin-left: 10%;
+ margin-left: 50%;
+  padding-left: 15rem;
  } 
 
 
