@@ -808,6 +808,8 @@ background-color: eef2f6;
 .kat-beschreibung-titel h2{
   font-weight: 900!important;
   color: red!important;
+  text-transform: uppercase;
+  
 }
 
 .kat-beschreibung-imagecenter{
