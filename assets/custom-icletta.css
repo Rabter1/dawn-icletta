@@ -790,7 +790,10 @@ background-color: eef2f6;
 }
 .kat-beschreibung-text {
   background: ivory;
+  text-align: justify;
+  font-size: 0.8rem;
+  
 }
 .kat-beschreibung{
-  text-align: justify;
+  
 }
