@@ -804,8 +804,9 @@ background-color: eef2f6;
   font-weight: 900!important;
   text-align: center!important;
 }
-.kat-beschreibung-imagecenter{
-  display: none;
+
+/*.kat-beschreibung-imagecenter{
+  display: none;*/
 }
 .kat-beschreibung-mobileimage{
   display:none;
