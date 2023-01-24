@@ -825,12 +825,12 @@ background-color: eef2f6;
  width: 50%;
 }
 .kat-beschreibung-text h2:before {
- right: 0.5em;
- margin-left: -70%;
+ right: 9.5em;
+ margin-left: -50%;
 }
 .kat-beschreibung-text h2:after {
  left: 0.5em;
- margin-right: -70%;
+ margin-right: -50%;
 } 
 
 
