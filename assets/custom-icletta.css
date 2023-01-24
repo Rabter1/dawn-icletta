@@ -781,7 +781,7 @@ background-color: eef2f6;
   align-items: center;
 }
 .kat-beschreibung-image{
-  width: 40%;
+  width: 40rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
