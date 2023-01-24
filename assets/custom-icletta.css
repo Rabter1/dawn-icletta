@@ -786,7 +786,7 @@ background-color: eef2f6;
   flex-direction: column;
   justify-content: center;
   padding: 2rem;
-  background: radial-gradient(ellipse at center,  #00aeef 0%,#00aeef 47%,#f9fafb 47%,#f9fafb 47%,#f9fafb 48%);
+  /*background: radial-gradient(ellipse at center,  #00aeef 0%,#00aeef 47%,#f9fafb 47%,#f9fafb 47%,#f9fafb 48%);*/
 }
 .kat-beschreibung-text {
   text-align: justify;
