@@ -805,6 +805,7 @@ background-color: eef2f6;
   text-align: center!important;  
 }
 
+/*
 .kat-beschreibung-text h2{
  background: linear-gradient(
    to bottom, 
@@ -812,7 +813,7 @@ background-color: eef2f6;
    #6dd7ff 50%
    );
  padding: 0 5px;
-}
+}*/
 
 .kat-beschreibung-imagecenter{
   display: none;
