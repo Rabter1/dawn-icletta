@@ -839,10 +839,10 @@ mark {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: -3rem;
 }
   .kat-beschreibung-mobileimage{
-  border: 1px solid red;
-    display: block;
+  display: block;
   width: 20em!important;
   display: flex;
   flex-direction: column;
