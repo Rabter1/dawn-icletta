@@ -806,7 +806,7 @@ background-color: eef2f6;
 }
 
 .kat-beschreibung-titel h1{
-  font-weight: 900;
+  font-weight: 900!important;
 }
 
 .kat-beschreibung-imagecenter{
