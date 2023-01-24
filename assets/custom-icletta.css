@@ -793,6 +793,7 @@ background-color: eef2f6;
   text-align: justify;
   font-size: 1.4rem; 
   line-height: calc(1 + 0.7 / var(--font-body-scale));
+  padding-bottom: 25rem;
 }
 
 .kat-beschreibung-titel {
