@@ -1,5 +1,14 @@
 {
   "sections": {
+    "0b67b474-1164-4afe-9ca4-748f823bc872": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"collection-hero__description rte\"><p data-mce-fragment=\"1\"><\/p><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -28,6 +37,7 @@
     }
   },
   "order": [
+    "0b67b474-1164-4afe-9ca4-748f823bc872",
     "banner",
     "product-grid"
   ]
