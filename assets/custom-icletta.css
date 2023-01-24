@@ -806,9 +806,7 @@ background-color: eef2f6;
 }
 
 .kat-beschreibung-text h2{
-  font-weight: 900!important;
-  color: red!important;
-  text-transform: uppercase;
+ background: linear gradient(to bottom, transparent 50%, #6dd7ff 50%);
   
 }
 
