@@ -835,7 +835,7 @@ mark {
 @media only screen and (max-width: 1200px) {
 .kat-beschreibung-imagecenter{
   width:100%;
-  display: flex;
+  display: flex!important;
   flex-direction: row;
   justify-content: center;
 }
