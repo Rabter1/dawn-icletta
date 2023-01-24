@@ -806,7 +806,11 @@ background-color: eef2f6;
 }
 
 .kat-beschreibung-text h2{
- background: linear-gradient (to bottom, transparent 50%, #6dd7ff 50%);
+ background: linear-gradient (
+   to bottom, 
+   transparent 50%, 
+   #6dd7ff 50%
+   );
  padding: 0 5px;
 }
 
