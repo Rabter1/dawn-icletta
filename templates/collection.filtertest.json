@@ -3,7 +3,7 @@
     "0b67b474-1164-4afe-9ca4-748f823bc872": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<div class=\"kat-beschreibung-container\"><div class=\"kat-beschreibung-image\"><img src=\"{{ collection.featured_image | img_url: '300x300' }}\"><\/div><div class=\"kat-beschreibung-text\"><h2 class=\"kat-beschreibung-titel\">{{ collection.title }}<\/h2><sstrong>Test<\/sstrong><p>{{ collection.description }}<\/p><\/div><\/div><\/div>",
+        "custom_liquid": "<div class=\"page-width\">\n<div class=\"kat-beschreibung-container\"><div class=\"kat-beschreibung-image\"><img src=\"{{ collection.featured_image | img_url: '300x300' }}\"><\/div><div class=\"kat-beschreibung-text\"><h2 class=\"kat-beschreibung-titel\"><sstrong>Kategorie: <\/sstrong>{{ collection.title }}<\/h2><p>{{ collection.description }}<\/p><\/div><\/div><\/div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
