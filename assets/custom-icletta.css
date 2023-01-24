@@ -840,7 +840,7 @@ mark {
   justify-content: center;
 }
   .kat-beschreibung-mobileimage{
-  display: visible;
+  display: block;
   width: 90rem;
   display: flex;
   flex-direction: column;
@@ -849,7 +849,7 @@ mark {
   background: radial-gradient(ellipse at center,  #6dd7ff 0%,#6dd7ff 47%,#f9fafb 47%,#f9fafb 47%,#f9fafb 48%);
 }
   .kat-beschreibung-image{
-  display:none;
+  display:block;
 }
 .kat-beschreibung-container{
   padding: 0px;
