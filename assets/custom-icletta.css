@@ -842,7 +842,7 @@ mark {
 }
   .kat-beschreibung-mobileimage{
   display: block;
-  width: 50em;
+  width: 20em!important;
   display: flex;
   flex-direction: column;
   justify-content: center;
