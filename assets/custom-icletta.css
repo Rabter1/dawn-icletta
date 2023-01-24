@@ -805,6 +805,10 @@ background-color: eef2f6;
   text-align: center!important;
 }
 
+.kat-beschreibung-titel h1{
+  font-weight: 900;
+}
+
 .kat-beschreibung-imagecenter{
   display: none;
 }
