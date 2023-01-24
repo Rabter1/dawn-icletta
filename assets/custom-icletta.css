@@ -776,6 +776,7 @@ background-color: eef2f6;
 }
 
 .kat-beschreibung-container{
+  background: red;
   display: flex; 
   flex-direction: row; 
   align-items: center;
