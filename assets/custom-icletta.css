@@ -770,3 +770,23 @@ background-color: eef2f6;
     font-size: 2rem!important;
     
 }
+
+.kat-beschreibung-container{
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+}
+.kat-beschreibung-image{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px;
+  background: radial-gradient(ellipse at center,  #00aeef 0%,#00aeef 47%,#ff0000 47%,#fff 47%,#fff 48%);
+}
+.kat-beschreibung-text {
+  background: ivory;
+}
+.kat-beschreibung{
+  text-align: justify;
+}
