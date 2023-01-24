@@ -786,7 +786,7 @@ background-color: eef2f6;
   flex-direction: column;
   justify-content: center;
   padding: 35px;
-  background: radial-gradient(ellipse at center,  #00aeef 0%,#00aeef 47%,rgba(var(--color-foreground),.75); 47%,rgba(var(--color-foreground),.75); 47%,rgba(var(--color-foreground),.75); 48%);
+  background: radial-gradient(ellipse at center,  #00aeef 0%,#00aeef 47%,#ff0000 47%,rgba(var(--color-foreground),.75); 47%,rgba(var(--color-foreground),.75); 48%);
 }
 .kat-beschreibung-text {
   background: ivory;
