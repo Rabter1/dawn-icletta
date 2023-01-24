@@ -804,6 +804,12 @@ background-color: eef2f6;
   font-weight: 900!important;
   text-align: center!important;
 }
+.kat-beschreibung-imagecenter{
+  display: none;
+}
+.kat-beschreibung-mobileimage{
+  display:none;
+}
 
 mark {
   -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
@@ -827,7 +833,22 @@ mark {
 }
 
 @media only screen and (max-width: 1200px) {
-.kat-beschreibung-image{
+.kat-beschreibung-imagecenter{
+  display: visible;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  .kat-beschreibung-mobileimage{
+  display: visible;
+  width: 90rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  background: radial-gradient(ellipse at center,  #6dd7ff 0%,#6dd7ff 47%,#f9fafb 47%,#f9fafb 47%,#f9fafb 48%);
+}
+  .kat-beschreibung-image{
   display:none;
 }
 .kat-beschreibung-container{
