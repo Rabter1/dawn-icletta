@@ -805,8 +805,8 @@ background-color: eef2f6;
   text-align: center!important;
 }
 
-/*.kat-beschreibung-imagecenter{
-  display: none;*/
+.kat-beschreibung-imagecenter{
+  display: none;
 }
 .kat-beschreibung-mobileimage{
   display:none;
@@ -835,9 +835,8 @@ mark {
 
 @media only screen and (max-width: 1200px) {
 .kat-beschreibung-imagecenter{
-  background: red;
-  width:100%;
-  display: flex!important;
+  width: 100%;
+  display: flex;
   flex-direction: row;
   justify-content: center;
 }
