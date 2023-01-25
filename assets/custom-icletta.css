@@ -127,10 +127,12 @@ a:visited {
   right: 0 !important;
   bottom: 0 !important;
   top: unset !important;
-  height: 2em;
+  height: 2em !important;
   
   background-color: #00000080;
-  color: white; 
+  border-radius: 0 0 var(--media-radius) var(--media-radius);
+  text-align: center;
+  color: white;
 }
 
 
