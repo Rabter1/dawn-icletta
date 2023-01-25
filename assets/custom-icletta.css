@@ -133,6 +133,10 @@ a:visited {
   border-radius: 0 0 var(--media-radius) var(--media-radius);
   text-align: center;
   color: white;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 
