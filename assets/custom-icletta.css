@@ -121,15 +121,12 @@ a:visited {
 }
 
 /* Alt text in product image preview */
-.product__media-relative {
-  position: relative;
-}
-
 .product__media__description {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  top: unset !important;
   height: 2em;
   
   background-color: #00000080;
