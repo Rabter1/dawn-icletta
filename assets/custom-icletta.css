@@ -120,6 +120,22 @@ a:visited {
   height: calc(var(--font-heading-scale) * 2.2rem) !important;
 }
 
+/* Alt text in product image preview */
+.product__media-relative {
+  position: relative;
+}
+
+.product__media__description {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2em;
+  
+  background-color: #00000080;
+  color: white; 
+}
+
 
 
 
