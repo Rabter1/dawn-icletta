@@ -129,10 +129,10 @@ a:visited {
   top: unset !important;
   height: 2em !important;
   
-  background-color: #00000080;
+  background-color: #ffffff80;
   border-radius: 0 0 var(--media-radius) var(--media-radius);
   text-align: center;
-  color: white;
+  color: var(--gradient-base-accent-1);
 
   white-space: nowrap;
   overflow: hidden;
