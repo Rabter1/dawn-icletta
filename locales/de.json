@@ -518,5 +518,13 @@
       "klickfix": "collections\/marke-klickfix",
       "remerx": "collections\/marke-remerx"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "address1_label": "Adresse oder Packstation",
+        "address2_label": "Wohnung, Zimmer usw. oder Postnummer"
+      }
+    }
   }
 }
