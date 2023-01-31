@@ -523,7 +523,8 @@
     "checkout": {
       "contact": {
         "address1_label": "Adresse oder Packstation",
-        "address2_label": "Wohnung, Zimmer usw. oder Postnummer"
+        "address2_label": "Wohnung, Zimmer usw. oder Postnummer",
+        "optional_address2_label": "Wohnung, Zimmer usw. oder Postnummer"
       }
     }
   }
