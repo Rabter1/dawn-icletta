@@ -614,15 +614,20 @@ position: absolute;
   text-decoration: none;
  }
 
-.t-cycle-button a:visited {
-  color: white!important;
-  text-decoration: none!important;
-}
+ 
+ .button-container{
+   display: flex; 
+   align-items: center; 
+   justify-content: center;
+  }
+  
+  .t-cycle-button a:visited {
+    color: white!important;
+    text-decoration: none!important;
+  }
 
-.button-container{
-  display: flex; 
-  align-items: center; 
-  justify-content: center;
+.button-container a {
+  text-decoration: none;
 }
 
 /*-------------STARTSEITE: Herstellerlogos-------------*/
