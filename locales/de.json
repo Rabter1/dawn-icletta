@@ -200,7 +200,8 @@
           "Vorderrad": "Vorderrad",
           "Hinterrad": "Hinterrad",
           "Lenker": "Lenker",
-          "Rahmen": "Rahmen"
+          "Rahmen": "Rahmen",
+          "Innenlager": "Bottom Bracket"
         }
       },
       "reset": "Zurücksetzen",
