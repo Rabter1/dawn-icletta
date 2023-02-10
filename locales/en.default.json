@@ -188,6 +188,7 @@
       "metafield_filters": {
         "label": {
           "Funktion": "Task",
+          "Produkttyp": "Product Type",
           "Montageposition": "Mounting position"
         },
         "value": {
