@@ -172,7 +172,7 @@
       "from": "Von",
       "filter_and_sort": "Filtern und sortieren",
       "filter_by_label": "Produkte filtern:",
-      "filter_button": "FILTer",
+      "filter_button": "Filter",
       "filters_selected": {
         "one": "{{ count }} ausgewählt",
         "other": "{{ count }} ausgewählt"
