@@ -4,6 +4,7 @@
 
     Accepts:
     - media: {Object} Product Media object
+    - media_description: {String} A text describing the image
     - media_count: {Number} Number of media objects
     - position: {String} Position of the media. Used for accessible label.
     - desktop_layout: {String} Layout of the media for desktop.
@@ -98,7 +99,7 @@
         widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
       }}
       <div class="product__media__description">
-        {{ media.alt }}
+        {{ media_description }}
       </div>
     </div>
     <button class="product__media-toggle quick-add-hidden product__media-zoom-{{ section.settings.image_zoom }}" type="button" aria-haspopup="dialog" data-media-id="{{ media.id }}">
