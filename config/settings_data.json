@@ -192,7 +192,7 @@
           "737fece2-af4a-45aa-b466-c3e233ac2196": {
             "type": "html",
             "settings": {
-              "section_html": "<p><\/p><h3 style=\"margin: 0; padding: 0;\">Rechtliches<\/h3><p><\/p>\n<div style=\"border-bottom: 1px solid grey;\"><a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/policies\/legal-notice\" style=\"font-size: 1.4rem;\">Impressum<\/a><\/div>\n<div style=\"border-bottom: 1px solid grey;\"><a href=\"\">AGB<\/a><\/div><a href=\"\">\n<div style=\"border-bottom: 1px solid grey;\">Versand<\/div><\/a>\n<div style=\"border-bottom: 1px solid grey;\">Datenschutz<\/div>\n<div style=\"border-bottom: 1px solid grey;\">Widerrufsbelehrung<\/div>\n<div style=\"border-bottom: 1px solid grey;\">Zum Kontaktformular<\/div>"
+              "section_html": "<p><\/p><h3 style=\"margin: 0; padding: 0;\">Rechtliches<\/h3><p><\/p>\n<div style=\"border-bottom: 1px solid grey;\"><a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/policies\/legal-notice\" style=\"font-size: 1.4rem;\">Impressum<\/a><\/div>\n<div style=\"border-bottom: 1px solid grey;\"><a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/policies\/terms-of-service\">AGB<\/a><\/div>\n<a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/policies\/shipping-policy\">\n<div style=\"border-bottom: 1px solid grey;\">Versand<\/div><\/a>\n<div style=\"border-bottom: 1px solid grey;\">Datenschutz<\/div>\n<div style=\"border-bottom: 1px solid grey;\">Widerrufsbelehrung<\/div>\n<div style=\"border-bottom: 1px solid grey;\">Zum Kontaktformular<\/div>"
             }
           }
         },
