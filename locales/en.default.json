@@ -193,7 +193,7 @@
       },
       "metafield_filters": {
         "label": {
-          "Funktion": "Task",
+          "Funktion": "Task Füllstand",
           "Montageposition": "Mounting position"
         },
         "value": {
