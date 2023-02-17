@@ -96,8 +96,6 @@
             data-media-id="{{ section.id }}-{{ media.id }}"
           >
             {%- liquid
-              assign icletta_media = media
-              assign icletta_media.alt = "Test"
               assign media_position = media_position | default: 0 | plus: 1
               assign lazy_load = false
               if media_position > 1
@@ -105,7 +103,7 @@
               endif
             -%}
             {% render 'product-thumbnail',
-                media: icletta_media,
+                media: media,
                 media_count: media_count,
                 position: media_position,
                 desktop_layout: section.settings.gallery_layout,
@@ -118,6 +116,9 @@
                 constrain_to_viewport: section.settings.constrain_to_viewport,
                 lazy_load: lazy_load
               %}
+              <div class="product__media__description">
+                {{ media.alt | escape }}
+              </div>
           </li>
         {%- endunless -%}
       {%- endfor -%}
