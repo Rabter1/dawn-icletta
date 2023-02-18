@@ -500,7 +500,7 @@ position: absolute;
   margin-bottom: 0;  
  }
 
- .legrid-button-text a: {
+ .legrid-button-text a:link {
     color: white !important;
     text-decoration: none !important;
 }
@@ -511,7 +511,7 @@ position: absolute;
   font-decoration: none; 
   }
  
-.legrid-button-subtext a: {
+.legrid-button-subtext a:link {
     color: white !important;
     text-decoration: none !important;
   }
