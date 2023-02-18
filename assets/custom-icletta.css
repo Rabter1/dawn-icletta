@@ -500,7 +500,7 @@ position: absolute;
   margin-bottom: 0;  
  }
 
- .legrid-button-text a:visited {
+ .legrid-button-text a: {
     color: white !important;
     text-decoration: none !important;
 }
@@ -511,7 +511,7 @@ position: absolute;
   font-decoration: none; 
   }
  
-.legrid-button-subtext a:visited {
+.legrid-button-subtext a: {
     color: white !important;
     text-decoration: none !important;
   }
