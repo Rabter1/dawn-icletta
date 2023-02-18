@@ -494,7 +494,7 @@ position: absolute;
 .legrid-button-text{
   font-weight: bold;
   font-size: 1em;
-  color: white!important;
+  color: white !important;
   font-decoration: none;
   margin-top: 0;
   margin-bottom: 0;  
@@ -502,7 +502,7 @@ position: absolute;
 
  .legrid-button-text a:visited {
     color: white!important;
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 .legrid-button-subtext{
@@ -513,7 +513,7 @@ position: absolute;
  
 .legrid-button-subtext a:visited {
     color: white!important;
-    text-decoration: none!important;
+    text-decoration: none !important;
   }
 
 @media only screen and (max-width: 768px) {
