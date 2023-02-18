@@ -1,9 +1,9 @@
 /*a:link {'
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
 
 a:visited {
-  text-decoration: none!important;
+  text-decoration: none !important;
 }*/
 /* Product page addons */
 
@@ -512,7 +512,7 @@ position: absolute;
   }
  
 .legrid-button-subtext a:visited {
-    color: white!important;
+    color: white !important;
     text-decoration: none !important;
   }
 
@@ -632,8 +632,8 @@ position: absolute;
   }
   
   .t-cycle-button a:visited {
-    color: white!important;
-    text-decoration: none!important;
+    color: white !important;
+    text-decoration: none !important;
   }
 
 .button-container a {
@@ -664,19 +664,19 @@ position: absolute;
    justify-content: center;*/
   }
   .small-logo img{    
-    height: 2em!important;
-    /*width: 50%!important;*/
+    height: 2em !important;
+    /*width: 50% !important;*/
 }
   .small-logo-wide img{
-    height: 1.5em!important;
+    height: 1.5em !important;
   }
   .small-logo-square{
-    height:50%!important;
+    height:50% !important;
   }
   
   .small-logo-square img{
-    aspect-ratio: 1!important;
-    height: 4em!important;
+    aspect-ratio: 1 !important;
+    height: 4em !important;
     width: 4em;
   }
   }
@@ -790,8 +790,8 @@ background-color: eef2f6;
  }
   @media only screen and (max-width: 768px) {
   .shipping-content-container{
-    padding: 5% 0 10% 0!important;
-    gap: 0!important;
+    padding: 5% 0 10% 0 !important;
+    gap: 0 !important;
   }
   .shipping-content-icontext{
   width: 100%;
@@ -833,10 +833,10 @@ background-color: eef2f6;
   }
 
 .kat-beschreibung-titel {
-  font-size: 1.5em!important;
-  margin-bottom: 0!important;
-  font-weight: 900!important;
-  text-align: center!important;
+  font-size: 1.5em !important;
+  margin-bottom: 0 !important;
+  font-weight: 900 !important;
+  text-align: center !important;
   text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
                3px 4px 4px rgba(179, 147, 211, 0.15),
                4px 6px 4px rgba(179, 147, 211, 0.2),
@@ -915,7 +915,7 @@ mark {
 }
   .kat-beschreibung-mobileimage{
   display: block;
-  width: 20em!important;
+  width: 20em !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
