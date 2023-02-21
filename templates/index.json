@@ -168,7 +168,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p><strong><br\/>Versand per DHL Paket<\/strong><\/p><p><strong><br\/>Deutschland:<\/strong> 6,90 Euro<br\/><strong>Europäische Union:<\/strong> 9,90 Euro<br\/><strong>CH \/ NO \/ UK:<\/strong> 19,90 Euro<br\/><br\/><a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Für weitere Informationen zum Thema Versand klicken Sie bitte hier ➔<\/a><\/p>",
+            "text": "<p><strong><br\/>Versand per DHL Paket:<\/strong><\/p><p><strong><br\/>Deutschland:<\/strong> 6,90 Euro<br\/><strong>Europäische Union:<\/strong> 9,90 Euro<br\/><strong>CH \/ NO \/ UK:<\/strong> 19,90 Euro<br\/><br\/><a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Für weitere Informationen zum Thema Versand klicken Sie bitte hier ➔<\/a><\/p>",
             "link_label": "",
             "link": ""
           }
