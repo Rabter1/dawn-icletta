@@ -545,7 +545,7 @@
     "product": {
       "media": {
         "alt-text-for-media-id": {
-          "": "Test"
+          "123": "Test"
         }
       }
     }
