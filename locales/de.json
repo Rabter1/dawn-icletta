@@ -549,5 +549,14 @@
         "optional_address2_label": "Wohnung, Zimmer usw. oder Postnummer"
       }
     }
+  },
+  "icletta": {
+    "product": {
+      "media": {
+        "alt-text-for-media-id": {
+          "": "Test"
+        }
+      }
+    }
   }
 }

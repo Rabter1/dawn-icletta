@@ -540,5 +540,14 @@
       "klickfix": "en\/collections\/marke-klickfix",
       "remerx": "en\/collections\/marke-remerx"
     }
+  },
+  "icletta": {
+    "product": {
+      "media": {
+        "alt-text-for-media-id": {
+          "": "Test"
+        }
+      }
+    }
   }
 }
