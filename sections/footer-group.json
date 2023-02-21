@@ -30,18 +30,29 @@
           "settings": {
             "section_html": "<p><\/p><h3 style=\"margin: 0; padding: 0;\">Rechtliches<\/h3><p><\/p>\n<div style=\"border-bottom: 1px solid grey;\"><a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/policies\/legal-notice\" style=\"font-size: 1.4rem;\">Impressum<\/a><\/div>\n<div style=\"border-bottom: 1px solid grey;\"><a href=\"\">AGB<\/a><\/div><a href=\"\">\n<div style=\"border-bottom: 1px solid grey;\">Versand<\/div><\/a>\n<div style=\"border-bottom: 1px solid grey;\">Datenschutz<\/div>\n<div style=\"border-bottom: 1px solid grey;\">Widerrufsbelehrung<\/div>\n<div style=\"border-bottom: 1px solid grey;\">Zum Kontaktformular<\/div>"
           }
+        },
+        "800f3224-c6d4-4be7-99fe-cb96c5bb02b4": {
+          "type": "html",
+          "settings": {
+            "section_html": "your code here"
+          }
         }
       },
       "block_order": [
         "f29d242a-7285-487b-bc87-47cd03960e55",
         "footer-2",
         "8794fdf6-f72e-44ce-8df4-8a2e345495f7",
-        "737fece2-af4a-45aa-b466-c3e233ac2196"
+        "737fece2-af4a-45aa-b466-c3e233ac2196",
+        "800f3224-c6d4-4be7-99fe-cb96c5bb02b4"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Melden Sie sich zum ICLETTA Newsletter an:",
+        "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,

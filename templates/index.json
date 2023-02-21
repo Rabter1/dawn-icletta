@@ -7,7 +7,6 @@
         "image": "shopify:\/\/shop_images\/keyvisual-fairings-herbst-2022.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
-        "adapt_height_first_image": true,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -169,7 +168,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p><strong><br\/>Versandkosten:<\/strong><\/p><p><strong><br\/>Deutschland:<\/strong> 6,90 Euro<br\/><strong>Europäische Union:<\/strong> 9,90 Euro<br\/><strong>CH \/ NO \/ UK:<\/strong> 19,90 Euro<br\/><br\/><a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Für weitere Informationen zum Thema Versand klicken Sie bitte hier &#10132<\/a><\/p>",
+            "text": "<p><strong><br\/>Versand per DHL Paket<\/strong><\/p><p><strong><br\/>Deutschland:<\/strong> 6,90 Euro<br\/><strong>Europäische Union:<\/strong> 9,90 Euro<br\/><strong>CH \/ NO \/ UK:<\/strong> 19,90 Euro<br\/><br\/><a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Für weitere Informationen zum Thema Versand klicken Sie bitte hier ➔<\/a><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -178,7 +177,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p><strong><br\/>Europaweiter Spezialversand<\/strong><br\/><br\/>Seit über 15 Jahren beliefert ICLETTA Kunden in ganz Europa mit authentischem Liegerad Zubehör. Im Regelfall können eingehende Bestellungen bereits am Folgetag versendet werden. Durch unseren langjährigen Logistikpartner DHL steht einer schnellen Lieferung Ihre Ware dann auch nichts mehr im Wege. <\/p>",
+            "text": "<p><strong><br\/>Europaweiter Versand<\/strong><br\/><br\/>Seit über 15 Jahren beliefert ICLETTA Kunden in ganz Europa mit authentischem Liegerad Zubehör. Eingehende Bestellungen werden in der Regel bereits am Folgetag versendet. Sonderanfertigungen, wie z.B. Laufräder, erhöhen die Versandzeit. Wir versenden ausschließlich als DHL Postpaket.<\/p>",
             "link_label": "",
             "link": ""
           }
