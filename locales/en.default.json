@@ -545,10 +545,7 @@
     "product": {
       "media": {
         "alt-text-for-media-id": {
-          "32089446678816": [
-            "Test1",
-            "Test2"
-          ]
+          "32089446678816": "This is a test"
         }
       }
     }
