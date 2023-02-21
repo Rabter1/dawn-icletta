@@ -27,6 +27,7 @@
         },
         "737fece2-af4a-45aa-b466-c3e233ac2196": {
           "type": "html",
+          "disabled": true,
           "settings": {
             "section_html": "<p><\/p><h3 style=\"margin: 0; padding: 0;\">Rechtliches<\/h3><p><\/p>\n<div style=\"border-bottom: 1px solid grey;\"><a href=\"https:\/\/icletta-liegerad-zubehor.myshopify.com\/policies\/legal-notice\" style=\"font-size: 1.4rem;\">Impressum<\/a><\/div>\n<div style=\"border-bottom: 1px solid grey;\"><a href=\"\">AGB<\/a><\/div><a href=\"\">\n<div style=\"border-bottom: 1px solid grey;\">Versand<\/div><\/a>\n<div style=\"border-bottom: 1px solid grey;\">Datenschutz<\/div>\n<div style=\"border-bottom: 1px solid grey;\">Widerrufsbelehrung<\/div>\n<div style=\"border-bottom: 1px solid grey;\">Zum Kontaktformular<\/div>"
           }
@@ -34,7 +35,7 @@
         "800f3224-c6d4-4be7-99fe-cb96c5bb02b4": {
           "type": "html",
           "settings": {
-            "section_html": "<h3 style=\"margin: 0; padding: 0;\">Zahlungsmethoden:<\/h3>\n<div style=\"display:flex; flex-direction: row; gap: 1em; margin-top: 1em;\">\n<div style=\"flex-shrink: 1;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/payp-pal.png?v=1676973597\"><\/div>\n<div style=\"flex-shrink: 1;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-sofort.png?v=1676973597\"><\/div>\n<div style=\"flex-shrink:1;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-visa.png?v=1676973597\"><\/div>\n<div style=\"flex-shrink:1;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-master.png?v=1676973597\"><\/div>\n<\/div>\n<h3 style=\"margin: 0; padding: 0;\">Zahlungsmethoden:<\/h3>"
+            "section_html": "<h3 style=\"margin: 0; padding: 0;\">Zahlungsmethoden:<\/h3>\n<div style=\"display:flex; flex-direction: row; gap: 1em; margin-top: 0.5em; padding-right:0em;\">\n<div style=\"flex-shrink: 1;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/payp-pal.png?v=1676973597\"><\/div>\n<div style=\"flex-shrink: 1;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-sofort.png?v=1676973597\"><\/div>\n<div style=\"flex-shrink:1;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-visa.png?v=1676973597\"><\/div>\n<div style=\"flex-shrink:1;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-master.png?v=1676973597\"><\/div>\n<\/div>\n<div style=\"display:flex; flex-direction: row; align-items: center;\">\n<div><h3 style=\"margin: 0px;\">Versanddienstleister:<\/h3><\/div>\n<div style=\"flex-shrink: 2; width:30%; margin-left: 0.5em; margin-right: 0px;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-dhl.png?v=1676990061\"><\/div>\n<\/div>\n<div style=\"display: flex; flex-direction:row; gap: 1em; justify-content: center; margin-top: 2em;\">\n<div><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-sero.png?v=1676990415\"><\/div>\n<div><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-ssl.png?v=1676990510\"><\/div>\n<\/div>"
           }
         }
       },
