@@ -522,8 +522,8 @@
   "shopify": {
     "checkout": {
       "contact": {
-        "address1_label": "Adresse oder Packstation",
-        "address2_label": "Wohnung, Zimmer usw. oder Postnummer",
+        "address1_label": "Straße & Hausnummer oder Packstation",
+        "address2_label": "Adresszusatz oder Postnummer",
         "optional_address2_label": "Wohnung, Zimmer usw. oder Postnummer"
       }
     }
