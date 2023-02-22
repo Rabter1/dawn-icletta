@@ -78,6 +78,10 @@
                     <div class="footer-block__details-content rte">
                       {{ block.settings.section_html }}
                     </div>
+                  {%- when 'html' -%}
+                    <div class="footer-block__details-content rte">
+                      {{ block.settings.section_custom_liquid }}
+                    </div>
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
@@ -392,7 +396,7 @@
       "type": "@app"
     },
     {
-      "name": "custom liquid",
+      "name": "Custom Liquid",
       "type": "custom_liquid",
       "settings": [
         {
