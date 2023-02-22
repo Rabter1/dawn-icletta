@@ -542,6 +542,11 @@
     },
     "newsletter": {
       "signup": "Melden Sie sich zum ICLETTA Newsletter an:"
+    },
+    "footer": {
+      "paymen": "Payment Options",
+      "ship": "Shipping Service",
+      "badge": "Certifications"
     }
   },
   "icletta": {
