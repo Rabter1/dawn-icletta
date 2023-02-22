@@ -539,6 +539,9 @@
       "mirrycle": "en\/collections\/spiegel",
       "klickfix": "en\/collections\/marke-klickfix",
       "remerx": "en\/collections\/marke-remerx"
+    },
+    "newsletter": {
+      "signup": "Melden Sie sich zum ICLETTA Newsletter an:"
     }
   },
   "icletta": {
