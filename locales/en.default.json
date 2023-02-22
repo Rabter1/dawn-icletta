@@ -557,6 +557,9 @@
           "32089446711584": "Schau, jetzt ist die Mutter runtergeschraubt"
         }
       }
+    },
+    "footer": {
+      "payment-methods": "Payment methods:"
     }
   }
 }
