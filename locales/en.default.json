@@ -559,7 +559,7 @@
       }
     },
     "footer": {
-      "payment-methods": "Payment Options:",
+      "payment-options": "Payment Options:",
       "shipping-service": "Shipping Service",
       "certification": "Certifications"
     }
