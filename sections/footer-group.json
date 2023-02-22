@@ -5,6 +5,12 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "5b8b0731-6b85-4ceb-bc0a-001e2851324f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div>\n<h3 style=\"margin: 0 0 1em 0;\">{{ \"icletta.footer.payment-methods\" | t }}<\/h3>\n<div style=\"display:flex; flex-direction: row; gap: 1em; margin-top: 0.5em; padding-right:0em;\">\n<div style=\"flex-shrink: 1;\"><img style=\"border-radius: 2px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/payp-pal.png?v=1676973597\" alt=\"PayPal\" title=\"PayPal\"><\/div>\n<div style=\"flex-shrink: 1;\"><img style=\"border-radius: 2px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-sofort.png?v=1676973597\" alt=\"Sofort Überweisung\" title=\"Sofort Überweisung\"><\/div>\n<div style=\"flex-shrink:1;\"><img style=\"border-radius: 2px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-visa.png?v=1676973597\" alt=\"VISA\" title=\"VISA\"><\/div>\n<div style=\"flex-shrink:1;\"><img style=\"border-radius: 2px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-master.png?v=1676973597\" alt=\"Mastercard\" title=\"Mastercard\"><\/div>\n<\/div>\n<div style=\"margin-top: 1.5em;\">\n<div><h3 style=\"margin: 0px;\">Versanddienstleister:<\/h3><\/div>\n<div style=\"width:20%; margin:1em 0px;\"><img style=\"border-radius: 2px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-dhl.png?v=1676990061\" alt=\"DHL\" title=\"DHL\"><\/div>\n<h3>Zertifikate:<\/h3>\n<div style=\"display: flex; flex-direction:row; gap: 2em; justify-content: left; margin-top: 1,5em;\"> \n<div><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-sero.png?v=1676994131\" alt=\"Recycling\" title=\"Recycling\"><\/div>\n<div><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-ssl.png?v=1676990510\" alt=\"SSL-Verschlüsselung\" title=\"SSL-Verschlüsselung\"><\/div>\n<\/div>\n<\/div>\n<\/div>"
+          }
+        },
         "f29d242a-7285-487b-bc87-47cd03960e55": {
           "type": "link_list",
           "settings": {
@@ -37,21 +43,15 @@
           "settings": {
             "section_html": "<h3 style=\"margin: 0 0 1em 0;\">Zahlungsmethoden:<\/h3>\n<div style=\"display:flex; flex-direction: row; gap: 1em; margin-top: 0.5em; padding-right:0em;\">\n<div style=\"flex-shrink: 1;\"><img style=\"border-radius: 2px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/payp-pal.png?v=1676973597\" alt=\"PayPal\" title=\"PayPal\"><\/div>\n<div style=\"flex-shrink: 1;\"><img style=\"border-radius: 2px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-sofort.png?v=1676973597\" alt=\"Sofort Überweisung\" title=\"Sofort Überweisung\"><\/div>\n<div style=\"flex-shrink:1;\"><img style=\"border-radius: 2px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-visa.png?v=1676973597\" alt=\"VISA\" title=\"VISA\"><\/div>\n<div style=\"flex-shrink:1;\"><img style=\"border-radius: 2px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-master.png?v=1676973597\" alt=\"Mastercard\" title=\"Mastercard\"><\/div>\n<\/div>\n<div style=\"margin-top: 1.5em;\">\n<div><h3 style=\"margin: 0px;\">Versanddienstleister:<\/h3><\/div>\n<div style=\"width:20%; margin:1em 0px;\"><img style=\"border-radius: 2px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-dhl.png?v=1676990061\" alt=\"DHL\" title=\"DHL\"><\/div>\n<h3>Zertifikate:<\/h3>\n<div style=\"display: flex; flex-direction:row; gap: 2em; justify-content: left; margin-top: 1,5em;\"> \n<div><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-sero.png?v=1676994131\" alt=\"Recycling\" title=\"Recycling\"><\/div>\n<div><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-ssl.png?v=1676990510\" alt=\"SSL-Verschlüsselung\" title=\"SSL-Verschlüsselung\"><\/div>\n<\/div>\n<\/div>"
           }
-        },
-        "5b8b0731-6b85-4ceb-bc0a-001e2851324f": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<h3 style=\"margin: 0 0 1em 0;\">{{ \"icletta.footer.payment-methods\" | t }}<\/h3>\n<div style=\"display:flex; flex-direction: row; gap: 1em; margin-top: 0.5em; padding-right:0em;\">\n<div style=\"flex-shrink: 1;\"><img style=\"border-radius: 2px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/payp-pal.png?v=1676973597\" alt=\"PayPal\" title=\"PayPal\"><\/div>\n<div style=\"flex-shrink: 1;\"><img style=\"border-radius: 2px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-sofort.png?v=1676973597\" alt=\"Sofort Überweisung\" title=\"Sofort Überweisung\"><\/div>\n<div style=\"flex-shrink:1;\"><img style=\"border-radius: 2px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-visa.png?v=1676973597\" alt=\"VISA\" title=\"VISA\"><\/div>\n<div style=\"flex-shrink:1;\"><img style=\"border-radius: 2px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-master.png?v=1676973597\" alt=\"Mastercard\" title=\"Mastercard\"><\/div>\n<\/div>\n<div style=\"margin-top: 1.5em;\">\n<div><h3 style=\"margin: 0px;\">Versanddienstleister:<\/h3><\/div>\n<div style=\"width:20%; margin:1em 0px;\"><img style=\"border-radius: 2px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-dhl.png?v=1676990061\" alt=\"DHL\" title=\"DHL\"><\/div>\n<h3>Zertifikate:<\/h3>\n<div style=\"display: flex; flex-direction:row; gap: 2em; justify-content: left; margin-top: 1,5em;\"> \n<div><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-sero.png?v=1676994131\" alt=\"Recycling\" title=\"Recycling\"><\/div>\n<div><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/pay-ssl.png?v=1676990510\" alt=\"SSL-Verschlüsselung\" title=\"SSL-Verschlüsselung\"><\/div>\n<\/div>\n<\/div>"
-          }
         }
       },
       "block_order": [
+        "5b8b0731-6b85-4ceb-bc0a-001e2851324f",
         "f29d242a-7285-487b-bc87-47cd03960e55",
         "footer-2",
         "8794fdf6-f72e-44ce-8df4-8a2e345495f7",
         "737fece2-af4a-45aa-b466-c3e233ac2196",
-        "800f3224-c6d4-4be7-99fe-cb96c5bb02b4",
-        "5b8b0731-6b85-4ceb-bc0a-001e2851324f"
+        "800f3224-c6d4-4be7-99fe-cb96c5bb02b4"
       ],
       "custom_css": [
 
