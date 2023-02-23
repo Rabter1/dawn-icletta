@@ -315,7 +315,7 @@
         "template--16694958162208__531902d4-1772-4c6e-9168-fe440a37f650-1666618168e77441f1-0"
       ],
       "custom_css": [
-        ".gradient {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/webshop-parts.jpg\"); background-size: 100% auto; background-position: center; background-repeat: no-repeat; background-attachment: local;}"
+        ".gradient {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/webshop-parts.jpg\"); background-size: 100%; background-position: center; background-repeat: no-repeat; background-attachment: local;}"
       ],
       "settings": {
         "title": "",
