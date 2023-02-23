@@ -559,8 +559,8 @@
       }
     },
     "footer": {
-      "payment-options": "Payment Options:",
-      "shipping-service": "Shipping Service:",
+      "payment-options": "Payment options:",
+      "shipping-service": "Shipping service:",
       "certification": "Certifications:"
     }
   }
