@@ -315,7 +315,7 @@
         "template--16694958162208__531902d4-1772-4c6e-9168-fe440a37f650-1666618168e77441f1-0"
       ],
       "custom_css": [
-        ".page-width {background-image: url(\"https: \/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/webshop-parts.jpg?v=1677151617;\")}"
+        ".page-width {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/webshop-parts.jpg\");}"
       ],
       "settings": {
         "title": "",
@@ -329,7 +329,7 @@
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
