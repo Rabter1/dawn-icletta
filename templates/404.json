@@ -1,10 +1,59 @@
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "0c384981-d5e3-4eb1-b825-5aec415a2d69": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17635558916384__0c384981-d5e3-4eb1-b825-5aec415a2d69-167716746940cc194c-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/handablage_0e3bc545-6380-40ea-95a6-15e337ed2726.png",
+            "title": "Sie suchen nach Liegerad Zubehör?",
+            "text": "<p>Unser ICLETTA Liegerad Zubehör Webshop ist umgezogen! Alle ICE Ersatzteile sowie das T-Cycle Produktsortiment finden Sie jetzt direkt auf<a href=\"https:\/\/www.icletta.com\" title=\"https:\/\/www.icletta.com\"><strong> www.icletta.com<\/strong><\/a><\/p>",
+            "link_label": "Hier geht es zu dem Liegerad Zubehör",
+            "link": ""
+          }
+        },
+        "0d44999b-3fed-4647-9bd9-7ebbd92c23bc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ICE-SprintX_72a898ff-2010-40b1-9578-51a5c95767a2.png",
+            "title": "Sie suchen die ICE Trikes?",
+            "text": "<p>Unsere Website ist umgezogen! Alle Informationen rund um die ICE Liegedreirad Modelle finden Sie ab jetzt ganz einfach unter unseren neuen Internet Adresse <a href=\"https:\/\/www.icetrikes.de\" title=\"https:\/\/www.icetrikes.de\"><strong>www.icetrikes.de! <\/strong><\/a><\/p>",
+            "link_label": "Hier geht es zu den ICE Liegedreirädern",
+            "link": "https:\/\/www.icetrikes.de"
+          }
+        }
+      },
+      "block_order": [
+        "template--17635558916384__0c384981-d5e3-4eb1-b825-5aec415a2d69-167716746940cc194c-0",
+        "0d44999b-3fed-4647-9bd9-7ebbd92c23bc"
+      ],
+      "settings": {
+        "title": "Dieser",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "0c384981-d5e3-4eb1-b825-5aec415a2d69"
   ]
 }
