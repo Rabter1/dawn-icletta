@@ -325,7 +325,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/small-logo-t-cycle.jpg",
             "title": "",
-            "text": "<p>Unser vielseitiges T-Cycle Zubehör richtet sich an alle, die ein Liegerad oder Trike fahren. Die Themengebiete Kettenleitrollen, Zubehörbefestigung und Wetterschutz gehören zu den Schwerpunkten des Sortiments. Wir freuen uns, mit diesen, in den USA gefertigten Spezialprodukten auch für Ihr Anliegen die perfekte Lösung anbieten zu können. Auch hier helfen wir Ihnen gerne persönlich weiter.<\/p>",
+            "text": "<p>Unser vielseitiges T-Cycle Zubehör richtet sich an alle, die ein Liegerad oder Trike fahren. Die Themengebiete Kettenleitrollen, Zubehörbefestigung und Wetterschutz gehören dabei zu den Schwerpunkten des durchdachten Sortiments. Wir freuen uns, mit diesen, in den USA gefertigten Spezialprodukten auch für Ihr Anliegen die perfekte Lösung anbieten zu können. Auch hier helfen wir Ihnen bei Fragen gerne persönlich weiter.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -347,7 +347,6 @@
         "6bf13833-1774-4b2b-be59-002490e61277"
       ],
       "custom_css": [
-        ".gradient {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/webshop-parts.jpg\"); background-size: 100%; background-position: center; background-repeat: no-repeat; background-attachment: local;}",
         ".multicolumn-card-spacing {margin: auto;}"
       ],
       "settings": {
@@ -373,6 +372,7 @@
         "template--17635558064416__69354466-c353-4198-9cba-7b62f21cfa73-16772330114757378b-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Trike-Warenkorb-delivery_91fccde6-139b-45bf-b6ba-c24bf43a2737.png",
             "title": "",
             "text": "<p>Unser Sortiment beinhaltet neben ICE und T-Cycle natürlich auch Komponenten, Accessoires und Ersatzteile anderer Marken aus dem Liegerad Bereich. Selbstverständlich passen viele unserer Produkte auch an die Liegedreiräder anderer Hersteller, wie beispielsweise Hase, HP Velotechnik, AZUB, KMX, Bike Revolution, Catrike, Flux, Toxy, Challenge, Nazca, Optima, Bacchetta, Rans, Greenspeed und auch im Eigenbau gefertigte Modelle. Wir freuen uns, Sie als Kunde in unserem Webshop begrüßen zu dürfen und hoffen, dass wir Ihnen mit unseren Produkten weiterhelfen können.<\/p>",
             "link_label": "",
@@ -402,6 +402,9 @@
         "template--17635558064416__69354466-c353-4198-9cba-7b62f21cfa73-16772330114757378b-0",
         "template--17635558064416__69354466-c353-4198-9cba-7b62f21cfa73-16772330114757378b-1",
         "template--17635558064416__69354466-c353-4198-9cba-7b62f21cfa73-16772330114757378b-2"
+      ],
+      "custom_css": [
+        ".multicolumn-card-spacing {margin: auto;}"
       ],
       "settings": {
         "title": "",
