@@ -347,7 +347,8 @@
         "6bf13833-1774-4b2b-be59-002490e61277"
       ],
       "custom_css": [
-        ".multicolumn-card-spacing {margin: auto;}"
+        ".multicolumn-card-spacing {margin: auto;}",
+        ".gradient {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/iclettapattern.jpg?v=1677236766\"); background-attachment: fixed; background-repeat: repeat; background-size: 35%;}"
       ],
       "settings": {
         "title": "",
@@ -404,7 +405,8 @@
         "template--17635558064416__69354466-c353-4198-9cba-7b62f21cfa73-16772330114757378b-2"
       ],
       "custom_css": [
-        ".multicolumn-card-spacing {margin: auto;}"
+        ".multicolumn-card-spacing {margin: auto;}",
+        ".gradient {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/iclettapattern.jpg?v=1677236766\"); background-attachment: fixed; background-repeat: repeat; background-size: 35%;}"
       ],
       "settings": {
         "title": "",
