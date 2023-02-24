@@ -627,7 +627,8 @@ position: absolute;
   font-size: 1.3em;
   text-align: center;
   text-decoration: none;
-  border-radius: 1em;
+  border-radius: 0.2em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
  }
 
  
