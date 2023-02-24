@@ -348,7 +348,8 @@
       ],
       "custom_css": [
         ".multicolumn-card-spacing {margin: auto;}",
-        ".gradient {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/iclettapattern.jpg?v=1677236766\"); background-attachment: fixed; background-repeat: repeat; background-size: 30%;}"
+        ".gradient {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/iclettapattern.jpg?v=1677236766\"); background-attachment: fixed; background-repeat: repeat; background-size: 30%;}",
+        ".multicolumn-card.content-container {border-radius: 10px 10px 0px 0px;}"
       ],
       "settings": {
         "title": "",
