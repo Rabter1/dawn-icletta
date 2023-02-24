@@ -325,7 +325,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/small-logo-t-cycle.jpg",
             "title": "",
-            "text": "<p>Unser vielseitiges T-Cycle Zubehör richtet sich an alle, die ein Liegerad oder Trike fahren. Wir freuen uns, mit diesen, in den USA gefertigten Spezialprodukten, auch für Ihr Anliegen die perfekte Lösung anbieten zu können. Auch hier helfen wir Ihnen gerne persönlich weiter.<\/p>",
+            "text": "<p>Unser vielseitiges T-Cycle Zubehör richtet sich an alle, die ein Liegerad oder Trike fahren. Die Themengebiete Kettenleitrollen, Zubehörbefestigung und Wetterschutz gehören zu den Schwerpunkten des Sortiments. Wir freuen uns, mit diesen, in den USA gefertigten Spezialprodukten auch für Ihr Anliegen die perfekte Lösung anbieten zu können. Auch hier helfen wir Ihnen gerne persönlich weiter.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -347,7 +347,8 @@
         "6bf13833-1774-4b2b-be59-002490e61277"
       ],
       "custom_css": [
-        ".gradient {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/webshop-parts.jpg\"); background-size: 100%; background-position: center; background-repeat: no-repeat; background-attachment: local;}"
+        ".gradient {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/webshop-parts.jpg\"); background-size: 100%; background-position: center; background-repeat: no-repeat; background-attachment: local;}",
+        ".multicolumn-card-spacing {margin: auto;}"
       ],
       "settings": {
         "title": "",
