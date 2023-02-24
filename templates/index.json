@@ -129,7 +129,7 @@
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n<div class=\"start-divider-container\">\n  <div class=\"start-divider-stripe\">\n    <\/div>\n  <div class=\"start-divider-centerbox\"><span class=\"start-divider-heading\">{{ 'start.divider.hersteller' | t }}<\/span><\/div>\n      <div class=\"start-divider-stripe\">\n  <\/div>\n  <\/div>\n  <\/div>",
         "color_scheme": "background-1",
-        "padding_top": 0,
+        "padding_top": 16,
         "padding_bottom": 20
       }
     },
