@@ -305,14 +305,46 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IclettaLogo.png",
             "title": "",
-            "text": "<p>Bei uns finden Sie über 200 Zubehörteile für Ihr Liegerad, vom Wälzlager bis zur Frontverkleidung. Als Ansprechpartner für ihr ICE Trike halten wir alle Ersatz- und Zubehörteile bereit. Wir erweitern unser Sortiment kontinuierlich. Wenn Sie etwas nicht finden, vermissen oder nicht wissen welches Produkt an Ihr Liegerad passt, dann kontaktieren Sie uns. Selbstverständlich passen unsere hilfreichen Produkte auch an die Liegedreiräder anderer Hersteller, wie beispielsweise Hase, HP Velotechnik, AZUB, KMX, Bike Revolution, Catrike, Flux, Toxy, Challenge, Nazca, Optima, Bacchetta, Rans, Greenspeed und auch im Eigenbau gefertigte Modelle. Unser umfangreiches Sortiment beinhaltet darüber hinaus aber selbstverständlich auch ausgewählte Komponenten, Accessoires und Ersatzteile anderer Hersteller aus dem Liegerad Bereich.<\/p>",
+            "text": "<p>Im ICLETTA Webshop finden Sie über 200 Zubehörartikel für Ihr Liegerad, vom Wälzlager bis zur Frontverkleidung. Seit über 15 Jahren stellen wir die Ersatzteilversorgung der Marke ICE und den exklusiven Europavertrieb der Marke T-Cycle bereit. Die von uns angebotenen Produkte sind speziell für den Liegeradbereich entwickelt und ausgewählt. Durch unsere langjährige Erfahrung können wir sicherstellen, dass Ihre Bestellung Sie schnell und zuverlässig erreicht.<\/p><p><\/p><p><\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "9e9230d6-4c48-4a9a-b9e6-042d4c682a58": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/small-logo-ice.jpg",
+            "title": "",
+            "text": "<p>Als europaweiter Ersatzteilversand für den englischen Hersteller ICE Trikes halten wir unsere ICE Ersatz- und Zubehörteile ständig auf Lager. Wir erweitern unser Sortiment kontinuierlich, um Ihnen auch jede noch so kleine Schraube anbieten zu können. Sollten Sie dennoch einmal etwas nicht finden, vermissen oder unsicher sein, welchen Artikel Sie benötigen, kontaktieren Sie uns einfach und wir werden das passende Produkt finden.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "6e571ccb-61e9-4741-b97b-332552985907": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/small-logo-t-cycle.jpg",
+            "title": "",
+            "text": "<p>Unser vielseitiges T-Cycle Zubehör richtet sich an alle, die ein Liegerad oder Trike fahren. Wir freuen uns, mit diesen, in den USA gefertigten Spezialprodukten, auch für Ihr Anliegen die perfekte Lösung anbieten zu können. Auch hier helfen wir Ihnen gerne persönlich weiter.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "6bf13833-1774-4b2b-be59-002490e61277": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "template--16694958162208__531902d4-1772-4c6e-9168-fe440a37f650-1666618168e77441f1-0"
+        "template--16694958162208__531902d4-1772-4c6e-9168-fe440a37f650-1666618168e77441f1-0",
+        "9e9230d6-4c48-4a9a-b9e6-042d4c682a58",
+        "6e571ccb-61e9-4741-b97b-332552985907",
+        "6bf13833-1774-4b2b-be59-002490e61277"
       ],
       "custom_css": [
         ".gradient {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0667\/7725\/2128\/files\/webshop-parts.jpg\"); background-size: 100%; background-position: center; background-repeat: no-repeat; background-attachment: local;}"
@@ -322,7 +354,7 @@
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 1,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
@@ -332,6 +364,102 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 40
+      }
+    },
+    "69354466-c353-4198-9cba-7b62f21cfa73": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17635558064416__69354466-c353-4198-9cba-7b62f21cfa73-16772330114757378b-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Unser Sortiment beinhaltet neben ICE und T-Cycle natürlich auch Komponenten, Accessoires und Ersatzteile anderer Marken aus dem Liegerad Bereich. Selbstverständlich passen viele unserer Produkte auch an die Liegedreiräder anderer Hersteller, wie beispielsweise Hase, HP Velotechnik, AZUB, KMX, Bike Revolution, Catrike, Flux, Toxy, Challenge, Nazca, Optima, Bacchetta, Rans, Greenspeed und auch im Eigenbau gefertigte Modelle. Wir freuen uns, Sie als Kunde in unserem Webshop begrüßen zu dürfen und hoffen, dass wir Ihnen mit unseren Produkten weiterhelfen können.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17635558064416__69354466-c353-4198-9cba-7b62f21cfa73-16772330114757378b-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17635558064416__69354466-c353-4198-9cba-7b62f21cfa73-16772330114757378b-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17635558064416__69354466-c353-4198-9cba-7b62f21cfa73-16772330114757378b-0",
+        "template--17635558064416__69354466-c353-4198-9cba-7b62f21cfa73-16772330114757378b-1",
+        "template--17635558064416__69354466-c353-4198-9cba-7b62f21cfa73-16772330114757378b-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "ca48a799-d169-45df-a4c5-06b6714ab72a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17635558064416__ca48a799-d169-45df-a4c5-06b6714ab72a-1677232995f7ded27b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17635558064416__ca48a799-d169-45df-a4c5-06b6714ab72a-1677232995f7ded27b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17635558064416__ca48a799-d169-45df-a4c5-06b6714ab72a-1677232995f7ded27b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17635558064416__ca48a799-d169-45df-a4c5-06b6714ab72a-1677232995f7ded27b-0",
+        "template--17635558064416__ca48a799-d169-45df-a4c5-06b6714ab72a-1677232995f7ded27b-1",
+        "template--17635558064416__ca48a799-d169-45df-a4c5-06b6714ab72a-1677232995f7ded27b-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "content_width": "default"
       }
     }
   },
@@ -353,6 +481,8 @@
     "f96b7dea-995f-45b4-b456-8b182a27ca0b",
     "b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0",
     "a03a15e0-1179-4afb-a34e-bf19fa9e4014",
-    "531902d4-1772-4c6e-9168-fe440a37f650"
+    "531902d4-1772-4c6e-9168-fe440a37f650",
+    "69354466-c353-4198-9cba-7b62f21cfa73",
+    "ca48a799-d169-45df-a4c5-06b6714ab72a"
   ]
 }
