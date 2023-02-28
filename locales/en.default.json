@@ -561,7 +561,9 @@
       "mirrycle": "en\/collections\/spiegel",
       "klickfix": "en\/collections\/marke-klickfix",
       "remerx": "en\/collections\/marke-remerx"
-    },
+    }
+  },
+  "shopify": {
     "links": {
       "powered_by_shopify": " "
     }
