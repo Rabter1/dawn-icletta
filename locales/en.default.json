@@ -563,5 +563,17 @@
       "shipping-service": "Shipping service:",
       "certification": "Certifications:"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "address1_label": "Straße & Hausnummer oder Packstation",
+        "address2_label": "Adresszusatz oder Postnummer",
+        "optional_address2_label": "Wohnung, Zimmer usw. oder Postnummer"
+      }
+    },
+    "links": {
+      "powered_by_shopify": " "
+    }
   }
 }
