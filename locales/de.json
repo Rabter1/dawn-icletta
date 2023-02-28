@@ -8,7 +8,7 @@
       "login_form_error": "Falsches Passwort!",
       "login_form_submit": "Eingeben",
       "admin_link_html": "Bist du der Shop-Inhaber? <a href=\"\/admin\" class=\"link underlined-link\">Hier einloggen<\/a>",
-      "powered_by_shopify_html": "Dieser Shop wird unterstützt von {{ shopify }}"
+      "powered_by_shopify_html": " "
     },
     "social": {
       "alt_text": {
@@ -189,7 +189,8 @@
       "metafield_filters": {
         "label": {
           "Funktion": "Funktion",
-          "Montageposition": "Montageposition"
+          "Montageposition": "Montageposition",
+          "Produkttyp": ""
         },
         "value": {
           "Antriebsstrang": "Antriebsstrang",
@@ -200,7 +201,50 @@
           "Vorderrad": "Vorderrad",
           "Hinterrad": "Hinterrad",
           "Lenker": "Lenker",
-          "Rahmen": "Rahmen"
+          "Rahmen": "Rahmen",
+          "Achse": "",
+          "Akkuhalter": "",
+          "Antrieb": "",
+          "Beleuchtung": "",
+          "Bremshebel": "",
+          "Doppelklemmschelle": "",
+          "Ersatzteil": "",
+          "Felge": "",
+          "Felgenband": "",
+          "Flagge": "",
+          "Flaggenhalter": "",
+          "Frontverkleidung": "",
+          "Gepaecktaschen": "",
+          "Gepaecktraeger": "",
+          "Innenlager": "",
+          "Kette": "",
+          "Kettenfuehrung": "",
+          "Kettenleitrolle": "",
+          "Kettenleitrollen-Set": "",
+          "Kettenleitrollen-Zubehoer": "",
+          "Kettenschutzring": "",
+          "Kettenschutzrohr": "",
+          "Komfortausstattung": "",
+          "Kopfstuetze": "",
+          "Kurbel": "",
+          "Kurbelverkuerzer": "",
+          "Laufrad": "",
+          "Nabe": "",
+          "Parkbremse": "",
+          "Pedale": "",
+          "Pedalpendel": "",
+          "Rahmenklemmschelle": "",
+          "Rahmenschnellverstellung": "",
+          "Ruecklichtbefestigung": "",
+          "Schutzblech": "",
+          "Sitz": "",
+          "Sitzadapter": "",
+          "Sitzzubehoer": "",
+          "Spiegel": "",
+          "Steuersatz": "",
+          "Trinkflaschen": "",
+          "Trommelbremse": "",
+          "Zubehoerhalter": ""
         }
       },
       "reset": "Zurücksetzen",
@@ -526,6 +570,9 @@
         "address2_label": "Adresszusatz oder Postnummer",
         "optional_address2_label": "Wohnung, Zimmer usw. oder Postnummer"
       }
+    },
+    "links": {
+      "powered_by_shopify": " "
     }
   }
 }
