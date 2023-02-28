@@ -8,7 +8,7 @@
       "login_form_error": "Falsches Passwort!",
       "login_form_submit": "Eingeben",
       "admin_link_html": "Bist du der Shop-Inhaber? <a href=\"\/admin\" class=\"link underlined-link\">Hier einloggen<\/a>",
-      "powered_by_shopify_html": "Dieser Shop wird unterstützt von {{ shopify }}"
+      "powered_by_shopify_html": ""
     },
     "social": {
       "alt_text": {
