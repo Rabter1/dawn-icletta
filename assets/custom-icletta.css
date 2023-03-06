@@ -110,7 +110,7 @@ a:visited {
 }
 
 /* Ensure header is above custom search bar */
-.shopify-section-group-header-group {
+.section-header {
   z-index: 120 !important;
 }
 
