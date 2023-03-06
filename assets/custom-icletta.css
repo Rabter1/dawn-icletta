@@ -109,6 +109,11 @@ a:visited {
   width: 100%;
 }
 
+/* Ensure header is above custom search bar */
+.shopify-section-group-header-group {
+  z-index: 120;
+}
+
 .search-modal__content {
   padding: 0 1rem !important;
 }
