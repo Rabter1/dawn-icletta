@@ -1,6 +1,7 @@
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/IclettaLogo.png",
+    "logo_width": 200,
     "favicon": "shopify:\/\/shop_images\/Logo_Icletta_rechteckig.png",
     "colors_solid_button_labels": "{{ shop.brand.colors.primary[0].foreground }}",
     "colors_accent_1": "{{ shop.brand.colors.primary[0].background }}",
