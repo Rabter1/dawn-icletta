@@ -13,7 +13,7 @@
         "template--18237998268704__e197e256-55c0-4a4e-8f47-c19563fe5c8a-1678788294cb85da9e-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kettenleitrollen-Elite.jpg",
+            "image": "shopify:\/\/shop_images\/Kettenleitrollen-themenwelt.jpg",
             "caption": "Trike Tuning Klassiker",
             "heading": "T-Cycle Kettenleitrollen",
             "text": "<p>Hier erfahren Sie, wieso unsere T-Cycle Kettenleitrollen den Antrieb Ihres Liegerads noch effizienter und langlebiger werden lassen. Lernen Sie den Unterschied zwischen den Sport und Elite Ausführungen kennen und welche Zubehöroptionen Ihnen zur Auswahl stehen.<\/p>",
@@ -49,11 +49,11 @@
         "template--18237998268704__e197e256-55c0-4a4e-8f47-c19563fe5c8a-1678788294cb85da9e-2"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
-        "button_style": "secondary",
+        "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
