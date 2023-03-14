@@ -24,11 +24,12 @@
         "template--18237998268704__e197e256-55c0-4a4e-8f47-c19563fe5c8a-1678788294cb85da9e-1": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/t-cycle-legelogo.jpg",
+            "caption": "Die Liegerad Zubehörexperten",
+            "heading": "T-Cycle im Portrait",
+            "text": "<p>Wer ist eigentlich T-Cycle? Hier lernen Sie die sympathische Zubehörschmiede aus Portland kennen und erfahren, welches Team hinter all den cleveren Detaillösungen für Liegeräder steckt.<\/p>",
+            "button_label": "T-Cycle kennenlernen",
+            "button_link": "shopify:\/\/pages\/t-cycle-firmenportrait"
           }
         },
         "template--18237998268704__e197e256-55c0-4a4e-8f47-c19563fe5c8a-1678788294cb85da9e-2": {
