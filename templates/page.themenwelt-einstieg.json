@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "h2 {font-size:2em;}"
+        ".h0 {display: none;}"
       ],
       "settings": {
         "padding_top": 28,
