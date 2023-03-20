@@ -97,7 +97,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "terracycle",
+        "collection": "t-cycle",
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
