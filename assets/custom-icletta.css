@@ -254,6 +254,10 @@ a:visited {
   justify-content: center;
   align-items: center;
 }
+.content-width-regular{
+  max-width: 72.6rem; 
+  margin: auto
+}
 
 .titelbild {
   margin-bottom: 3.5 em;
