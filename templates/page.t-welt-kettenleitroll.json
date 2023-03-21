@@ -3,7 +3,8 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        ".page-width--narrow {max-width: 102.6rem; padding: 0;}"
+        ".page-width--narrow {max-width: 102.6rem; padding: 0;}",
+        ".h0{margin: auto;}"
       ],
       "settings": {
         "padding_top": 28,
