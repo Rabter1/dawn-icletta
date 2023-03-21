@@ -262,13 +262,13 @@ a:visited {
 .titelbild {
   margin-bottom: 3.5 em;
   box-shadow: none !important;
-  margin: auto;
-  border-radius: 0;
+  margin: auto;  
 }
 
 .titelbild img {
   width:100%; 
   box-shadow: none !important;
+  border-radius: 0 !important;
 }
 
 .absatz {
