@@ -269,7 +269,10 @@ a:visited {
   width:100%; 
   box-shadow: none !important;
   border-radius: 0 !important;
-  mix-blend-mode: multiply !important;
+  }
+
+.multipla{
+ mix-blend-mode: multiply !important; 
 }
 
 .absatz {
