@@ -262,6 +262,7 @@ a:visited {
 .titelbild {
   margin-bottom: 3.5 em;
   box-shadow: none !important;
+  margin: auto;
 }
 
 .titelbild img {
