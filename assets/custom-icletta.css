@@ -263,6 +263,7 @@ a:visited {
   margin-bottom: 3.5 em;
   box-shadow: none !important;
   margin: auto;
+  border-radius: 0;
 }
 
 .titelbild img {
