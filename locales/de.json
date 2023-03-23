@@ -555,6 +555,10 @@
         "address1_label": "Straße & Hausnummer oder Packstation",
         "address2_label": "Adresszusatz oder Postnummer",
         "optional_address2_label": "Wohnung, Zimmer usw. oder Postnummer"
+      },
+      "payment": {
+        "same_billing_address_label": "Rechnungsadresse gleich Lieferadresse",
+        "different_billing_address_label": "Abweichende Rechnungsadresse benutzen"
       }
     }
   },
