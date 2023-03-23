@@ -559,7 +559,7 @@
       "payment": {
         "same_billing_address_label": "Rechnungsadresse gleich Lieferadresse",
         "different_billing_address_label": "Abweichende Rechnungsadresse benutzen",
-        "billing_address_description": "Wählen Sie die mit Ihrer Karte oder Zahlungsmethode verknüpfte Adresse aus."
+        "billing_address_description": "Geben Sie hier bei Bedarf eine abweichende Rechnungsadresse ein"
       },
       "customer_account": {
         "have_an_account_label": "Haben Sie bereits ein Kundenkonto?",
