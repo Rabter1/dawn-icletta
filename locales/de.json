@@ -559,6 +559,10 @@
       "payment": {
         "same_billing_address_label": "Rechnungsadresse gleich Lieferadresse",
         "different_billing_address_label": "Abweichende Rechnungsadresse benutzen"
+      },
+      "customer_account": {
+        "have_an_account_label": "Haben Sie bereits ein Kundenkonto?",
+        "sign_in_link_label": "Anmelden oder neu erstellen"
       }
     }
   },
