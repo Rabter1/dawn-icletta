@@ -219,20 +219,20 @@
           "Flagge": "Flag",
           "Flaggenhalter": "Flag mount",
           "Frontverkleidung": "Fairing",
-          "Gepaecktaschen": "Luggage",
-          "Gepaecktraeger": "Rear rack",
+          "Gepcktaschen": "Luggage",
+          "Gepcktraeger": "Rear rack",
           "Innenlager": "Bottom bracket",
           "Kette": "Chain",
-          "Kettenfuehrung": "Chain guide",
+          "Kettenfhrung": "Chain guide",
           "Kettenleitrolle": "Chain idler",
           "Kettenleitrollen-Set": "Chain idler set",
-          "Kettenleitrollen-Zubehoer": "Idler accessory",
+          "Kettenleitrollen-Zubehr": "Idler accessory",
           "Kettenschutzring": "Chain ring guard",
           "Kettenschutzrohr": "Chain tube",
           "Komfortausstattung": "Comfort accessory",
-          "Kopfstuetze": "Neck rest",
+          "Kopfsttze": "Neck rest",
           "Kurbel": "Crank",
-          "Kurbelverkuerzer": "Crank shortener",
+          "Kurbelverkrzer": "Crank shortener",
           "Laufrad": "Wheel",
           "Nabe": "Hub",
           "Parkbremse": "Parking brake",
@@ -240,16 +240,16 @@
           "Pedalpendel": "Pedal swing",
           "Rahmenklemmschelle": "Frame clamp",
           "Rahmenschnellverstellung": "Frame quick adjust",
-          "Ruecklichtbefestigung": "Rear light mount",
+          "Rcklichtbefestigung": "Rear light mount",
           "Schutzblech": "Mudguard",
           "Sitz": "Seat",
           "Sitzadapter": "Seat adapter",
-          "Sitzzubehoer": "Seat accessory",
+          "Sitzzubehr": "Seat accessory",
           "Spiegel": "Mirror",
           "Steuersatz": "Headset",
           "Trinkflaschen": "Water bottle",
           "Trommelbremse": "Drum brake",
-          "Zubehoerhalter": "Accessory mount"
+          "Zubehrhalter": "Accessory mount"
         }
       },
       "product_count_simple": {
@@ -606,18 +606,6 @@
       "payment-options": "Payment options:",
       "shipping-service": "Shipping service:",
       "certification": "Certifications:"
-    }
-  },
-  "shopify": {
-    "checkout": {
-      "contact": {
-        "address1_label": "Straße & Hausnummer oder Packstation",
-        "address2_label": "Adresszusatz oder Postnummer",
-        "optional_address2_label": "Wohnung, Zimmer usw. oder Postnummer"
-      }
-    },
-    "links": {
-      "powered_by_shopify": " "
     }
   },
   "shopify": {

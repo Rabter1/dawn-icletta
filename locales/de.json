@@ -192,67 +192,6 @@
         "one": "{{ count }} Produkt",
         "other": "{{ count }} Produkte"
       },
-      "metafield_filters": {
-        "label": {
-          "Funktion": "Funktion",
-          "Montageposition": "Montageposition",
-          "Produkttyp": ""
-        },
-        "value": {
-          "Antriebsstrang": "Antriebsstrang",
-          "Halterung": "Halterung",
-          "Sicherheit": "Sicherheit",
-          "Lenkung": "Lenkung",
-          "Komfort": "Komfort",
-          "Vorderrad": "Vorderrad",
-          "Hinterrad": "Hinterrad",
-          "Lenker": "Lenker",
-          "Rahmen": "Rahmen",
-          "Achse": "",
-          "Akkuhalter": "",
-          "Antrieb": "",
-          "Beleuchtung": "",
-          "Bremshebel": "",
-          "Doppelklemmschelle": "",
-          "Ersatzteil": "",
-          "Felge": "",
-          "Felgenband": "",
-          "Flagge": "",
-          "Flaggenhalter": "",
-          "Frontverkleidung": "",
-          "Gepaecktaschen": "",
-          "Gepaecktraeger": "",
-          "Innenlager": "",
-          "Kette": "",
-          "Kettenfuehrung": "",
-          "Kettenleitrolle": "",
-          "Kettenleitrollen-Set": "",
-          "Kettenleitrollen-Zubehoer": "",
-          "Kettenschutzring": "",
-          "Kettenschutzrohr": "",
-          "Komfortausstattung": "",
-          "Kopfstuetze": "",
-          "Kurbel": "",
-          "Kurbelverkuerzer": "",
-          "Laufrad": "",
-          "Nabe": "",
-          "Parkbremse": "",
-          "Pedale": "",
-          "Pedalpendel": "",
-          "Rahmenklemmschelle": "",
-          "Rahmenschnellverstellung": "",
-          "Ruecklichtbefestigung": "",
-          "Schutzblech": "",
-          "Sitz": "",
-          "Sitzadapter": "",
-          "Sitzzubehoer": "",
-          "Spiegel": "",
-          "Steuersatz": "",
-          "Trinkflaschen": "",
-          "Trommelbremse": "",
-          "Zubehoerhalter": ""
-        }
-      },
       "reset": "Zurücksetzen",
       "sort_button": "Sortieren",
       "sort_by_label": "Sortieren nach:",
@@ -599,19 +538,10 @@
         "address1_label": "Straße & Hausnummer oder Packstation",
         "address2_label": "Adresszusatz oder Postnummer",
         "optional_address2_label": "Wohnung, Zimmer usw. oder Postnummer"
-      },
-      "payment": {
-        "same_billing_address_label": "Rechnungsadresse gleich Lieferadresse",
-        "different_billing_address_label": "Abweichende Rechnungsadresse benutzen",
-        "billing_address_description": "Geben Sie hier bei Bedarf eine abweichende Rechnungsadresse ein"
-      },
-      "customer_account": {
-        "have_an_account_label": "Haben Sie bereits ein Kundenkonto?",
-        "sign_in_link_label": "Anmelden oder neu erstellen"
-      },
-      "general": {
-        "complete_purchase_button_label": "Zahlungspflichtig bestellen"
       }
+    },
+    "links": {
+      "powered_by_shopify": " "
     }
   },
   "icletta": {
@@ -627,18 +557,6 @@
       "payment-options": "Zahlungsmethoden:",
       "shipping-service": "Versanddienstleister:",
       "certification": "Zertifikate:"
-    }
-  },
-  "shopify": {
-    "checkout": {
-      "contact": {
-        "address1_label": "Straße & Hausnummer oder Packstation",
-        "address2_label": "Adresszusatz oder Postnummer",
-        "optional_address2_label": "Wohnung, Zimmer usw. oder Postnummer"
-      }
-    },
-    "links": {
-      "powered_by_shopify": " "
     }
   }
 }
