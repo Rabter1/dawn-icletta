@@ -514,6 +514,11 @@ position: absolute;
     text-decoration: none !important;
  }
 
+ .legrid-tile-button a:visited {
+  color: white !important;
+  text-decoration: none !important;
+}
+
 .legrid-button-text{
   font-weight: bold;
   font-size: 1em;
