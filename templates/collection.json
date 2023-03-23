@@ -31,6 +31,7 @@
       "blocks": {
         "template--16752292167968__31b33854-1000-47c3-9cfd-2760172663d3-1674154947d8697547-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<p>{{ collection.title }}<\/p>",
             "heading_size": "h2"
@@ -46,6 +47,9 @@
       "block_order": [
         "template--16752292167968__31b33854-1000-47c3-9cfd-2760172663d3-1674154947d8697547-0",
         "template--16752292167968__31b33854-1000-47c3-9cfd-2760172663d3-1674154947d8697547-1"
+      ],
+      "custom_css": [
+        "*:after {box-shadow: none;}"
       ],
       "settings": {
         "desktop_content_position": "center",

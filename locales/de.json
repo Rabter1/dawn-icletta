@@ -8,7 +8,7 @@
       "login_form_error": "Falsches Passwort!",
       "login_form_submit": "Eingeben",
       "admin_link_html": "Bist du der Shop-Inhaber? <a href=\"\/admin\" class=\"link underlined-link\">Hier einloggen<\/a>",
-      "powered_by_shopify_html": " "
+      "powered_by_shopify_html": ""
     },
     "social": {
       "alt_text": {
@@ -36,11 +36,13 @@
       "previous": "Vorherige Seite"
     },
     "search": {
-      "search": "Hier Liegerad Zubehör finden"
+      "search": "Hier Liegerad Zubehör finden",
+      "reset": "Suchbegriff zurücksetzen"
     },
     "cart": {
       "view": "Meinen Warenkorb ({{ count }}) anzeigen",
-      "item_added": "Artikel wurde in den Warenkorb gelegt"
+      "item_added": "Artikel wurde in den Warenkorb gelegt",
+      "view_empty_cart": "Meinen Warenkorb anzeigen"
     },
     "share": {
       "copy_to_clipboard": "Link kopieren",
@@ -57,7 +59,7 @@
   },
   "newsletter": {
     "label": "E-Mail",
-    "success": "Danke für deine Anmeldung",
+    "success": "Danke für Ihre Anmeldung",
     "button_label": "Abonnieren"
   },
   "accessibility": {
@@ -112,7 +114,11 @@
         "label": "Anzahl",
         "input_label": "Anzahl von {{ product }}",
         "increase": "Erhöhe die Menge für {{ product }}",
-        "decrease": "Verringere die Menge für {{ product }}"
+        "decrease": "Verringere die Menge für {{ product }}",
+        "minimum_of": "Mindestens {{ quantity }}",
+        "maximum_of": "Maximal {{ quantity }}",
+        "multiples_of": "In {{ quantity }}er Schritten",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> im Warenkorb"
       },
       "price": {
         "from_price_html": "Von {{ price }}",
@@ -267,11 +273,26 @@
       "title": "Suchergebnisse",
       "page": "Seite",
       "products": "Produkte",
-      "search_for": "Gesamten Shop nach \"{{ terms }}\" durchsuchen",
+      "search_for": "Nach \"{{ terms }}\" suchen",
+      "show_all": "Zeige alle Treffer für \"{{ terms }}\"",
       "results_with_count_and_term": {
         "one": "{{ count }} Ergebnis für \"{{ terms }}\" gefunden",
         "other": "{{ count }} Ergebnisse für \"{{ terms }}\" gefunden"
-      }
+      },
+      "results_pages_with_count": {
+        "one": "{{ count }} Seite",
+        "other": "{{ count }} Seiten"
+      },
+      "results_suggestions_with_count": {
+        "one": "{{ count }} Vorschlag",
+        "other": "{{ count }} Vorschläge"
+      },
+      "results_products_with_count": {
+        "one": "{{ count }} Produkt",
+        "other": "{{ count }} Produkte"
+      },
+      "suggestions": "Vorschläge",
+      "pages": "Seiten"
     },
     "cart": {
       "cart": "Warenkorb"
@@ -478,7 +499,8 @@
       "tracking_company": "Versanddienstleister",
       "tracking_number": "Trackingnummer",
       "subtotal": "Zwischensumme",
-      "total_duties": "Zollgebühren"
+      "total_duties": "Zollgebühren",
+      "total_refunded": "Zurückerstattet"
     }
   },
   "gift_cards": {
@@ -505,35 +527,35 @@
       "link": "collections\/sitze-1"
     },
     "legrid": {
-      "kachel-image-1": "kachel-ICE.jpg",
+      "kachel-image-1": "kachel-icetrike.jpg",
       "kachel-image-2": "kachel-kettenleitrolle.jpg",
       "kachel-image-3": "liegerad-frontverkleidung.jpg",
-      "kachel-image-4": "liegerad-sitze.jpg",
+      "kachel-image-4": "kachel-ICE.jpg",
       "kachel-image-5": "liegerad-themenwelt.jpg",
       "kachel-image-6": "kachel-laufrad.jpg",
       "kachel-image-7": "kachel-zubehoerhalter.jpg",
-      "kachel-image-8": "trike-selbstbau.jpg",
-      "headline-1": "ICE Ersatzteile",
+      "kachel-image-8": "liegerad-selbstbau.jpg",
+      "headline-1": "Wo sind die ICE Trikes?",
       "headline-2": "Kettenleitrollen",
       "headline-3": "T-Cycle Frontverkleidungen",
-      "headline-4": "Trike Sitzkomfort",
+      "headline-4": "Alle ICE Artikel",
       "headline-5": "Unsere Themenwelt",
       "headline-6": "Liegerad Laufradbau",
       "headline-7": "T-Cycle Zubehörhalter",
       "headline-8": "Schneller Versand",
-      "s-headline-1": "Unser gesamtes ICE Produktsortiment",
+      "s-headline-1": "Ab jetzt auf www.icetrikes.de ➔",
       "s-headline-2": "Trike Tuning von T-Cycle",
       "s-headline-3": "Gut geschützt vor Wind und Wetter - passend für viele Trike Hersteller",
-      "s-headline-4": "Komfort Nachrüstung für ICE Trikes",
-      "s-headline-5": "Nützliche Informationen zu unserem Produktsortiment",
+      "s-headline-4": "Unser gesamtes ICE Produktsortiment",
+      "s-headline-5": "Nützliche Informationen zu unseren Produkten",
       "s-headline-6": "Laufräder für Ihr ICE Trike",
       "s-headline-7": "Montieren Sie fast alles am Liegerad",
       "s-headline-8": "Wir versenden zuverlässig per DHL",
-      "link-1": "collections\/marke-ice\/",
-      "link-2": "collections\/kettenleitrollen",
-      "link-3": "collections\/frontverkleidung",
-      "link-4": "collections\/sitz",
-      "link-5": "themenwelt",
+      "link-1": "http:\/\/www.icetrikes.de",
+      "link-2": "collections\/Kettenleitrollen",
+      "link-3": "collections\/Frontverkleidung",
+      "link-4": "collections\/marke-ice\/",
+      "link-5": "pages\/themenwelt-einstieg",
       "link-6": "collections\/laufrad",
       "link-7": "collections\/zubehoerhalter",
       "link-8": "#shipping"
@@ -561,6 +583,50 @@
       "mirrycle": "collections\/spiegel",
       "klickfix": "collections\/marke-klickfix",
       "remerx": "collections\/marke-remerx"
+    },
+    "newsletter": {
+      "signup": "Melden Sie sich zum ICLETTA Newsletter an:"
+    },
+    "footer": {
+      "pay": "Zahlungsoptionen",
+      "ship": "Versanddienstleister",
+      "badge": "Zertifizierungen"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "address1_label": "Straße & Hausnummer oder Packstation",
+        "address2_label": "Adresszusatz oder Postnummer",
+        "optional_address2_label": "Wohnung, Zimmer usw. oder Postnummer"
+      },
+      "payment": {
+        "same_billing_address_label": "Rechnungsadresse gleich Lieferadresse",
+        "different_billing_address_label": "Abweichende Rechnungsadresse benutzen",
+        "billing_address_description": "Geben Sie hier bei Bedarf eine abweichende Rechnungsadresse ein"
+      },
+      "customer_account": {
+        "have_an_account_label": "Haben Sie bereits ein Kundenkonto?",
+        "sign_in_link_label": "Anmelden oder neu erstellen"
+      },
+      "general": {
+        "complete_purchase_button_label": "Zahlungspflichtig bestellen"
+      }
+    }
+  },
+  "icletta": {
+    "product": {
+      "media": {
+        "alt-text-for-media-id": {
+          "32089446678816": "This is a test",
+          "32089446711584": "Schau, jetzt ist die Mutter runtergeschraubt"
+        }
+      }
+    },
+    "footer": {
+      "payment-options": "Zahlungsmethoden:",
+      "shipping-service": "Versanddienstleister:",
+      "certification": "Zertifikate:"
     }
   },
   "shopify": {

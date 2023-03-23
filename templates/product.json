@@ -143,8 +143,8 @@
         "content_width": "full_width"
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
+    "related-products": {
+      "type": "related-products",
       "settings": {
         "heading": "Das könnte Ihnen auch gefallen",
         "heading_size": "h2",

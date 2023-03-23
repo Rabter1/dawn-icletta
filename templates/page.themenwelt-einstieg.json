@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        ".h0 {display: none;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "e197e256-55c0-4a4e-8f47-c19563fe5c8a": {
+      "type": "multirow",
+      "blocks": {
+        "template--18237998268704__e197e256-55c0-4a4e-8f47-c19563fe5c8a-1678788294cb85da9e-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kettenleitrollen-themenwelt.jpg",
+            "caption": "Trike Tuning Klassiker",
+            "heading": "T-Cycle Kettenleitrollen",
+            "text": "<p>Hier erfahren Sie, wieso unsere T-Cycle Kettenleitrollen den Antrieb Ihres Liegerads noch effizienter und langlebiger werden lassen. Lernen Sie den Unterschied zwischen den Sport und Elite Ausführungen kennen und welche Zubehöroptionen Ihnen zur Auswahl stehen.<\/p>",
+            "button_label": "Alles zu unseren Kettenleitrollen",
+            "button_link": "shopify:\/\/pages\/t-cycle-kettenleitrollen-1"
+          }
+        },
+        "template--18237998268704__e197e256-55c0-4a4e-8f47-c19563fe5c8a-1678788294cb85da9e-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tcycle-themenwelt-teaser.jpg",
+            "caption": "Die Liegerad Zubehörexperten",
+            "heading": "T-Cycle im Portrait",
+            "text": "<p>Wer ist eigentlich T-Cycle? Hier lernen Sie die sympathische Zubehörschmiede aus Portland kennen und erfahren, welches Team hinter all den cleveren Detaillösungen für Liegeräder steckt.<\/p>",
+            "button_label": "T-Cycle kennenlernen",
+            "button_link": "shopify:\/\/pages\/t-cycle-firmenportrait"
+          }
+        },
+        "template--18237998268704__e197e256-55c0-4a4e-8f47-c19563fe5c8a-1678788294cb85da9e-2": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "caption": "Caption",
+            "heading": "Wir von ICLETTA",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18237998268704__e197e256-55c0-4a4e-8f47-c19563fe5c8a-1678788294cb85da9e-0",
+        "template--18237998268704__e197e256-55c0-4a4e-8f47-c19563fe5c8a-1678788294cb85da9e-1",
+        "template--18237998268704__e197e256-55c0-4a4e-8f47-c19563fe5c8a-1678788294cb85da9e-2"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e197e256-55c0-4a4e-8f47-c19563fe5c8a"
+  ]
+}

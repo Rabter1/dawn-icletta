@@ -8,7 +8,7 @@
       "login_form_error": "Wrong password!",
       "login_form_submit": "Enter",
       "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"link underlined-link\">Log in here<\/a>",
-      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
+      "powered_by_shopify_html": ""
     },
     "social": {
       "alt_text": {
@@ -36,10 +36,12 @@
       "previous": "Previous page"
     },
     "search": {
-      "search": "Find recumbent accessories here"
+      "search": "Find recumbent accessories here",
+      "reset": "Clear search term"
     },
     "cart": {
       "view": "View my cart ({{ count }})",
+      "view_empty_cart": "View my cart",
       "item_added": "Item added to your cart"
     },
     "share": {
@@ -131,7 +133,11 @@
         "label": "Quantity",
         "input_label": "Quantity for {{ product }}",
         "increase": "Increase quantity for {{ product }}",
-        "decrease": "Decrease quantity for {{ product }}"
+        "decrease": "Decrease quantity for {{ product }}",
+        "minimum_of": "Minimum of {{ quantity }}",
+        "maximum_of": "Maximum of {{ quantity }}",
+        "multiples_of": "Increments of {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> in cart"
       },
       "pickup_availability": {
         "view_store_info": "View store information",
@@ -262,6 +268,18 @@
       "no_results": "No results found for “{{ terms }}”. Check the spelling or use a different word or phrase.",
       "page": "Page",
       "products": "Products",
+      "results_pages_with_count": {
+        "one": "{{ count }} page",
+        "other": "{{ count }} pages"
+      },
+      "results_suggestions_with_count": {
+        "one": "{{ count }} suggestion",
+        "other": "{{ count }} suggestions"
+      },
+      "results_products_with_count": {
+        "one": "{{ count }} product",
+        "other": "{{ count }} products"
+      },
       "results_with_count": {
         "one": "{{ count }} result",
         "other": "{{ count }} results"
@@ -271,7 +289,10 @@
         "other": "{{ count }} results found for “{{ terms }}”"
       },
       "title": "Search results",
-      "search_for": "Search for “{{ terms }}”"
+      "search_for": "Search for “{{ terms }}”",
+      "show_all": "Show all search results for “{{ terms }}”",
+      "suggestions": "Suggestions",
+      "pages": "Pages"
     },
     "cart": {
       "cart": "Cart"
@@ -442,6 +463,7 @@
       "price": "Price",
       "quantity": "Quantity",
       "total": "Total",
+      "total_refunded": "Refunded",
       "fulfilled_at_html": "Fulfilled {{ date }}",
       "track_shipment": "Track shipment",
       "tracking_url": "Tracking link",
@@ -530,10 +552,10 @@
       "s-headline-7": "Mount almost anything on your trike",
       "s-headline-8": "Important shipping information",
       "link-1": "en\/collections\/marke-ice\/",
-      "link-2": "en\/collections\/kettenleitrollen",
-      "link-3": "en\/collections\/frontverkleidung",
+      "link-2": "en\/collections\/Kettenleitrollen",
+      "link-3": "en\/collections\/Frontverkleidung",
       "link-4": "en\/collections\/sitz",
-      "link-5": "en\/themenwelt",
+      "link-5": "en\/pages\/themenwelt-einstieg",
       "link-6": "en\/collections\/laufrad",
       "link-7": "en\/collections\/zubehoerhalter",
       "link-8": "#shipping"
@@ -552,7 +574,7 @@
       "recycle_html": "Recycled packaging",
       "versand": "Local warehouse",
       "ausgang": "Daily shipping",
-      "tracking_html": "Tracking Services",
+      "tracking_html": "Tracking services",
       "lieferung": "Europe-wide delivery"
     },
     "brands": {
@@ -561,6 +583,41 @@
       "mirrycle": "en\/collections\/spiegel",
       "klickfix": "en\/collections\/marke-klickfix",
       "remerx": "en\/collections\/marke-remerx"
+    },
+    "newsletter": {
+      "signup": "Sign up for the ICLETTA newsletter:"
+    },
+    "footer": {
+      "pay": "Payment Options",
+      "ship": "Shipping Service",
+      "badge": "Certifications"
+    }
+  },
+  "icletta": {
+    "product": {
+      "media": {
+        "alt-text-for-media-id": {
+          "32089446678816": "C'est une test",
+          "32089446711584": "Ätzender Dialog"
+        }
+      }
+    },
+    "footer": {
+      "payment-options": "Payment options:",
+      "shipping-service": "Shipping service:",
+      "certification": "Certifications:"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "address1_label": "Straße & Hausnummer oder Packstation",
+        "address2_label": "Adresszusatz oder Postnummer",
+        "optional_address2_label": "Wohnung, Zimmer usw. oder Postnummer"
+      }
+    },
+    "links": {
+      "powered_by_shopify": " "
     }
   },
   "shopify": {
