@@ -147,9 +147,12 @@ a:visited {
   text-overflow: ellipsis;
 }
 
+/* Bigger icon for order details in cart drawer */
 
-
-
+.drawer__footer svg {
+  height: 1.2rem;
+  top: calc(50% - 0.1rem)
+}
 
 /* Comment page you are editing! */
 
@@ -523,7 +526,7 @@ position: absolute;
   font-weight: bold;
   font-size: 1em;
   color: white !important;
-  font-decoration: none;
+  text-decoration: none;
   margin-top: 0;
   margin-bottom: 0;  
  }
