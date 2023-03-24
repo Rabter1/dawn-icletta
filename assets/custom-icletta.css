@@ -479,7 +479,6 @@ width: 100%;
 
 .legrid-tile{
   position: relative;
-  background: cyan;
   color: white;  
   width: 100%;
   overflow: hidden;
@@ -581,16 +580,16 @@ position: absolute;
 .legrid-tile-eins{
 }
 .legrid-tile-zwei{
-  background: cyan;
+  
 }
 
 .legrid-tile-drei{
 
-  background: magenta;
+  
 }
 
 .legrid-tile-vier{
-  background: magenta;
+  
 }
 
 .legrid-tile-fuenf{
