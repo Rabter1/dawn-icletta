@@ -601,7 +601,7 @@
         "optional_address2_label": "Wohnung, Zimmer usw. oder Postnummer"
       },
       "customer_account": {
-        "have_an_account_label": "Haben Sie ein Konto?",
+        "have_an_account_label": "Haben Sie ein Kundenkonto?",
         "sign_in_link_label": "Anmelden oder erstellen"
       }
     },
