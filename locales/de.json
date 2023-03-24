@@ -602,7 +602,7 @@
       },
       "customer_account": {
         "have_an_account_label": "Haben Sie ein Kundenkonto?",
-        "sign_in_link_label": "Anmelden oder erstellen"
+        "sign_in_link_label": "Anmelden \/ Neu erstellen"
       }
     },
     "links": {
