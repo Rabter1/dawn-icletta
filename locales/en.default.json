@@ -612,9 +612,11 @@
     "links": {
       "powered_by_shopify": " "
     },
-    "customer_account": {
-      "have_an_account_label": "Do you have a customer account?",
-      "sign_in_link_label": "Log in or create new"
+    "checkout": {
+      "customer_account": {
+        "have_an_account_label": "Do you have a customer account?",
+        "sign_in_link_label": "Log in or create new"
+      }
     }
   }
 }
