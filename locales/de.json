@@ -199,7 +199,68 @@
       "clear_filter": "Filter entfernen",
       "filter_selected_accessibility": "{{ type }} ({{ count }} Filter ausgewählt)",
       "show_more": "Mehr anzeigen",
-      "show_less": "Weniger anzeigen"
+      "show_less": "Weniger anzeigen",
+      "metafield_filters": {
+        "label": {
+          "Funktion": "",
+          "Produkttyp": "",
+          "Montageposition": ""
+        },
+        "value": {
+          "Antriebsstrang": "",
+          "Halterung": "",
+          "Sicherheit": "",
+          "Lenkung": "",
+          "Komfort": "",
+          "Vorderrad": "",
+          "Hinterrad": "",
+          "Lenker": "",
+          "Rahmen": "",
+          "Achse": "",
+          "Akkuhalter": "",
+          "Antrieb": "",
+          "Beleuchtung": "",
+          "Bremshebel": "",
+          "Doppelklemmschelle": "",
+          "Ersatzteil": "",
+          "Felge": "",
+          "Felgenband": "",
+          "Flagge": "",
+          "Flaggenhalter": "",
+          "Frontverkleidung": "",
+          "Gepcktaschen": "",
+          "Gepcktrger": "",
+          "Innenlager": "",
+          "Kette": "",
+          "Kettenfhrung": "",
+          "Kettenleitrolle": "",
+          "Kettenleitrollen-Set": "",
+          "Kettenleitrollen-Zubehr": "",
+          "Kettenschutzring": "",
+          "Kettenschutzrohr": "",
+          "Komfortausstattung": "",
+          "Kopfsttze": "",
+          "Kurbel": "",
+          "Kurbelverkrzer": "",
+          "Laufrad": "",
+          "Nabe": "",
+          "Parkbremse": "",
+          "Pedale": "",
+          "Pedalpendel": "",
+          "Rahmenklemmschelle": "",
+          "Rahmenschnellverstellung": "",
+          "Rcklichtbefestigung": "",
+          "Schutzblech": "",
+          "Sitz": "",
+          "Sitzadapter": "",
+          "Sitzzubehr": "",
+          "Spiegel": "",
+          "Steuersatz": "",
+          "Trinkflaschen": "",
+          "Trommelbremse": "",
+          "Zubehrhalter": ""
+        }
+      }
     }
   },
   "templates": {
@@ -538,6 +599,10 @@
         "address1_label": "Straße & Hausnummer oder Packstation",
         "address2_label": "Adresszusatz oder Postnummer",
         "optional_address2_label": "Wohnung, Zimmer usw. oder Postnummer"
+      },
+      "customer_account": {
+        "have_an_account_label": "Haben Sie bereits ein Kundenkonto?",
+        "sign_in_link_label": "Anmelden oder Neu erstellen"
       }
     },
     "links": {
