@@ -601,8 +601,8 @@
         "optional_address2_label": "Wohnung, Zimmer usw. oder Postnummer"
       },
       "customer_account": {
-        "have_an_account_label": "Haben Sie bereits ein Kundenkonto?",
-        "sign_in_link_label": "Anmelden oder Neu erstellen"
+        "have_an_account_label": "Haben Sie ein Konto?",
+        "sign_in_link_label": "Anmelden oder erstellen"
       }
     },
     "links": {
