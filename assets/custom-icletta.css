@@ -522,10 +522,10 @@ position: absolute;
 }
 
 .legrid-button-text{
-  font-weight: bold;
   font-size: 1em;
   color: white !important;
   text-decoration: none;
+  font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;  
  }
