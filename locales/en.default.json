@@ -611,6 +611,10 @@
   "shopify": {
     "links": {
       "powered_by_shopify": " "
+    },
+    "customer_account": {
+      "have_an_account_label": "Haben Sie ein Kundenkonto?",
+      "sign_in_link_label": "Anmelden \/ Neu erstellen"
     }
   }
 }
