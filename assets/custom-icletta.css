@@ -673,6 +673,12 @@ position: absolute;
   text-decoration: none;
 }
 
+@media only screen and (max-width: 768px) {
+.ICE-button{
+  padding-bottom: 4em;
+}
+}
+
 /*-------------STARTSEITE: Herstellerlogos-------------*/
 
 .container-logomenu{
