@@ -590,19 +590,15 @@ position: absolute;
     }
   
   .legrid-button-text{
-  font-size: 1em; 
-    margin-bottom: 0px;
-    padding: 0px;
-    background: Red;
+  font-size: 1em;     
     }
   .legrid-tile-button{
     height: 4em !important;
-    padding-top: 0px;
+    padding-top: 5px;
   }
 .legrid-button-subtext{
   line-height: 1em;
-  margin-top: 0px;
-  background: green;
+  
   }
 }
 
