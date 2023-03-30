@@ -677,6 +677,9 @@ position: absolute;
 .ICE-button{
   margin-bottom: 1em;
 }
+   .t-cycle-button {
+     margin-top: 2em;
+   }
 }
 
 /*-------------STARTSEITE: Herstellerlogos-------------*/
