@@ -557,7 +557,7 @@ position: absolute;
     background: #fff;
    }
   .legrid-tile-button{
-    padding-bottom: 0px !important;
+    padding: 0px !important;
   }
 .legrid-button-subtext{
   display: none;
