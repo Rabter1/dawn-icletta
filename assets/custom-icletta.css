@@ -705,7 +705,7 @@ position: absolute;
   height: auto; 
   justify-content: center;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1300px) {
  .container-logomenu{
    margin: auto;
    width: 95%;
