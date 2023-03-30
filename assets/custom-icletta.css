@@ -553,11 +553,10 @@ position: absolute;
   
   .legrid-button-text{
   font-size: 1.2em; 
-    margin-top: 50%;
     background: #fff;
    }
   .legrid-tile-button{
-    height: 2.5em;
+    height: 3em !important;
   }
 .legrid-button-subtext{
   display: none;
