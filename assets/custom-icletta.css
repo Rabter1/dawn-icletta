@@ -582,9 +582,22 @@ position: absolute;
   .legrid-tile-acht {
     grid-row-start: 5;
     }
+}
 
-  .legrid-tile-button {
-    height: 4em;
+@media only screen and (max-width: 768px) {
+  .legrid-tile-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 2em;
+    }
+  
+  .legrid-button-text{
+  font-size: 1em; 
+    }
+  .legrid-tile-button{
+    height: 3.2em !important;
+  }
+.legrid-button-subtext{
+  display: none;
   }
 }
 
