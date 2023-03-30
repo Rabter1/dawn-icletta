@@ -550,6 +550,15 @@ position: absolute;
   .legrid-tile-container {
     grid-template-columns: repeat(2, 1fr);
     }
+  
+  .legrid-button-text{
+  font-size: 0.8em;  
+  }
+.legrid-button-subtext{
+  font-size: 0.5em;
+  }
+  
+  
   .legrid-tile-vier {
     grid-row-start: 3;
    }
@@ -579,32 +588,19 @@ position: absolute;
 
 .legrid-tile-eins{
 }
-.legrid-tile-zwei{
-  
+.legrid-tile-zwei{  
 }
-
-.legrid-tile-drei{
-
-  
+.legrid-tile-drei{  
 }
-
-.legrid-tile-vier{
-  
+.legrid-tile-vier{  
 }
-
 .legrid-tile-fuenf{
 }
-
-.legrid-tile-sechs{
-  
+.legrid-tile-sechs{  
 }
-
-.legrid-tile-sieben{
-  
+.legrid-tile-sieben{  
 }
-
-.legrid-tile-acht{
- 
+.legrid-tile-acht{ 
 }
 
 /*-------------STARTSEITE: Hersteller Banner für  Kategorien-------------*/
