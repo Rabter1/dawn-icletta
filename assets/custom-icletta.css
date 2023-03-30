@@ -552,7 +552,8 @@ position: absolute;
     }
   
   .legrid-button-text{
-  font-size: 1.2em;  
+  font-size: 1.2em; 
+    margin-top: 50%;
   }
 .legrid-button-subtext{
   display: none;
