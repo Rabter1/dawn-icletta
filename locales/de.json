@@ -623,5 +623,12 @@
       "shipping-service": "Versanddienstleister:",
       "certification": "Zertifikate:"
     }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_status": {
+        "in_review_title": "Ihre Bestellung wird überprüft."
+      }
+    }
   }
 }
