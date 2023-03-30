@@ -555,6 +555,7 @@ position: absolute;
   font-size: 1.2em; 
     margin-top: 50%;
     background: #fff;
+    padding:0px;
   }
 .legrid-button-subtext{
   display: none;
