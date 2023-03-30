@@ -591,12 +591,14 @@ position: absolute;
   
   .legrid-button-text{
   font-size: 1em; 
+    margin-bottom: 0px;
     }
   .legrid-tile-button{
     height: 3.2em !important;
   }
 .legrid-button-subtext{
   line-height: 1em;
+  margin-top: 0px;
   }
 }
 
