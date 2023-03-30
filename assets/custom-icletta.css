@@ -555,7 +555,9 @@ position: absolute;
   font-size: 1.2em; 
     margin-top: 50%;
     background: #fff;
-    padding: 0px !important;
+   }
+  .legrid-tile-button{
+    padding-bottom: 0px;
   }
 .legrid-button-subtext{
   display: none;
