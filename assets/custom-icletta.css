@@ -596,7 +596,7 @@ position: absolute;
     height: 3.2em !important;
   }
 .legrid-button-subtext{
-  display: none;
+  line-height: 1em;
   }
 }
 
