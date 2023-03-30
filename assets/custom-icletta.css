@@ -596,7 +596,8 @@ position: absolute;
     background: Red;
     }
   .legrid-tile-button{
-    height: 3.2em !important;
+    height: 4em !important;
+    padding-top: 0px;
   }
 .legrid-button-subtext{
   line-height: 1em;
