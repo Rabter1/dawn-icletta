@@ -617,6 +617,9 @@
       "customer_account": {
         "have_an_account_label": "Do you have a customer account?",
         "sign_in_link_label": "Log in or create new"
+      },
+      "alternative_payment_method_banner": {
+        "or": "Oder Zahlungsmethode nach Adresseingabe wählen:"
       }
     }
   }
