@@ -607,6 +607,9 @@
       },
       "general": {
         "complete_purchase_button_label": "Kostenpflichtig bestellen"
+      },
+      "alternative_payment_method_banner": {
+        "or": "Oder Zahlungsmethode nach Adresseingabe wählen"
       }
     },
     "links": {
