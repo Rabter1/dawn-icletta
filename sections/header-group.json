@@ -27,13 +27,13 @@
         ".header--middle-left {grid-template-columns: 1fr auto 1fr;}"
       ],
       "settings": {
-        "color_scheme": "background-1",
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
-        "enable_country_selector": true,
+        "color_scheme": "background-1",
+        "enable_country_selector": false,
         "enable_language_selector": true,
         "mobile_logo_position": "center",
         "margin_bottom": 0,

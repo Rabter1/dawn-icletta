@@ -127,7 +127,7 @@
         "minimum_of": "Минимум {{ quantity }}",
         "maximum_of": "Максимум {{ quantity }}",
         "multiples_of": "Прирост: {{ quantity }}",
-        "in_cart_html": "В корзине: <span class=\"quantity-cart\">{{ quantity }}</span>"
+        "in_cart_html": "В корзине: <span class=\"quantity-cart\">{{ quantity }}<\/span>"
       },
       "price": {
         "from_price_html": "От {{ price }}",

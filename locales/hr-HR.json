@@ -126,7 +126,7 @@
         "minimum_of": "Minimalno {{ quantity }}",
         "maximum_of": "Maksimalno {{ quantity }}",
         "multiples_of": "Povećanje od {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> u košarici"
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> u košarici"
       },
       "price": {
         "from_price_html": "Od {{ price }}",

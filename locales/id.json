@@ -118,7 +118,7 @@
         "minimum_of": "Minimum {{ quantity }}",
         "maximum_of": "Maksimum {{ quantity }}",
         "multiples_of": "Nilai peningkatan {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> di keranjang"
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> di keranjang"
       },
       "price": {
         "from_price_html": "Dari {{ price }}",
