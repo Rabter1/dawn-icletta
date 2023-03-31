@@ -619,7 +619,7 @@
         "sign_in_link_label": "Log in or create new"
       },
       "alternative_payment_method_banner": {
-        "or": "Oder Zahlungsmethode nach Adresseingabe wählen:"
+        "or": "or select payment method after adress entry:"
       }
     }
   }
