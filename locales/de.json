@@ -610,6 +610,9 @@
       },
       "alternative_payment_method_banner": {
         "or": "Oder Zahlungsmethode nach Adresseingabe wählen:"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Ich möchte den ICLETTA Liegerad-Newsletter erhalten"
       }
     },
     "links": {
