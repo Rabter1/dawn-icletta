@@ -620,6 +620,9 @@
       },
       "alternative_payment_method_banner": {
         "or": "or select payment method after adress entry:"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "I want to receive the ICLETTA Recumbent Newsletter"
       }
     }
   }
