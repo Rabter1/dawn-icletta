@@ -586,7 +586,8 @@
       "remerx": "en\/collections\/marke-remerx"
     },
     "newsletter": {
-      "signup": "Sign up for the ICLETTA newsletter:"
+      "signup": "Sign up for the ICLETTA newsletter:",
+      "datenschutz": "Our privacy policy"
     },
     "footer": {
       "pay": "Payment Options",
