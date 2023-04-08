@@ -139,8 +139,6 @@
             "type": "announcement",
             "settings": {
               "text": "",
-              "text_alignment": "center",
-              "color_scheme": "inverse",
               "link": ""
             }
           }
