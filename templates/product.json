@@ -115,14 +115,14 @@
         "template--16694958129440__cf2dd73b-1e49-4111-9f32-4640828dea03-1666768217a1155f8c-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Beschreibung<\/p>",
+            "heading": "Beschreibung",
             "heading_size": "h2"
           }
         },
         "template--16694958129440__cf2dd73b-1e49-4111-9f32-4640828dea03-1666768217a1155f8c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>[product_description]<\/p>"
+            "text": "[product_description]"
           }
         }
       },
