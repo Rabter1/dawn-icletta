@@ -122,7 +122,7 @@
         "template--16694958129440__cf2dd73b-1e49-4111-9f32-4640828dea03-1666768217a1155f8c-1": {
           "type": "text",
           "settings": {
-            "text": "[product_description]"
+            "text": "<p>[product_description]<\/p>"
           }
         }
       },
