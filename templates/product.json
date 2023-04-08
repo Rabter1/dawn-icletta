@@ -143,8 +143,8 @@
         "content_width": "full_width"
       }
     },
-    "related-products": {
-      "type": "related-products",
+    "complementary": {
+      "type": "complementary",
       "settings": {
         "heading": "Das könnte Ihnen auch gefallen",
         "heading_size": "h2",
@@ -164,6 +164,6 @@
   "order": [
     "main",
     "cf2dd73b-1e49-4111-9f32-4640828dea03",
-    "product-recommendations"
+    "complementary"
   ]
 }
