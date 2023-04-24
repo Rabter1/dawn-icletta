@@ -414,6 +414,7 @@ box-shadow: none !important;
 
 .keyvisual-flex img{  
 width: 100%;
+  height: auto;
 }
 
 /*Positionierung der Claims*/
