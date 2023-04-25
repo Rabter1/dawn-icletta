@@ -623,7 +623,8 @@
           "32089446711584": ""
         }
       },
-      "weight": "Product weight:"
+      "weight": "Weight:",
+      "varweight": "Weights:"
     },
     "footer": {
       "payment-options": "Payment options:",
