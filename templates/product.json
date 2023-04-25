@@ -68,7 +68,7 @@
         "a0dc0bba-189f-4dee-9eb0-8ccfe32c2cff": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% comment %} \nShort description\n{% endcomment %}\n{%- if product.metafields.custom.short_description != blank -%}\n{%- assign bulletPoint = product.metafields.custom.short_description | newline_to_br | split: '<br \/>' -%}\n<ul style=\"padding-left: 1.2em\">\n{%- for line in bulletPoint -%}\n<li>{{line}}<\/li>\n{%- endfor -%}\n<li>{{'icletta.product.weight' | t }} {{ product.variants.weight | weight_with_unit}} <\/li>\n<\/ul>\n{%- endif -%}"
+            "custom_liquid": "{% comment %} \nShort description\n{% endcomment %}\n{%- if product.metafields.custom.short_description != blank -%}\n{%- assign bulletPoint = product.metafields.custom.short_description | newline_to_br | split: '<br \/>' -%}\n<ul style=\"padding-left: 1.2em\">\n{%- for line in bulletPoint -%}\n<li>{{line}}<\/li>\n{%- endfor -%}\n<li>{{'icletta.product.weight' | t }} {{ product.variants.first.weight | weight_with_unit}} <\/li>\n<\/ul>\n{%- endif -%}"
           }
         },
         "1c902a74-4a14-4ad7-b06a-5a5852d3092b": {
