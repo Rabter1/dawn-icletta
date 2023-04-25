@@ -77,6 +77,12 @@
             "custom_liquid": "{% comment %} \nAssembly instructions\n{% endcomment %}\n{%- if product.metafields.custom.assembly-instructions != blank -%}\n{%- assign instructions = product.metafields.custom.assembly-instructions.value -%}\n<div class=\"product__accordion accordion quick-add-hidden\">\n<details id=\"Details-{{ block.id }}-{{ section.id }}\">\n<summary>\n<div class=\"summary__title\">\n{% render 'icon-accordion', icon: 'clipboard' %}\n<h2 class=\"h4 accordion__title\">\n{{ 'products.product.assembly_instructions' | t }}\n<\/h2>\n<\/div>\n{% render 'icon-caret' %}\n<\/summary>\n<div class=\"accordion__content rte\" id=\"ProductAccordion-{{ block.id }}-{{ section.id }}\">\n<ul style=\"padding-left: 1.2em\">\n{%- for file in instructions-%}\n<li><a href=\"{{file.url}}\" target=\"_blank\">{{file.url| split: '\/' | last | split: '?' | first}}<\/a><\/li>\n{%- endfor -%}\n<\/ul>\n<\/div>\n<\/details>\n<\/div>\n{%- endif -%}"
           }
         },
+        "be811a61-c1e3-436d-b29f-28053fd6fead": {
+          "type": "sku",
+          "settings": {
+            "text_style": "uppercase"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -96,6 +102,7 @@
         "58887f34-e8d7-4f53-874d-0a6dab50304b",
         "a0dc0bba-189f-4dee-9eb0-8ccfe32c2cff",
         "1c902a74-4a14-4ad7-b06a-5a5852d3092b",
+        "be811a61-c1e3-436d-b29f-28053fd6fead",
         "share"
       ],
       "settings": {
@@ -140,12 +147,12 @@
         "color_scheme": "background-2",
         "full_width": false,
         "padding_top": 40,
-        "padding_bottom": 48,
+        "padding_bottom": 52,
         "content_width": "full_width"
       }
     },
-    "related-products": {
-      "type": "related-products",
+    "product-recommendations": {
+      "type": "product-recommendations",
       "settings": {
         "heading": "Das könnte Ihnen auch gefallen",
         "heading_size": "h2",
@@ -153,7 +160,6 @@
         "columns_desktop": 4,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
-        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
@@ -166,6 +172,6 @@
   "order": [
     "main",
     "cf2dd73b-1e49-4111-9f32-4640828dea03",
-    "related-products"
+    "product-recommendations"
   ]
 }
