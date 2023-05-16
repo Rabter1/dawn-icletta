@@ -15,7 +15,7 @@
             form="cart"
             id="Cart-note"
             placeholder="{{ 'sections.cart.note' | t }}{{request.locale.name }}"
-          >{{ cart.note }}</textarea>
+          >{{ cart.note }}{{request.locale.name }}</textarea>
         </cart-note>
       {%- endif -%}
 
