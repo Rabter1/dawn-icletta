@@ -161,7 +161,7 @@
                           role="list"
                         >
                           {%- for value in filter.values -%}
-                            {% capture filterValue %}{{ 'products.facets.metafield_filters.value.' | append: value.label | escape | t }} {% endcapture %}
+                            {% capture filterValue %}{{ 'products.facets.metafield_filters.value.' | append: value.label | remove: "Ä" | remove: "ä" | remove: "Ö" | remove: "ö" | remove: "Ü" | remove: "ü" | remove: "ß" | replace: ' ', '-' | escape | t }} {% endcapture %}
                             <li class="list-menu__item facets__item{% if forloop.index > 10 and filter_type == 'vertical' %} show-more-item hidden{% endif %}">
                               <label
                                 for="Filter-{{ filter.param_name | escape }}-{{ forloop.index }}"

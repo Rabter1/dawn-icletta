@@ -36,7 +36,7 @@
       "previous": "Previous page"
     },
     "search": {
-      "search": "Search",
+      "search": "Find recumbent accessories here",
       "reset": "Clear search term"
     },
     "cart": {
@@ -110,12 +110,12 @@
       "choose_options": "Choose options",
       "choose_product_options": "Choose options for {{ product_name }}",
       "description": "Description",
-      "inventory_in_stock": "In stock",
+      "inventory_in_stock": "In stock - Ships within 1-3 business days",
       "inventory_in_stock_show_count": "{{ quantity }} in stock",
       "inventory_low_stock": "Low stock",
       "inventory_low_stock_show_count": "Low stock: {{ quantity }} left",
       "inventory_out_of_stock": "Out of stock",
-      "inventory_out_of_stock_continue_selling": "In stock",
+      "inventory_out_of_stock_continue_selling": "In stock - Ships within 1-3 business days",
       "sku": "SKU",
       "on_sale": "Sale",
       "product_variants": "Product variants",
@@ -177,7 +177,7 @@
       "clear_all": "Remove all",
       "from": "From",
       "filter_and_sort": "Filter and sort",
-      "filter_by_label": "Filter:",
+      "filter_by_label": "Filter products:",
       "filter_button": "Filter",
       "filters_selected": {
         "one": "{{ count }} selected",
@@ -194,6 +194,7 @@
       "metafield_filters": {
         "label": {
           "Funktion": "Task",
+          "Produkttyp": "Product Type",
           "Montageposition": "Mounting position"
         },
         "value": {
@@ -205,7 +206,51 @@
           "Vorderrad": "Front wheel",
           "Hinterrad": "Rear wheel",
           "Lenker": "Steering",
-          "Rahmen": "Frame"
+          "Rahmen": "Frame",
+          "Achse": "Axle",
+          "Akkuhalter": "Battery mount",
+          "Antrieb": "Drivetrain",
+          "Beleuchtung": "Lighting",
+          "Bremshebel": "Brake lever",
+          "Bremssattel": "Brake caliper",
+          "Doppelklemmschelle": "Double clamp",
+          "Ersatzteil": "Spare part",
+          "Felge": "Rim",
+          "Felgenband": "Rim tape",
+          "Flagge": "Flag",
+          "Flaggenhalter": "Flag mount",
+          "Frontverkleidung": "Fairing",
+          "Gepcktaschen": "Luggage",
+          "Gepcktrger": "Rear rack",
+          "Innenlager": "Bottom bracket",
+          "Kette": "Chain",
+          "Kettenfhrung": "Chain guide",
+          "Kettenleitrolle": "Chain idler",
+          "Kettenleitrollen-Set": "Chain idler set",
+          "Kettenleitrollen-Zubehr": "Idler accessory",
+          "Kettenschutzring": "Chain ring guard",
+          "Kettenschutzrohr": "Chain tube",
+          "Komfortausstattung": "Comfort accessory",
+          "Kopfsttze": "Neck rest",
+          "Kurbel": "Crank",
+          "Kurbelverkrzer": "Crank shortener",
+          "Laufrad": "Wheel",
+          "Nabe": "Hub",
+          "Parkbremse": "Parking brake",
+          "Pedale": "Pedals",
+          "Pedalpendel": "Pedal swing",
+          "Rahmenklemmschelle": "Frame clamp",
+          "Rahmenschnellverstellung": "Frame quick adjust",
+          "Rcklichtbefestigung": "Rear light mount",
+          "Schutzblech": "Mudguard",
+          "Sitz": "Seat",
+          "Sitzadapter": "Seat adapter",
+          "Sitzzubehr": "Seat accessory",
+          "Spiegel": "Mirror",
+          "Steuersatz": "Headset",
+          "Trinkflaschen": "Water bottle",
+          "Trommelbremse": "Drum brake",
+          "Zubehrhalter": "Accessory mount"
         }
       },
       "product_count_simple": {
@@ -513,12 +558,12 @@
       "kachel-image-8": "trike-selbstbau.jpg",
       "headline-1": "ICE Parts",
       "headline-2": "Chain Idlers",
-      "headline-3": "T-Cycle Fairings",
+      "headline-3": "T-Cycle Weather Protection Fairings",
       "headline-4": "Trike Seating",
-      "headline-5": "Recumbent Topics ",
-      "headline-6": "Trike Wheelbuilding",
+      "headline-5": "Discover Our Recumbent Info Hub",
+      "headline-6": "Wheelbuilding",
       "headline-7": "T-Cycle Mounts",
-      "headline-8": "For our UK Customers",
+      "headline-8": "UK Customer Info",
       "s-headline-1": "Our entire ICE product range",
       "s-headline-2": "Trike tuning by T-Cycle",
       "s-headline-3": "Well protected from wind and weather - suitable for many trike manufacturers",
@@ -540,7 +585,7 @@
       "button-ICE-produkte": "Browse all our ICE products &#10132;",
       "button-t-cycle-produkte": "Browse all our T-Cycle products &#10132;",
       "button-ICE-link": "en\/collections\/marke-ice\/",
-      "button-t-cycle-link": "en\/collections\/terracycle\/"
+      "button-t-cycle-link": "en\/collections\/t-cycle\/"
     },
     "divider": {
       "hersteller": "BRANDS",
@@ -561,7 +606,8 @@
       "remerx": "en\/collections\/marke-remerx"
     },
     "newsletter": {
-      "signup": "Sign up for the ICLETTA newsletter:"
+      "signup": "Sign up for the ICLETTA recumbent newsletter:",
+      "datenschutz": "Our privacy policy"
     },
     "footer": {
       "pay": "Payment Options",
@@ -573,10 +619,12 @@
     "product": {
       "media": {
         "alt-text-for-media-id": {
-          "32089446678816": "C'est une test",
-          "32089446711584": "Ätzender Dialog"
+          "32089446678816": "",
+          "32089446711584": ""
         }
-      }
+      },
+      "weight": "Weight:",
+      "varweight": "Weights:"
     },
     "footer": {
       "payment-options": "Payment options:",
@@ -585,15 +633,20 @@
     }
   },
   "shopify": {
-    "checkout": {
-      "contact": {
-        "address1_label": "Straße & Hausnummer oder Packstation",
-        "address2_label": "Adresszusatz oder Postnummer",
-        "optional_address2_label": "Wohnung, Zimmer usw. oder Postnummer"
-      }
-    },
     "links": {
       "powered_by_shopify": " "
+    },
+    "checkout": {
+      "customer_account": {
+        "have_an_account_label": "Do you have a customer account?",
+        "sign_in_link_label": "Log in or create new"
+      },
+      "alternative_payment_method_banner": {
+        "or": "or select payment method after adress entry:"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "I want to receive the ICLETTA Recumbent Newsletter"
+      }
     }
   }
 }

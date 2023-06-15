@@ -4,7 +4,7 @@
       "type": "main-collection-banner",
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": true,
+        "show_collection_image": false,
         "color_scheme": "background-1"
       }
     },
@@ -26,18 +26,18 @@
         "padding_bottom": 36
       }
     },
-    "9d2fa561-0021-4af8-8aef-3a0b243b023b": {
+    "31b33854-1000-47c3-9cfd-2760172663d3": {
       "type": "rich-text",
       "blocks": {
-        "template--16752292167968__9d2fa561-0021-4af8-8aef-3a0b243b023b-1673544212101976bf-0": {
+        "template--16752292167968__31b33854-1000-47c3-9cfd-2760172663d3-1674154947d8697547-0": {
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>{{ collection.title }}<\/p>",
+            "heading_size": "h2"
           }
         },
-        "template--16752292167968__9d2fa561-0021-4af8-8aef-3a0b243b023b-1673544212101976bf-1": {
+        "template--16752292167968__31b33854-1000-47c3-9cfd-2760172663d3-1674154947d8697547-1": {
           "type": "text",
           "settings": {
             "text": "<p>{{ collection.metafields.custom[\"seo-description\"] | metafield_tag }}<\/p>"
@@ -45,8 +45,8 @@
         }
       },
       "block_order": [
-        "template--16752292167968__9d2fa561-0021-4af8-8aef-3a0b243b023b-1673544212101976bf-0",
-        "template--16752292167968__9d2fa561-0021-4af8-8aef-3a0b243b023b-1673544212101976bf-1"
+        "template--16752292167968__31b33854-1000-47c3-9cfd-2760172663d3-1674154947d8697547-0",
+        "template--16752292167968__31b33854-1000-47c3-9cfd-2760172663d3-1674154947d8697547-1"
       ],
       "custom_css": [
         "*:after {box-shadow: none;}"
@@ -58,13 +58,13 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52,
-        "content_width": "default"
+        "content_width": "full_width"
       }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "9d2fa561-0021-4af8-8aef-3a0b243b023b"
+    "31b33854-1000-47c3-9cfd-2760172663d3"
   ]
 }

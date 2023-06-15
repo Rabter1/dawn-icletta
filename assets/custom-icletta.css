@@ -147,9 +147,12 @@ a:visited {
   text-overflow: ellipsis;
 }
 
+/* Bigger icon for order details in cart drawer */
 
-
-
+.drawer__footer svg {
+  height: 1.2rem;
+  top: calc(50% - 0.1rem)
+}
 
 /* Comment page you are editing! */
 
@@ -410,7 +413,8 @@ box-shadow: none !important;
 }
 
 .keyvisual-flex img{  
-width: 100%;
+max-width: 100%;
+  height: auto;
 }
 
 /*Positionierung der Claims*/
@@ -476,7 +480,6 @@ width: 100%;
 
 .legrid-tile{
   position: relative;
-  background: cyan;
   color: white;  
   width: 100%;
   overflow: hidden;
@@ -514,11 +517,16 @@ position: absolute;
     text-decoration: none !important;
  }
 
+ .legrid-tile-button a:visited {
+  color: white !important;
+  text-decoration: none !important;
+}
+
 .legrid-button-text{
-  font-weight: bold;
   font-size: 1em;
   color: white !important;
-  font-decoration: none;
+  text-decoration: none;
+  font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;  
  }
@@ -539,10 +547,43 @@ position: absolute;
     text-decoration: none !important;
   }
 
+@media only screen and (max-width: 1300px) {
+  .legrid-tile-container {
+    margin-bottom: 2em;
+    }
+  
+  .legrid-button-text{
+  font-size: 1em;     
+    }
+  .legrid-tile-button{
+    height: 4em !important;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+.legrid-button-subtext{
+  line-height: 1em;  
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .legrid-tile-container {
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 2em;
     }
+  
+  .legrid-button-text{
+  font-size: 1em; 
+    }
+  .legrid-tile-button{
+    height: 3em !important;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+.legrid-button-subtext{
+  display: none;
+  }
+  
+  
   .legrid-tile-vier {
     grid-row-start: 3;
    }
@@ -562,42 +603,24 @@ position: absolute;
   .legrid-tile-acht {
     grid-row-start: 5;
     }
-
-  .legrid-tile-button {
-    height: 4em;
-  }
 }
-
 /*Positionierung der "Tile" Elemente*/
 
 .legrid-tile-eins{
 }
-.legrid-tile-zwei{
-  background: cyan;
+.legrid-tile-zwei{  
 }
-
-.legrid-tile-drei{
-
-  background: magenta;
+.legrid-tile-drei{  
 }
-
-.legrid-tile-vier{
-  background: magenta;
+.legrid-tile-vier{  
 }
-
 .legrid-tile-fuenf{
 }
-
-.legrid-tile-sechs{
-  
+.legrid-tile-sechs{  
 }
-
-.legrid-tile-sieben{
-  
+.legrid-tile-sieben{  
 }
-
-.legrid-tile-acht{
- 
+.legrid-tile-acht{ 
 }
 
 /*-------------STARTSEITE: Hersteller Banner für  Kategorien-------------*/
@@ -667,6 +690,12 @@ position: absolute;
   text-decoration: none;
 }
 
+@media only screen and (max-width: 768px) {
+.ICE-button{
+  margin-bottom: 1em;
+}
+}
+
 /*-------------STARTSEITE: Herstellerlogos-------------*/
 
 .container-logomenu{
@@ -677,7 +706,7 @@ position: absolute;
   height: auto; 
   justify-content: center;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1300px) {
  .container-logomenu{
    margin: auto;
    width: 95%;
