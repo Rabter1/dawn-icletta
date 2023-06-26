@@ -6,9 +6,48 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "9864da77-c956-4dae-8d1f-540034597b9c": {
+      "type": "collage",
+      "blocks": {
+        "template--19174719783239__9864da77-c956-4dae-8d1f-540034597b9c-1687783645da960047-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cagemount.jpg"
+          }
+        },
+        "498f051a-42b0-4ae1-b896-6bac4cfb8b77": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Windwrap-TerrraCycle-WINTR-Seitenansicht-mit-Siegel.jpg"
+          }
+        },
+        "c601db95-1aae-4817-8556-cebe53400c98": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ICE-Ruecklichthalter-DSC_9086.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--19174719783239__9864da77-c956-4dae-8d1f-540034597b9c-1687783645da960047-0",
+        "498f051a-42b0-4ae1-b896-6bac4cfb8b77",
+        "c601db95-1aae-4817-8556-cebe53400c98"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "9864da77-c956-4dae-8d1f-540034597b9c"
   ]
 }
