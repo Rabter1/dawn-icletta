@@ -9,9 +9,11 @@
     },
     "9864da77-c956-4dae-8d1f-540034597b9c": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "template--19174719783239__9864da77-c956-4dae-8d1f-540034597b9c-1687783645da960047-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/cagemount.jpg"
           }
@@ -50,6 +52,7 @@
       "blocks": {
         "template--19174719783239__7d196ac2-700e-449c-b38f-05d6dd702539-168778398921dc4ea1-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/cagemount.jpg",
             "heading": "",
@@ -68,6 +71,7 @@
         },
         "template--19174719783239__7d196ac2-700e-449c-b38f-05d6dd702539-168778398921dc4ea1-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/ICE-Regenhuelle-montiert.jpg",
             "heading": "",
