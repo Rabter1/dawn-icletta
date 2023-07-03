@@ -161,7 +161,7 @@ a:visited {
     font-size: 200% !important;
     image-width: 100% !important;
 }
-/*-------------Themenwelt Artikel Vorschaubox-------------*/
+/*-------------THEMENWELT Artikel Vorschaubox-------------*/
 .vorschaubox {
   /*outline: 1px solid grey;*/
   /*width: 1300px;*/
@@ -228,7 +228,7 @@ a:visited {
   box-shadow: rgba(50, 50, 93, 0.25) 0px   6px 12px -2px, rgba(0, 0, 0, 0.3) 0px     3px 7px -3px;*/
 }
 
-/*-------------CSS für Themenwelt Seite-------------*/
+/*-------------THEMENWELT: CSS -------------*/
 .body{
   background-color: white !important;
 }
@@ -372,6 +372,23 @@ box-shadow: none !important;
 .jahrestext{
  text-align: justify;
   padding: 0em 1em;
+}
+/*-------------THEMENWELT: Zubehörhalter-------------*/
+.startblock{
+  display: flex;
+  flex-direction: row;  
+}
+.startblock-left{
+  display: flex;
+  flex-direction: column;
+}
+.compability-button{
+  background-color: orange;
+  border-radius: 5px;
+}
+.compability-button-text{
+  padding: 5px;
+  text-align: center;
 }
 
 /*-------------CSS für CMS Seiten wie zb Loginhinweis-------------*/
