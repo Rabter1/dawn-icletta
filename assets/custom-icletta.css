@@ -390,6 +390,9 @@ box-shadow: none !important;
   padding: 5px;
   text-align: center;
 }
+.startblock-right{
+  margin-left: 10px;
+}
 
 /*-------------CSS für CMS Seiten wie zb Loginhinweis-------------*/
 .page-titelbild {
