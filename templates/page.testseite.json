@@ -6,9 +6,63 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "00d0d082-7bd3-4212-8db4-8c1f7fdbc55b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "14c769bb-2061-430f-95da-8050d9585cad": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19174719783239__14c769bb-2061-430f-95da-8050d9585cad-16883771651bffacc7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Zubehörhalter",
+            "heading_size": "h1"
+          }
+        },
+        "template--19174719783239__14c769bb-2061-430f-95da-8050d9585cad-16883771651bffacc7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Viele Trikenutzer möchten ihr persönliches Zubehör in direkter Reichweite montieren. Aber wenn am Rad Lenkerendschalthebel montiert sind, ist der Platz für einen Zubehörhalter wie den Cockpit Mount TerraCycle Mini BE bereits besetzt.<br\/><br\/>Der Cockpit Mount TerraCycle Mini BES löst dieses Problem mittels einer runden Aussparung für den Lenkerendschaltzug und kann so direkt unter den Lenkerendschalthebel montiert werden. Die Halterung für das Zubehörhalterrohr wird nach vorn und nach innen geführt. Diese auf den ersten Blick ungewöhnliche Linienführung stellt sicher, dass der Lenkerendschalt- und der Bremshebel nach wie vor ohne Probleme erreicht werden.<br\/><br\/>Ein weiteres positives Merkmal des Cockpit Mount TerraCycle Mini BES ist die Bereitstellung eines optimalen Platzes für die Spiegelmontage zum Beispiel des Mirrycle Spiegels. Auch Smartphone, Navi oder Motordisplay können optimal abgelesen und bedient werden. Die Halterung des Cockpit Mount TerraCycle Mini BES ist aus Aluminium 6061 T6 CNC gefräst und ist mit Innensechskantschrauben aus rostfreiem Stahl versehen. Das Zubehörhalterrohr wird aus Aluminium 6061 T4 gefertigt. Die Halterung kann an jedes Ende eines 7\/8“ Standard Lenkerrohres befestigt werden.<br\/><\/p>"
+          }
+        },
+        "template--19174719783239__14c769bb-2061-430f-95da-8050d9585cad-16883771651bffacc7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "A T T A C K E",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19174719783239__14c769bb-2061-430f-95da-8050d9585cad-16883771651bffacc7-0",
+        "template--19174719783239__14c769bb-2061-430f-95da-8050d9585cad-16883771651bffacc7-1",
+        "template--19174719783239__14c769bb-2061-430f-95da-8050d9585cad-16883771651bffacc7-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "content_width": "default"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "00d0d082-7bd3-4212-8db4-8c1f7fdbc55b",
+    "14c769bb-2061-430f-95da-8050d9585cad"
   ]
 }
