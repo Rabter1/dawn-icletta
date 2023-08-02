@@ -382,6 +382,7 @@ box-shadow: none !important;
 .startblock{
 flex-wrap: wrap;
 }
+  }
 .startblock-left{
   display: flex;
   flex-direction: column;
