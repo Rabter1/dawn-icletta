@@ -395,7 +395,7 @@ margin: auto;
 }
 
 .compability-button{
-  background-color: orange;
+  background-color: red;
   border-radius: 5px;
 }
 @media only screen and (max-width: 600px) {
