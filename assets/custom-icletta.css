@@ -391,6 +391,11 @@ flex-wrap: wrap;
   background-color: orange;
   border-radius: 5px;
 }
+@media only screen and (max-width: 600px) {
+.compability-button{
+margin-left: 50%;
+}
+  }
 .compability-button-text{
   padding: 5px;
   text-align: center;
@@ -402,6 +407,7 @@ flex-wrap: wrap;
 .startblock-right{
 margin-left: 0px;
 }
+  }
 
 /*-------------CSS für CMS Seiten wie zb Loginhinweis-------------*/
 .page-titelbild {
