@@ -398,6 +398,10 @@ flex-wrap: wrap;
 .startblock-right{
   margin-left: 20px;
 }
+@media only screen and (max-width: 600px) {
+.startblock-right{
+margin-left: 0px;
+}
 
 /*-------------CSS für CMS Seiten wie zb Loginhinweis-------------*/
 .page-titelbild {
