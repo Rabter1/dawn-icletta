@@ -388,7 +388,7 @@ flex-wrap: wrap;
   flex-direction: column;
 }
 @media only screen and (max-width: 600px) {
-.profile-image.block {
+.profile-image-block {
 margin: auto;
 }
 }
