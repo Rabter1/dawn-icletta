@@ -378,6 +378,10 @@ box-shadow: none !important;
   display: flex;
   flex-direction: row;  
 }
+@media only screen and (max-width: 600px) {
+.startblock{
+flex-wrap: wrap;
+}
 .startblock-left{
   display: flex;
   flex-direction: column;
