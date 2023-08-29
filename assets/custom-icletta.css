@@ -431,6 +431,9 @@ margin: 0px 10px 0px 10px;
   flex-grow: 1;
   width: 100px;
 }
+.circle-box img {
+box-shadow: none !important;
+}
 
 /*-------------CSS für CMS Seiten wie zb Loginhinweis-------------*/
 .page-titelbild {
