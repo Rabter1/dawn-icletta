@@ -417,6 +417,21 @@ margin: 0px 10px 0px 10px;
 }
   }
 
+.nav-circle-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.circle-box {
+  flex-grow: 1;
+  width: 100px;
+}
+
 /*-------------CSS für CMS Seiten wie zb Loginhinweis-------------*/
 .page-titelbild {
   width:100%;
