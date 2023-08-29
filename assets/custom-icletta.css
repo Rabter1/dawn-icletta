@@ -445,6 +445,7 @@ box-shadow: none !important;
   text-align: center;
   font-size: 1.2em !important;
   line-height: 0.9em !important;
+  margin-top: -10px;
 }
 .kreistext a{
   text-decoration: none !important;
