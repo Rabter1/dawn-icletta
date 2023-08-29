@@ -434,6 +434,10 @@ margin: 0px 10px 0px 10px;
 .circle-box img {
 box-shadow: none !important;
 }
+.circle-box a{
+  text-decoration: none !important;
+  color: black !important;
+}
 .kreistext {
   font-weight: 800;
   text-align: center;
