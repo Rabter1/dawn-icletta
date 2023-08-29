@@ -443,8 +443,8 @@ box-shadow: none !important;
 .kreistext {
   font-weight: 800;
   text-align: center;
-  font-size: 2em !important;
-  line-height: 0.8 em !important;
+  font-size: 1em !important;
+  line-height: 0.8em !important;
 }
 .kreistext a{
   text-decoration: none !important;
