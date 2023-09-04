@@ -420,6 +420,7 @@ margin: auto;
 }
 .compability-button-icon {
   margin-left: 5px;
+  box-shadow: none !important;
 }
 @media only screen and (max-width: 600px) {
 .compability-button{
