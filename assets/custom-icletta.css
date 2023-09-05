@@ -425,12 +425,11 @@ margin: auto;
 .compability-button-contentcontainer {
   display: flex;
   flex-direction: horizontal;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: nowrap;
   align-items: center;
   width: 100%;
-  background-color: green;
-}
+  }
 .compability-button-text {
   font-size: 0.8em !important;
 }
