@@ -418,6 +418,9 @@ margin: auto;
   flex-direction: horizontal;
   align-items: center;
 }
+.compability-button-text {
+  font-size: 0.8 em;
+}
 .compability-button-icon {
   margin-left: 5px;
 
