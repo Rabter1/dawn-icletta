@@ -427,6 +427,7 @@ margin: auto;
 }
 .compability-button-icon {
   margin-left: 5px;
+  background-color: red;
 }
 .compability-button-icon img{
    box-shadow: none !important; 
