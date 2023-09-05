@@ -420,6 +420,7 @@ margin: auto;
   justify-content: center;
   flex-wrap: nowrap;
   align-items: center;
+  width: 100%;
 }
 .compability-button-text {
   font-size: 0.8em !important;
