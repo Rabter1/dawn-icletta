@@ -410,11 +410,11 @@ margin: auto;
   margin: 5px;
   flex-grow: 1;
 }
-.compability-button-text a:link {
+.compability-button-contentcontainer a:link {
   text-decoration: none !important;
   color: green !important;
 }
-.compability-button-text a:visited {
+.compability-button-contentcontainer a:visited {
     color: white !important;
     text-decoration: none !important;
   }
