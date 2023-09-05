@@ -410,7 +410,7 @@ margin: auto;
   margin: 5px;
   flex-grow: 1;
 }
-.compability-button a{
+.compability-button a:link{
   text-decoration: none !important;
   color: green;
 }
