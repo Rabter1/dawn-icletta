@@ -411,7 +411,7 @@ margin: auto;
   flex-grow: 1;
 }
 .compability-button a{
-  text-decoration: none!important;
+  text-decoration: none !important;
   color: black;
 }
  .compability-button:hover {
