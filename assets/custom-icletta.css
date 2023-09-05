@@ -410,6 +410,10 @@ margin: auto;
   margin: 5px;
   flex-grow: 1;
 }
+.compability-button a{
+  text-decoration: none;
+  color: black;
+}
  .compability-button:hover {
   background: #f6f6f7;
   outline: 1px solid transparent;
@@ -426,8 +430,7 @@ margin: auto;
   font-size: 0.8em !important;
 }
 .compability-button-icon {
-  margin-left: 5px;
-  background-color: red;
+  margin-left: 5px; 
 }
 .compability-button-icon img{
    box-shadow: none !important; 
