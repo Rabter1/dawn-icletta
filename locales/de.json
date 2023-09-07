@@ -539,6 +539,9 @@
       "email_label_optional_for_no_js_behavior": "E-Mail-Adresse des Empfängers (optional)"
     }
   },
+  "produkt": {
+    "kette": "Bitte wählen Sie hier die gewünschte Länge in Metern:"
+  },
   "start": {
     "keyvisual": {
       "tagline-1": "ERSTE KLASSE REISEN?",
