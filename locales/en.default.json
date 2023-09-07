@@ -350,6 +350,11 @@
       "clear_filter": "Remove filter"
     }
   },
+  "produkt": {
+    "kette": {
+      "hinweis": "Bitte wählen Sie hier die gewünschte Länge in Metern:"
+    }
+  },
   "templates": {
     "search": {
       "no_results": "No results found for “{{ terms }}”. Check the spelling or use a different word or phrase.",
