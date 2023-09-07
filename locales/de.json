@@ -539,15 +539,12 @@
       "email_label_optional_for_no_js_behavior": "E-Mail-Adresse des Empfängers (optional)"
     }
   },
-  "produkt": {
-    "kette": "Bitte wählen Sie hier die gewünschte Länge in Metern:"
-  },
   "start": {
     "keyvisual": {
       "tagline-1": "ERSTE KLASSE REISEN?",
       "tagline-2": "UNSERE KOMFORT SITZNETZE",
       "tagline-3": "FÜR ICE TRIKES",
-      "banner": "keyvisual-liegerad-sitz-ice.jpg",
+      "banner": "keyvisual-adventure-ergoluxe.jpg",
       "link": "collections\/sitze"
     },
     "legrid": {
