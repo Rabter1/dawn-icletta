@@ -540,7 +540,9 @@
     }
   },
   "produkt": {
-    "kette": "Bitte wählen Sie hier die gewünschte Länge in Metern:"
+    "kette": {
+      "hinweis": "Bitte wählen Sie hier die gewünschte Länge in Metern:"
+    }
   },
   "start": {
     "keyvisual": {
