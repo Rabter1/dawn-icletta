@@ -196,7 +196,8 @@
           "Funktion": "Task",
           "Produkttyp": "Product Type",
           "Montageposition": "Mounting position",
-          "Brand": "Brand"
+          "Brand": "Brand",
+          "Marke": "Brand"
         },
         "value": {
           "Airzound": "Airzound",
