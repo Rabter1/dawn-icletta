@@ -204,7 +204,8 @@
         "label": {
           "Funktion": "Funktion",
           "Produkttyp": "Produkttyp",
-          "Montageposition": "Montageposition"
+          "Montageposition": "Montageposition",
+          "Marke": "Marke"
         },
         "value": {
           "Antriebsstrang": "Antriebsstrang",
