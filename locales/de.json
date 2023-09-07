@@ -205,7 +205,8 @@
           "Funktion": "Funktion",
           "Produkttyp": "Produkttyp",
           "Montageposition": "Montageposition",
-          "Marke": "Marke"
+          "Marke": "Marke",
+          "Brand": "Marke"
         },
         "value": {
           "Airzound": "Airzound",
