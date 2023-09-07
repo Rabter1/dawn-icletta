@@ -34,11 +34,10 @@
             "show_inventory_quantity": true
           }
         },
-        "789fe48a-966b-4911-b16b-d01054fd0a45": {
-          "type": "text",
+        "ec87bd44-5043-4617-bbb8-b18d582dfcea": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "Bitte wählen Sie hier die gewünschte Länge in Metern:",
-            "text_style": "body"
+            "custom_liquid": "{{ 'produkt.kette.hinweis' | t }}"
           }
         },
         "quantity_selector": {
@@ -97,7 +96,7 @@
         "price",
         "variant_picker",
         "a774fef6-8b72-4f09-8bb5-7f0c5fcdf1ca",
-        "789fe48a-966b-4911-b16b-d01054fd0a45",
+        "ec87bd44-5043-4617-bbb8-b18d582dfcea",
         "quantity_selector",
         "buy_buttons",
         "d69e4434-49d2-4f1c-870e-28a89ce600f3",
