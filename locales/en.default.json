@@ -195,7 +195,7 @@
         "label": {
           "Funktion": "Task",
           "Produkttyp": "Product Type",
-          "Product_Type": "Product Type",
+          "Product-Type": "Product Type",
           "Montageposition": "Mounting position",
           "Brand": "Brand",
           "Marke": "Brand"
