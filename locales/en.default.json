@@ -539,6 +539,11 @@
       "max_characters": "{{ max_chars }} characters max"
     }
   },
+  "produkt": {
+    "kette": {
+      "hinweis": "Please select the desired length in meters:"
+    }
+  },
   "start": {
     "keyvisual": {
       "tagline-1": "TIME TO REFRESH?",
