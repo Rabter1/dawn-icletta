@@ -3,7 +3,8 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        ".h0 {display: none;}"
+        ".h0 {display: none;}",
+        ".ttes{max-width: 102.6rem; padding: 0;}"
       ],
       "settings": {
         "padding_top": 28,
