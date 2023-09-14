@@ -485,16 +485,36 @@ box-shadow: none !important;
   color: black !important;
 }
 .kreistext {
-  font-weight: 400;
+  
+}
+
+.tw-zb-linkbutton {
+font-weight: 400;
   text-align: center;
   font-size: 1.2em !important;
   line-height: 0.9em !important;
   margin-top: -5px;
+font-weight: 400;
+letter-spacing: 0.025rem;
+font-style: normal;
+text-transform: capitalize;
+background-color: #00a1f1;
+border-radius: 0.125rem;
+-webkit-border-radius: 0.125rem;
+-moz-border-radius: 0.125rem;
+padding: 0.3125rem 0.4375rem;
+border-style: none;
+border-width: 0.0625rem;
+border-color: #e3e3e3;
+-webkit-box-shadow: -0.25px 0.75px 9px -0.25px rgba(85,85,85,0.36);
+-moz-box-shadow: -0.25px 0.75px 9px -0.25px rgba(85,85,85,0.36);
+-box-shadow: -0.25px 0.75px 9px -0.25px rgba(85,85,85,0.36);
 }
-.kreistext a{
+.tw-zb-linkbutton a{
   text-decoration: none !important;
   color: black !important;
 }
+
 /*-------------CSS für CMS Seiten wie zb Loginhinweis-------------*/
 .page-titelbild {
   width:100%;
