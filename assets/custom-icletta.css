@@ -516,7 +516,7 @@ border-color: #e3e3e3;
 .tw-zb-linkbutton {
   font-weight: 400;
   text-align: center;
-  font-size: 1.2em !important;
+  
   line-height: 0.9em !important;
 letter-spacing: 0.025rem;
 font-style: normal;
@@ -526,7 +526,7 @@ text-transform: capitalize;
   cursor: pointer;
   text-align: center;
   border: 1px solid #babfc3;
-  padding: 0.3125rem 0.4375rem;
+  padding: 7px 16px;
   min-height: 36px;
   min-width: 36px;
   color: #202223;
