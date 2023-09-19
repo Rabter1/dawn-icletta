@@ -546,7 +546,7 @@ text-transform: capitalize;
  .tw-zb-linkbutton:hover {
   background: #f6f6f7;
   outline: 1px solid transparent;
-
+  }
 /*-------------CSS für CMS Seiten wie zb Loginhinweis-------------*/
 .page-titelbild {
   width:100%;
