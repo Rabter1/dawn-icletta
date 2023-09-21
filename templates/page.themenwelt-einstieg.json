@@ -15,6 +15,7 @@
       "blocks": {
         "80f0d0c0-6e12-4a67-b9fc-54de4e5754e1": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/tw-mounts-selection.jpg",
             "caption": "Accessorize your trike",
