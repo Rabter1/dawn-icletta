@@ -683,10 +683,10 @@
       "payment-options": "Zahlungsmethoden:",
       "shipping-service": "Versanddienstleister:",
       "certification": "Zertifikate:"
-    },
-    "kategorieseite": {
-      "Kategoriewort": "Kategorie:"
     }
+  },
+  "kategorieseite": {
+    "Kategoriewort": "Kategorie:"
   },
   "customer_accounts": {
     "orders": {
