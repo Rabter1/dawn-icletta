@@ -704,6 +704,9 @@
       "payment-options": "Payment options:",
       "shipping-service": "Shipping service:",
       "certification": "Certifications:"
+    },
+    "kategorieseite": {
+      "Kategoriewort": "Category:"
     }
   },
   "shopify": {
