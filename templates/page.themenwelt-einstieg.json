@@ -15,14 +15,13 @@
       "blocks": {
         "80f0d0c0-6e12-4a67-b9fc-54de4e5754e1": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/tw-mounts-selection.jpg",
             "caption": "Accessorize your trike",
             "heading": "Zubehör am Liegerad",
             "text": "<p>Egal, was Sie an Ihrem Liegerad befestigen möchten: Unsere Zubehörhalter ermöglichen es Ihnen! Entdecken Sie hier die vielseitigen Montagemöglichkeiten für Zubehör und wie Sie Ihren eigenen Halter zusammenstellen können.<\/p>",
             "button_label": "Entdecken Sie die Möglichkeiten",
-            "button_link": ""
+            "button_link": "shopify:\/\/pages\/t-cycle-zubehorhalter"
           }
         },
         "template--18237998268704__e197e256-55c0-4a4e-8f47-c19563fe5c8a-1678788294cb85da9e-0": {
