@@ -247,7 +247,6 @@
     },
     "5de1f3fd-3ddf-40ef-9f2d-e63e9da20f24": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--16752291545376__5de1f3fd-3ddf-40ef-9f2d-e63e9da20f24-16734294759cb1c2d4-1": {
           "type": "text",
@@ -260,6 +259,7 @@
       "block_order": [
         "template--16752291545376__5de1f3fd-3ddf-40ef-9f2d-e63e9da20f24-16734294759cb1c2d4-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/titel-versand.jpg",
         "height": "small",
@@ -286,7 +286,6 @@
     },
     "b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--16752291545376__b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0-1668679157686d7e7f-0": {
           "type": "heading",
@@ -315,6 +314,7 @@
         "template--16752291545376__b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0-1668679157686d7e7f-1",
         "template--16752291545376__b51dec6b-3962-4f0c-a2c3-e5b7d92cd0e0-1668679157686d7e7f-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/tw-kettenleitrolle.jpg",
         "height": "small",

@@ -18,7 +18,6 @@
     },
     "d45a01ac-2695-469e-84fc-f856be9931b8": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--19174719783239__d45a01ac-2695-469e-84fc-f856be9931b8-slide-1": {
           "type": "slide",
@@ -61,6 +60,7 @@
         "template--19174719783239__d45a01ac-2695-469e-84fc-f856be9931b8-slide-1",
         "template--19174719783239__d45a01ac-2695-469e-84fc-f856be9931b8-slide-2"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
