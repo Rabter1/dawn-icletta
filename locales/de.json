@@ -204,10 +204,30 @@
         "label": {
           "Funktion": "Funktion",
           "Produkttyp": "Produkttyp",
-          "Montageposition": "Montageposition"
+          "Montageposition": "Montageposition",
+          "Marke": "Marke",
+          "Brand": "Marke",
+          "Product-Type": ""
         },
         "value": {
+          "Airzound": "Airzound",
+          "Alex-Rims": "Alex-Rims",
           "Antriebsstrang": "Antriebsstrang",
+          "Callisto": "Callisto",
+          "FSA": "FSA",
+          "ICE": "ICE",
+          "ICLETTA-Liegerad-Zubehr": "ICLETTA Liegerad Zubehör",
+          "Klickfix": "Klickfix",
+          "microSHIFT": "microSHIFT",
+          "Mirrycle": "Mirrycle",
+          "Remerx": "Remerx",
+          "Schwalbe": "Schwalbe",
+          "SON": "SON",
+          "Sturmey-Archer": "Sturmey Archer",
+          "T-Cycle": "T-Cycle",
+          "Yaban": "Yaban",
+          "Zefal": "Zefal",
+          "Zeno": "Zeno",
           "Halterung": "Halterung",
           "Sicherheit": "Sicherheit",
           "Lenkung": "Lenkung",
@@ -220,8 +240,10 @@
           "Akkuhalter": "Akkuhalter",
           "Antrieb": "Antrieb",
           "Beleuchtung": "Beleuchtung",
+          "Bremse": "Bremse",
           "Bremshebel": "Bremshebel",
           "Bremssattel": "Bremssattel",
+          "Bremsscheibe": "Bremsscheibe",
           "Doppelklemmschelle": "Doppelklemmschelle",
           "Ersatzteil": "Ersatzteil",
           "Felge": "Felge",
@@ -231,6 +253,7 @@
           "Frontverkleidung": "Frontverkleidung",
           "Gepcktaschen": "Gepäcktaschen",
           "Gepcktrger": "Gepäckträger",
+          "Hupe": "Hupe",
           "Innenlager": "Innenlager",
           "Kette": "Kette",
           "Kettenfhrung": "Kettenführung",
@@ -259,9 +282,62 @@
           "Steuersatz": "Steuersatz",
           "Trinkflaschen": "Trinkflaschen",
           "Trommelbremse": "Trommelbremse",
-          "Zubehrhalter": "Zubehörhalter"
+          "Zubehrhalter": "Zubehörhalter",
+          "Accessory-Mount": "",
+          "Axle": "",
+          "Battery-Mount": "",
+          "Bottom-Bracket": "",
+          "Brake": "",
+          "Brake-Disc": "",
+          "Brake-Lever": "",
+          "Caliper": "",
+          "Chain": "",
+          "Chain-Guard-Ring": "",
+          "Chain-Guide": "",
+          "Chain-Idler": "",
+          "Chain-Idler-Accessories": "",
+          "Chain-Idler-Set": "",
+          "Chaintube": "",
+          "Comfort-Accessories": "",
+          "Crank": "",
+          "Crank-Shortener": "",
+          "Double-Clamp": "",
+          "Drivetrain": "",
+          "Drum-Brake": "",
+          "Fairing": "",
+          "Flag": "",
+          "Flag-Mount": "",
+          "Frame-Clamp": "",
+          "Frame-Quick-Adjust": "",
+          "Headset": "",
+          "Horn": "",
+          "Hub": "",
+          "Luggage-Bags": "",
+          "Mirror": "",
+          "Mount": "",
+          "Mudguard": "",
+          "Neck-Rest": "",
+          "Parking-Brake": "",
+          "Pedal-Swing-Arm": "",
+          "Pedals": "",
+          "Rack": "",
+          "Rear-Light-Mount": "",
+          "Rim": "",
+          "Rim-Tape": "",
+          "Seat": "",
+          "Seat-Accessories": "",
+          "Seat-Adapter": "",
+          "Spare-Part": "",
+          "Steering": "",
+          "Waterbottles": "",
+          "Wheel": ""
         }
       }
+    }
+  },
+  "produkt": {
+    "kette": {
+      "hinweis": "Bitte wählen Sie die gewünschte Länge in Metern:"
     }
   },
   "templates": {
@@ -545,7 +621,7 @@
       "tagline-2": "UNSERE KOMFORT SITZNETZE",
       "tagline-3": "FÜR ICE TRIKES",
       "banner": "keyvisual-adventure-ergoluxe.jpg",
-      "link": "collections\/sitze-1"
+      "link": "collections\/sitze"
     },
     "legrid": {
       "kachel-image-1": "icetrikes-websiteverweiskachel.jpg",
@@ -584,6 +660,7 @@
     "produktslider": {
       "button-ICE-produkte": "Zu den ICE Produkten &#10132;",
       "button-t-cycle-produkte": "Zu den T-Cycle Produkten &#10132;",
+      "button-neue-produkte": "Neue Artikel",
       "button-ICE-link": "collections\/marke-ice\/",
       "button-t-cycle-link": "collections\/t-cycle\/"
     },
@@ -634,6 +711,9 @@
       },
       "marketing": {
         "accept_marketing_checkbox_label": "Ich möchte den ICLETTA Liegerad-Newsletter erhalten"
+      },
+      "shipping": {
+        "address2_add_label": "Postnummer oder Wohnung, Zimmer, usw. einfügen"
       }
     },
     "links": {
@@ -644,8 +724,9 @@
     "product": {
       "media": {
         "alt-text-for-media-id": {
-          "32194790523168": "BONKERS!",
-          "32089446711584": ""
+          "32195105292576": "BONKERS!",
+          "32089446711584": "",
+          "32089446678816": ""
         }
       },
       "weight": "Gewicht:",
@@ -655,6 +736,9 @@
       "payment-options": "Zahlungsmethoden:",
       "shipping-service": "Versanddienstleister:",
       "certification": "Zertifikate:"
+    },
+    "kategorieseite": {
+      "kategoriewort": "Kategorie:"
     }
   },
   "customer_accounts": {

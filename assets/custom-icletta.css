@@ -161,7 +161,7 @@ a:visited {
     font-size: 200% !important;
     image-width: 100% !important;
 }
-/*-------------Themenwelt Artikel Vorschaubox-------------*/
+/*-------------THEMENWELT Artikel Vorschaubox-------------*/
 .vorschaubox {
   /*outline: 1px solid grey;*/
   /*width: 1300px;*/
@@ -228,7 +228,7 @@ a:visited {
   box-shadow: rgba(50, 50, 93, 0.25) 0px   6px 12px -2px, rgba(0, 0, 0, 0.3) 0px     3px 7px -3px;*/
 }
 
-/*-------------CSS für Themenwelt Seite-------------*/
+/*-------------THEMENWELT: CSS -------------*/
 .body{
   background-color: white !important;
 }
@@ -373,7 +373,179 @@ box-shadow: none !important;
  text-align: justify;
   padding: 0em 1em;
 }
+/*-------------THEMENWELT: Zubehörhalter-------------*/
+.startblock{
+  display: flex;
+  flex-direction: row;  
+}
+@media only screen and (max-width: 600px) {
+.startblock{
+flex-wrap: wrap;
+}
+  }
+.startblock-left{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+.profile-image-block {
+margin: auto;
+}
+}
+.marginalize-tw-20 {
+  margin-top: 1.5em;
+}
+.compability-button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #babfc3;
+  padding: 7px 16px;
+  min-height: 36px;
+  min-width: 36px;
+  color: #202223;
+  background: #ffffff;
+  border-radius: 6px;  
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;
+  margin: 5px;
+  flex-grow: 1;
+}
+.compability-button a:link {
+  text-decoration: none !important;
+  color: green !important;
+}
+.compability-button a:visited {
+    color: white !important;
+    text-decoration: none !important;
+  }
+ .compability-button:hover {
+  background: #f6f6f7;
+  outline: 1px solid transparent;
+}
+.compability-button-contentcontainer {
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+  }
+.compability-button-text {
+  font-size: 0.8em !important;
+}
+.compability-button-icon {
+  margin-left: 5px; 
+}
+.compability-button-icon img{
+   box-shadow: none !important; 
+   margin-bottom: 0px !important;
+   display: block;
+}
+@media only screen and (max-width: 600px) {
+.compability-button{
+margin: auto;
+padding: 0px 10px 0px 10px;
+}
+  }
+.compability-button-text{
+  text-align: center;
+}
+.startblock-right{
+  margin-left: 20px;
+}
+@media only screen and (max-width: 600px) {
+.startblock-right{
+margin: 0px 10px 0px 10px;
+}
+  }
 
+.nav-circle-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.circle-box {
+  flex-grow: 1;
+  width: 100px;
+  font-size: 1.2 em;
+  line-height: 0.8 em;
+}
+.circle-box img {
+box-shadow: none !important;
+}
+.circle-box a{
+  text-decoration: none !important;
+  color: black !important;
+}
+.kreistext {
+  
+}
+
+.tw-zb-lifnkbutton {
+font-weight: 400;
+  text-align: center;
+  font-size: 1.2em !important;
+  line-height: 0.9em !important;
+letter-spacing: 0.025rem;
+font-style: normal;
+text-transform: capitalize;
+background-color: #00a1f1;
+border-radius: 0.325rem;
+-webkit-border-radius: 0.325rem;
+-moz-border-radius: 0.325rem;
+padding: 0.3125rem 0.4375rem;
+border-style: none;
+border-width: 0.0625rem;
+border-color: #e3e3e3;
+  color: white !important;
+-webkit-box-shadow: -0.25px 0.75px 9px -0.25px rgba(85,85,85,0.36);
+-moz-box-shadow: -0.25px 0.75px 9px -0.25px rgba(85,85,85,0.36);
+-box-shadow: -0.25px 0.75px 9px -0.25px rgba(85,85,85,0.36);
+}
+.tw-zb-linkbutton a{
+  text-decoration: none !important;
+  color: white !important;
+}
+.tw-zb-linkbutton {
+  font-weight: 400;
+  text-align: center;  
+  line-height: 1.1em !important;
+letter-spacing: 0.025rem;
+font-style: normal;
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #babfc3;
+  padding: 7px 16px;
+  min-height: 36px;
+  min-width: 36px;
+  color: #202223;
+  background: #ffffff;
+  border-radius: 6px;  
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;
+  margin: 5px;
+  flex-grow: 1;
+}
+.tw-zb-linkbutton a:link {
+  text-decoration: none !important;
+  color: green !important;
+}
+.tw-zb-linkbutton a:visited {
+    color: white !important;
+    text-decoration: none !important;
+  }
+ .tw-zb-linkbutton:hover {
+  background: #f6f6f7;
+  outline: 1px solid transparent;
+  }
 /*-------------CSS für CMS Seiten wie zb Loginhinweis-------------*/
 .page-titelbild {
   width:100%;

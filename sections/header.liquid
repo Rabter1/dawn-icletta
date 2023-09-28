@@ -490,7 +490,14 @@
     "url": {{ request.origin | append: page.url | json }}
   }
 </script>
-
+ <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "ICLETTA Liegerad Zubehör",
+    "url": "{{ shop.url }}"
+  }
+  </script>
 {%- if request.page_type == 'index' -%}
   {% assign potential_action_target = request.origin | append: routes.search_url | append: "?q={search_term_string}" %}
   <script type="application/ld+json">
