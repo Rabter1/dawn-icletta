@@ -462,23 +462,23 @@ margin: 0px 10px 0px 10px;
   }
 
 .nav-circle-box {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr) minmax(min-content, 1fr) minmax(min-content, 1fr);
+  grid-template-rows: 2;
+  justify-items: center;
+  justify-content: center; 
+  gap: 10px;  
   margin-bottom: 10px;
 }
-.circle-box {
-  flex-grow: 1;
-  width: 100px;
+.circle-box {  
+  justify-self: center;
+  
   font-size: 1.2 em;
-  line-height: 0.8 em;
+  line-height: 0.8 em;   
 }
 .circle-box img {
 box-shadow: none !important;
+  width: 100%;  
 }
 .circle-box a{
   text-decoration: none !important;
