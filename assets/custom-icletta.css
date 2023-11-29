@@ -617,8 +617,9 @@ font-style: normal;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-size:13px;
-	padding:6px 24px;
+    font-weight: 800;
+	font-size:15px;
+	padding:6px 18px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #154682;
 }
