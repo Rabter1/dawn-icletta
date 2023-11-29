@@ -595,7 +595,7 @@ font-style: normal;
 	border:1px solid #dcdcdc;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#ffffff!important;
 	font-size:15px;
 	font-weight:bold;
 	padding:6px 24px;
