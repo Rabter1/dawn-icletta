@@ -617,14 +617,16 @@ font-style: normal;
 	box-shadow:inset 0px 1px 0px 0px #54a3f7;
 	background:linear-gradient(to bottom, #339900 5%, #336633 100%);
 	background-color:#007dc1;
+  border-radius:10px;
+  border:5px solid #339900;
 	display:inline-block;
 	color:#ffffff;
     font-weight: 800;
 	font-size:18px;
-	padding:12px 68px;
+	padding:12px 50%;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #000000;
-}
+  }
 /*-------------STARTSEITE: CSS für Keyvisual Text-------------*/
 /*Überlagerung der Bild und Text DIVs*/
 .keyvisual-flex{  
