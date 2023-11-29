@@ -611,7 +611,7 @@ font-style: normal;
 	top:1px;
 }
 .prettybutton:visited {
-	color:#ffffff;
+	color:#ffffff!important;
 }  
 .rabattcode {
 	box-shadow:inset 0px 1px 0px 0px #54a3f7;
