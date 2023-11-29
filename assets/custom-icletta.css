@@ -610,6 +610,9 @@ font-style: normal;
 	position:relative;
 	top:1px;
 }
+.prettybutton:visited {
+	color:#ffffff;
+}  
 .rabattcode {
 	box-shadow:inset 0px 1px 0px 0px #54a3f7;
 	background:linear-gradient(to bottom, #339900 5%, #336633 100%);
