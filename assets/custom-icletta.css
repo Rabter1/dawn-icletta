@@ -627,6 +627,10 @@ font-style: normal;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #000000;
   }
+.noshadow {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
 /*-------------STARTSEITE: CSS für Keyvisual Text-------------*/
 /*Überlagerung der Bild und Text DIVs*/
 .keyvisual-flex{  
