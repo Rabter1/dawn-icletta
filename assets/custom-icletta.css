@@ -616,12 +616,12 @@ font-style: normal;
 	background-color:#007dc1;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#ff0000;
     font-weight: 800;
 	font-size:15px;
 	padding:6px 48px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #ff0000;
+	text-shadow:0px 1px 0px #ffffff;
 }
 /*-------------STARTSEITE: CSS für Keyvisual Text-------------*/
 /*Überlagerung der Bild und Text DIVs*/
