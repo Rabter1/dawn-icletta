@@ -588,7 +588,7 @@ font-style: normal;
 }
 
 .prettybutton {
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #000000;
 	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
 	background-color:#ffffff;
 	border-radius:6px;
