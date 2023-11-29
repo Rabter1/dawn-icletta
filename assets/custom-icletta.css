@@ -612,7 +612,7 @@ font-style: normal;
 }
 .rabattcode {
 	box-shadow:inset 0px 1px 0px 0px #54a3f7;
-	background:linear-gradient(to bottom, #336633 5%, #0061a7 100%);
+	background:linear-gradient(to bottom, #339900 5%, #336633 100%);
 	background-color:#007dc1;
 	display:inline-block;
 	cursor:pointer;
