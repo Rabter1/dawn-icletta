@@ -648,6 +648,7 @@ font-style: normal;
   background-image: url('https://cdn.shopify.com/s/files/1/0667/7725/2128/files/banner-einzeln.png?v=1701273514'); 
   background-position: center; 
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .child {
   position: absolute; 
@@ -662,6 +663,7 @@ font-style: normal;
   background-image: url('https://cdn.shopify.com/s/files/1/0667/7725/2128/files/banner-einzeln.png?v=1701273514'); 
   background-position: center; 
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .child {
   position: absolute; 
