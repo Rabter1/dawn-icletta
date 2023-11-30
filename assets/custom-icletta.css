@@ -634,10 +634,10 @@ font-style: normal;
 .weihnachtsquote {
  border-radius: 5px;
  color: red;
-  text-shadow: white 2px 0 0px;
+  text-shadow: white 1px 0 0px;
   font-size: 1.5em;
   font-weight: 800;
-  padding: 5px 5px 5px 20px;
+  padding: 5px 15px 5px 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
