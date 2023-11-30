@@ -652,8 +652,8 @@ font-style: normal;
 }
 .child {
   position: absolute; 
-  width: 500px; 
-  height: 500px;
+  width: 350px; 
+  height: 350px;
 }
 @media only screen and (max-width: 600px) {
 .mother{
