@@ -633,7 +633,7 @@ font-style: normal;
 }
 .weihnachtsquote {
  border-radius: 5px;
- color: red;
+ color: #ff0410;
   text-shadow: white 1px 0 0px;
   font-size: 1.5em;
   font-weight: 800;
@@ -645,7 +645,7 @@ font-style: normal;
 .yoo {
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
-  background: linear-gradient(90deg, green, green);
+  background: linear-gradient(90deg, #9cd29c,#9cd29c);
   background-position: 10px 15px;
   background-repeat: no-repeat;
   padding-inline-end: 10px;
