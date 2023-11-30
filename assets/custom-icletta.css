@@ -633,18 +633,24 @@ font-style: normal;
 }
 .weihnachtsquote {
  border-radius: 5px;
- color: green!important;
- font-size: 1.6em;
-  line-height: 1.3em;
-  font-style: italic;
+ color: red;
+  text-shadow: white 2px 0 0px;
+  font-size: 1.9em;
   font-weight: 800;
-  padding: 5px 5px 25px 0px;
+  padding: 5px 5px 5px 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  text-align: justify;
-  
  }
+.yoo {
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  background: linear-gradient(90deg, green, green);
+  background-position: 10px 15px;
+  background-repeat: no-repeat;
+  padding-inline-end: 10px;
+  line-height: 1.5;
+}
 /*-------------STARTSEITE: CSS für Keyvisual Text-------------*/
 /*Überlagerung der Bild und Text DIVs*/
 .keyvisual-flex{  
