@@ -641,6 +641,34 @@ font-style: normal;
   flex-direction: row;
   align-items: center;
  }
+.mother{
+  width: 500px; 
+  height: 500px; 
+  position: relative; 
+  background-image: url('https://cdn.shopify.com/s/files/1/0667/7725/2128/files/banner-einzeln.png?v=1701273514'); 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+.child {
+  position: absolute; 
+  width: 500px; 
+  height: 500px;
+}
+@media only screen and (max-width: 600px) {
+.mother{
+  width: 250px; 
+  height: 250px; 
+  position: relative; 
+  background-image: url('https://cdn.shopify.com/s/files/1/0667/7725/2128/files/banner-einzeln.png?v=1701273514'); 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+.child {
+  position: absolute; 
+  width: 250px; 
+  height: 250px;
+}
+} 
 /*-------------STARTSEITE: CSS für Keyvisual Text-------------*/
 /*Überlagerung der Bild und Text DIVs*/
 .keyvisual-flex{  
