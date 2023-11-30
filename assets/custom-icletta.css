@@ -634,12 +634,15 @@ font-style: normal;
 .weihnachtsquote {
  border-radius: 5px;
  color: white!important;
- font-weight: 800;
+ font-size: 1,3 em;
+  line-height: 0,9 em;
+  font-weight: 800;
   padding: 5px 5px 5px 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: justify;
+  
  }
 /*-------------STARTSEITE: CSS für Keyvisual Text-------------*/
 /*Überlagerung der Bild und Text DIVs*/
