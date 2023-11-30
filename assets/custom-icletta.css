@@ -633,9 +633,9 @@ font-style: normal;
 }
 .weihnachtsquote {
  border-radius: 5px;
- background-color: green;
  color: white!important;
- padding: 5px 5px 5px 20px;
+ font-weight: 800;
+  padding: 5px 5px 5px 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
