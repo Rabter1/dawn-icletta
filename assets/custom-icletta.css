@@ -633,8 +633,7 @@ font-style: normal;
 }
 .weihnachtsquote {
  border-radius: 5px;
- color: #ff0410;
-  text-shadow: white 1px 0 0px;
+ color: #green;
   font-size: 1.5em;
   font-weight: 800;
   padding: 5px 15px 5px 30px;
@@ -642,15 +641,6 @@ font-style: normal;
   flex-direction: row;
   align-items: center;
  }
-.yoo {
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-  background: linear-gradient(90deg, #9cd29c,#9cd29c);
-  background-position: 10px 15px;
-  background-repeat: no-repeat;
-  padding-inline-end: 10px;
-  line-height: 1.5;
-}
 /*-------------STARTSEITE: CSS für Keyvisual Text-------------*/
 /*Überlagerung der Bild und Text DIVs*/
 .keyvisual-flex{  
