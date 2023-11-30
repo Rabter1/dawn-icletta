@@ -642,8 +642,8 @@ font-style: normal;
   align-items: center;
  }
 .mother{
-  width: 500px; 
-  height: 500px; 
+  width: 400px; 
+  height: 400px; 
   position: relative; 
   background-image: url('https://cdn.shopify.com/s/files/1/0667/7725/2128/files/banner-einzeln.png?v=1701273514'); 
   background-position: center; 
@@ -652,8 +652,8 @@ font-style: normal;
 }
 .child {
   position: absolute; 
-  width: 500px; 
-  height: 500px;
+  width: 400px; 
+  height: 400px;
 }
 @media only screen and (max-width: 600px) {
 .mother{
