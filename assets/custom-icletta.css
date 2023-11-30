@@ -638,7 +638,7 @@ font-style: normal;
  padding: 5px 5px 5px 20px;
   display: flex;
   flex-direction: row;
-  allign-items: justify;
+  align-items: center;
  }
 /*-------------STARTSEITE: CSS für Keyvisual Text-------------*/
 /*Überlagerung der Bild und Text DIVs*/
