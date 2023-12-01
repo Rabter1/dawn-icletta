@@ -655,6 +655,9 @@ font-style: normal;
   width: 350px; 
   height: 350px;
 }
+.unjust {
+  text-align: justify;
+}
 @media only screen and (max-width: 600px) {
 .mother{
   width: 250px; 
@@ -669,6 +672,9 @@ font-style: normal;
   position: absolute; 
   width: 250px; 
   height: 250px;
+}
+.unjust {
+   text-align: start
 }
 } 
 /*-------------STARTSEITE: CSS für Keyvisual Text-------------*/
