@@ -617,8 +617,8 @@
       "tagline-1": "TIME TO REFRESH?",
       "tagline-2": "UPGRADE YOUR TRIKE WITH OUR",
       "tagline-3": "KLICKFIX BOTTLE MOUNTS",
-      "banner": "keyvisual-webshop.jpg",
-      "link": "en\/collections\/marke-klickfix"
+      "banner": "banner-secretsanta.jpg",
+      "link": "en\/pages\/secretsantaweeks"
     },
     "legrid": {
       "kachel-image-1": "kachel-ICE.jpg",
@@ -693,7 +693,8 @@
     "product": {
       "media": {
         "alt-text-for-media-id": {
-          "some-number": ""
+          "32089446678816": "",
+          "32089446711584": ""
         }
       },
       "weight": "Weight:",
