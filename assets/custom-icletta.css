@@ -337,6 +337,7 @@ a:visited {
 .image {
   width: 80%;
   box-shadow: none !important;
+  border-radius: 0px;
 }
 
 .image img{
