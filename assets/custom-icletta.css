@@ -334,6 +334,10 @@ a:visited {
   width:100%;
 }
 
+.img-sub{
+  font-size: 0.8 em;
+}
+
 .image {
   width: 100%;
   box-shadow: none !important;  
