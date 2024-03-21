@@ -383,6 +383,11 @@ hr.trennstrich {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
 }
+.blue {
+  background-color: #a6e4ff;
+  paddding: 15px;
+  border-radius: 10px:  
+}
 /*-------------THEMENWELT: Zubehörhalter-------------*/
 .startblock{
   display: flex;
