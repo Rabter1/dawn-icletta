@@ -344,6 +344,10 @@ a:visited {
 .img-sub{
   font-size: 0.8em !important;
 }
+.img-sub p{
+  margin-block-start: 0em !important;
+}
+
 
 .image {
   width: 100%;
