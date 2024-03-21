@@ -380,6 +380,8 @@ a:visited {
 }
 hr.trennstrich {
   border-top: 2px solid #000;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
 }
 /*-------------THEMENWELT: Zubehörhalter-------------*/
 .startblock{
