@@ -395,8 +395,9 @@ hr.trennstrich {
   padding: 5px !important;
   margin-bottom: 0px !important;
   border-top: 2px solid #72c3e4;
-  font-weight: bold;
-  color: #fff !important;  
+  font-weight: semibold;
+  color: #fff !important;
+  text-align: center;
 }
 /*-------------THEMENWELT: Zubehörhalter-------------*/
 .startblock{
