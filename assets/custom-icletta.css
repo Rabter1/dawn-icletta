@@ -392,7 +392,7 @@ hr.trennstrich {
 }
 .blue h2{
   background-color: #a6e4ff;
-  paddding: 15px;
+  paddding: 15px !important;
   margin-bottom: 0px !important;
 }
 /*-------------THEMENWELT: Zubehörhalter-------------*/
