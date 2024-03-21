@@ -309,6 +309,13 @@ a:visited {
   width: 100%;
 }
 
+.bild-fullwidth-nomar {
+  }
+
+.bild-fullwidth-nomar img{
+  width: 100%;
+}
+
 .button-wrap{  
   display: flex;
   flex-direction: row;
