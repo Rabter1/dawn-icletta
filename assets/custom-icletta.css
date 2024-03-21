@@ -393,7 +393,7 @@ hr.trennstrich {
 .blue h2{
   background-color: #a6e4ff;
   paddding: 15px;
-  border-radius: 10px;  
+  margin-bottom: 0px !important;
 }
 /*-------------THEMENWELT: Zubehörhalter-------------*/
 .startblock{
