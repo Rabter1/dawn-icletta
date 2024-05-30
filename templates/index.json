@@ -21,6 +21,7 @@
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n\n    <div class=\"keyvisual-flex\">\n\n      <a href=\"{{ 'start.keyvisual.link' | t }}\"><img src=\"{{ 'start.keyvisual.banner' | t | file_url }}\" width=\"1920\" height=\"733\">\n\n      <div class=\"keyvisual-flex-center\">\n\n      <div class=\"keyvisual-claim-box\">\n\n      <span class=\"keyvisual-main-claim claim-typo\">\n\n        {{ 'start.keyvisual.tagline-1' | t }}\n\n        <\/span>\n\n        <span class=\"keyvisual-sub-claim claim-typo\">{{ 'start.keyvisual.tagline-2' | t }}<\/span>\n\n          <span class=\"keyvisual-sub-claim claim-typo\">{{ 'start.keyvisual.tagline-3' | t }}<\/span>\n\n      <\/div>\n\n      <\/div><\/a>\n\n      <\/div>\n\n      <\/div>",
         "color_scheme": "background-1",
+        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
       }
@@ -85,17 +86,13 @@
       "settings": {
         "title": "",
         "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
         "collection": "marke-ice",
         "products_to_show": 5,
         "columns_desktop": 5,
-        "full_width": false,
+        "color_scheme": "background-1",
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "background-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -138,18 +135,7 @@
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
         "padding_top": 4,
         "padding_bottom": 0
       }
@@ -411,9 +397,9 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
+        "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
         "padding_top": 40,
         "padding_bottom": 0
       }

@@ -56,8 +56,8 @@
       "name": "Truyền thông xã hội",
       "settings": {
         "social_twitter_link": {
-          "label": "Twitter",
-          "info": "https://twitter.com/shopify"
+          "label": "X/Twitter",
+          "info": "https://x.com/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
@@ -1496,10 +1496,6 @@
           "label": "Hiển thị thứ hạng sản phẩm",
           "info": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-grid-section-settings)"
         },
-        "enable_quick_buy": {
-          "label": "Bật nút thêm nhanh",
-          "info": "Tối ưu với cửa sổ bật lên hoặc giỏ hàng kiểu ngăn kéo."
-        },
         "columns_desktop": {
           "label": "Số cột trên máy tính để bàn"
         },
@@ -1527,6 +1523,15 @@
             "label": "Ngăn"
           },
           "info": "Ngăn là bố cục mặc định trên di động."
+        },
+        "quick_add": {
+          "label": "Thêm nhanh",
+          "info": "Tùy chọn Số lượng lớn được tối ưu hóa cho các mặt hàng đã mua với số lượng lớn hơn.",
+          "options": {
+            "option_1": "Không",
+            "option_2": "Tiêu chuẩn",
+            "option_3": "Số lượng lớn"
+          }
         }
       }
     },
@@ -1640,12 +1645,25 @@
           "name": "Trình chọn mẫu mã",
           "settings": {
             "picker_type": {
-              "label": "Loại",
+              "label": "Kiểu",
               "options__1": {
                 "label": "Menu thả xuống"
               },
               "options__2": {
                 "label": "Góc bo tròn"
+              }
+            },
+            "swatch_shape": {
+              "label": "Mẫu",
+              "info": "Bật [swatches](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches) cho tùy chọn sản phẩm.",
+              "options__1": {
+                "label": "Tròn"
+              },
+              "options__2": {
+                "label": "Vuông"
+              },
+              "options__3": {
+                "label": "Không"
               }
             }
           }
@@ -2482,12 +2500,25 @@
           "name": "Trình chọn mẫu mã",
           "settings": {
             "picker_type": {
-              "label": "Loại",
+              "label": "Kiểu",
               "options__1": {
                 "label": "Menu thả xuống"
               },
               "options__2": {
                 "label": "Ô chọn"
+              }
+            },
+            "swatch_shape": {
+              "label": "Mẫu",
+              "info": "Bật [swatches](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches) cho tùy chọn sản phẩm.",
+              "options__1": {
+                "label": "Tròn"
+              },
+              "options__2": {
+                "label": "Vuông"
+              },
+              "options__3": {
+                "label": "Không"
               }
             }
           }
@@ -3092,7 +3123,10 @@
       "name": "Địa chỉ"
     },
     "main-login": {
-      "name": "Đăng nhập"
+      "name": "Đăng nhập",
+      "shop_login_button": {
+        "enable": "Bật Đăng nhập bằng Shop"
+      }
     },
     "main-order": {
       "name": "Đơn hàng"
