@@ -480,7 +480,7 @@
         },
         "header__1": {
           "content": "Some-kuvakkeet",
-          "info": "Jos haluat näyttää sosiaalisen median tilisi, linkitä ne [teema-asetuksistasi](/editor?context=theme&category=social%20media)."
+          "info": "Jos haluat näyttää sosiaalisen median tilisi, linkitä ne [teema-asetuksistasi](\/editor?context=theme&category=social%20media)."
         },
         "header__2": {
           "content": "Ilmoitukset"
@@ -489,15 +489,15 @@
           "label": "Näytä työpöydällä olevat kuvakkeet"
         },
         "header__3": {
-          "content": "Maa-/aluevalitsin",
-          "info": "Lisää maa/alue siirtymällä [markkina-asetuksiisi.](/admin/settings/markets)"
+          "content": "Maa-\/aluevalitsin",
+          "info": "Lisää maa\/alue siirtymällä [markkina-asetuksiisi.](\/admin\/settings\/markets)"
         },
         "enable_country_selector": {
-          "label": "Ota käyttöön maa-/aluevalitsin"
+          "label": "Ota käyttöön maa-\/aluevalitsin"
         },
         "header__4": {
           "content": "Kielivalitsin",
-          "info": "Lisää kieli siirtymällä [kieliasetuksiisi.](/admin/settings/languages)"
+          "info": "Lisää kieli siirtymällä [kieliasetuksiisi.](\/admin\/settings\/languages)"
         },
         "enable_language_selector": {
           "label": "Ota kielivalitsin käyttöön"
@@ -661,7 +661,7 @@
       "settings": {
         "custom_liquid": {
           "label": "Liquid-koodi",
-          "info": "Luo vaativampia mukautuksia lisäämällä sovelluksen koodinpätkiä tai muita koodeja. [Lisätietoja](https://shopify.dev/docs/api/liquid)"
+          "info": "Luo vaativampia mukautuksia lisäämällä sovelluksen koodinpätkiä tai muita koodeja. [Lisätietoja](https:\/\/shopify.dev\/docs\/api\/liquid)"
         }
       },
       "presets": {
@@ -1658,7 +1658,7 @@
             },
             "show_gift_card_recipient": {
               "label": "Näytä lomake lahjakorttien vastaanottajien tietoja varten",
-              "info": "Mahdollistaa sen, että ostajat voivat lähettää lahjakortin ja sen mukaan liitettävän henkilökohtaisen viestin suunniteltuna ajankohtana. [Lisätietoja](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Mahdollistaa sen, että ostajat voivat lähettää lahjakortin ja sen mukaan liitettävän henkilökohtaisen viestin suunniteltuna ajankohtana. [Lisätietoja](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
