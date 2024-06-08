@@ -2328,6 +2328,15 @@
             "label": "Rechts"
           },
           "label": "Inhaltsausrichtung"
+        },
+        "content_width": {
+          "options__1": {
+            "label": "Standard"
+          },
+          "options__2": {
+            "label": "Gesamte Breite"
+          },
+          "label": "Breite Inhalt"
         }
       },
       "blocks": {

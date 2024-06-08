@@ -2860,6 +2860,15 @@
         },
         "full_width": {
           "label": "Make section full width"
+        },
+        "content_width": {
+          "options__1": {
+            "label": "Default"
+          },
+          "options__2": {
+            "label": "Full width"
+          },
+          "label": "Width of content"
         }
       },
       "blocks": {
