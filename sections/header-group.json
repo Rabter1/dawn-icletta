@@ -9,8 +9,6 @@
           "type": "announcement",
           "settings": {
             "text": "Sie suchen die ICE Liegeräder? Hier entlang",
-            "text_alignment": "center",
-            "color_scheme": "scheme-1",
             "link": "https:\/\/icetrikes.de"
           }
         }
@@ -19,10 +17,13 @@
         "cb1cad37-666b-4f8d-b0f9-a7bac2858c47"
       ],
       "settings": {
-        "color_scheme": "accent-1",
+        "color_scheme": "scheme-3",
         "show_line_separator": true,
+        "show_social": false,
         "auto_rotate": false,
-        "change_slides_speed": 5
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
       }
     },
     "header": {
@@ -31,12 +32,13 @@
         ".header--middle-left {grid-template-columns: 1fr auto 1fr;}"
       ],
       "settings": {
-        "color_scheme": "background-1",
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
+        "color_scheme": "background-1",
+        "menu_color_scheme": "",
         "enable_country_selector": false,
         "enable_language_selector": true,
         "mobile_logo_position": "center",
