@@ -235,7 +235,7 @@
           "background": "{{ shop.brand.colors.primary[0].foreground }}",
           "background_gradient": "",
           "text": "#001926",
-          "button": "#ffffff",
+          "button": "{{ shop.brand.colors.primary[0].background }}",
           "button_label": "{{ shop.brand.colors.primary[0].foreground }}",
           "secondary_button_label": "{{ shop.brand.colors.secondary[0].background }}",
           "shadow": "{{ shop.brand.colors.secondary[0].foreground }}"
@@ -257,9 +257,9 @@
           "background": "{{ shop.brand.colors.primary[0].background }}",
           "background_gradient": "",
           "text": "{{ shop.brand.colors.primary[0].foreground }}",
-          "button": "{{ shop.brand.colors.secondary[0].foreground }}",
-          "button_label": "{{ shop.brand.colors.primary[0].foreground }}",
-          "secondary_button_label": "{{ shop.brand.colors.primary[0].foreground }}",
+          "button": "{{ shop.brand.colors.primary[0].foreground }}",
+          "button_label": "{{ shop.brand.colors.secondary[0].foreground }}",
+          "secondary_button_label": "{{ shop.brand.colors.secondary[0].foreground }}",
           "shadow": "rgba(0,0,0,0)"
         }
       },
