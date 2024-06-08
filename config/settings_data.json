@@ -2,26 +2,16 @@
   "current": {
     "logo": "shopify:\/\/shop_images\/IclettaLogo.png",
     "logo_width": 200,
-    "type_header_font": "assistant_n4",
-    "type_body_font": "fira_sans_n4",
-    "heading_scale": 100,
-    "page_width": 1400,
     "favicon": "shopify:\/\/shop_images\/Logo_Icletta_rechteckig.png",
-    "colors_solid_button_labels": "{{ shop.brand.colors.primary[0].foreground }}",
-    "colors_accent_1": "{{ shop.brand.colors.primary[0].background }}",
-    "gradient_accent_1": "",
-    "colors_accent_2": "{{ shop.brand.colors.secondary[1].background }}",
-    "gradient_accent_2": "",
-    "colors_text": "#001926",
-    "colors_outline_button_labels": "{{ shop.brand.colors.secondary[0].background }}",
-    "colors_background_1": "{{ shop.brand.colors.primary[0].foreground }}",
-    "gradient_background_1": "",
-    "colors_background_2": "#fff",
-    "gradient_background_2": "",
+    "type_header_font": "assistant_n4",
+    "heading_scale": 100,
+    "type_body_font": "fira_sans_n4",
     "body_scale": 100,
+    "page_width": 1400,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
+    "animations_reveal_on_scroll": false,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -107,7 +97,6 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "accent_icons": "accent-2",
     "social_facebook_link": "https:\/\/www.facebook.com\/ICLETTA\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/icletta\/",
     "social_youtube_link": "http:\/\/www.youtube.com\/IclettaTrikes",
@@ -124,6 +113,18 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": true,
+    "colors_solid_button_labels": "{{ shop.brand.colors.primary[0].foreground }}",
+    "colors_accent_1": "{{ shop.brand.colors.primary[0].background }}",
+    "gradient_accent_1": "",
+    "colors_accent_2": "{{ shop.brand.colors.secondary[1].background }}",
+    "gradient_accent_2": "",
+    "colors_text": "#001926",
+    "colors_outline_button_labels": "{{ shop.brand.colors.secondary[0].background }}",
+    "colors_background_1": "{{ shop.brand.colors.primary[0].foreground }}",
+    "gradient_background_1": "",
+    "colors_background_2": "#fff",
+    "gradient_background_2": "",
+    "accent_icons": "accent-2",
     "checkout_logo_image": "shopify:\/\/shop_images\/IclettaLogo.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
@@ -231,22 +232,22 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#FFFFFF",
+          "background": "{{ shop.brand.colors.primary[0].foreground }}",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
-          "button_label": "#FFFFFF",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "text": "#001926",
+          "button": "#ffffff",
+          "button_label": "{{ shop.brand.colors.primary[0].foreground }}",
+          "secondary_button_label": "{{ shop.brand.colors.secondary[0].background }}",
+          "shadow": "{{ shop.brand.colors.secondary[0].foreground }}"
         }
       },
       "scheme-2": {
         "settings": {
-          "background": "#F3F3F3",
+          "background": "#f3f3f3",
           "background_gradient": "",
           "text": "#121212",
           "button": "#121212",
-          "button_label": "#F3F3F3",
+          "button_label": "#f3f3f3",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
@@ -255,10 +256,10 @@
         "settings": {
           "background": "#242833",
           "background_gradient": "",
-          "text": "#FFFFFF",
-          "button": "#FFFFFF",
+          "text": "#ffffff",
+          "button": "#ffffff",
           "button_label": "#000000",
-          "secondary_button_label": "#FFFFFF",
+          "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
       },
@@ -266,21 +267,21 @@
         "settings": {
           "background": "#121212",
           "background_gradient": "",
-          "text": "#FFFFFF",
-          "button": "#FFFFFF",
+          "text": "#ffffff",
+          "button": "#ffffff",
           "button_label": "#121212",
-          "secondary_button_label": "#FFFFFF",
+          "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
       },
       "scheme-5": {
         "settings": {
-          "background": "#334FB4",
+          "background": "#334fb4",
           "background_gradient": "",
-          "text": "#FFFFFF",
-          "button": "#FFFFFF",
-          "button_label": "#334FB4",
-          "secondary_button_label": "#FFFFFF",
+          "text": "#ffffff",
+          "button": "#ffffff",
+          "button_label": "#334fb4",
+          "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
       }
