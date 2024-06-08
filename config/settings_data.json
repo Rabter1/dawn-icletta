@@ -259,7 +259,7 @@
           "text": "{{ shop.brand.colors.primary[0].foreground }}",
           "button": "{{ shop.brand.colors.primary[0].foreground }}",
           "button_label": "{{ shop.brand.colors.secondary[0].foreground }}",
-          "secondary_button_label": "{{ shop.brand.colors.secondary[0].foreground }}",
+          "secondary_button_label": "{{ shop.brand.colors.primary[0].foreground }}",
           "shadow": "rgba(0,0,0,0)"
         }
       },
