@@ -59,7 +59,7 @@ a:visited {
 /* Product page options */
 
 .product-form__input input[type=radio]:checked+label {
-    background-color: var(--color-button) !important;
+    background-color: rgba(var(--color-button)) !important;
 }
 
 /* Custom icon for cart button */
