@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "password_page": {
@@ -617,11 +626,11 @@
   },
   "start": {
     "keyvisual": {
-      "tagline-1": "FIT FOR SPRING!",
-      "tagline-2": "FRESH ACCESSORIES",
-      "tagline-3": "FOR YOUR TRIKE",
-      "banner": "Keyvisual_Maerz_2024_Fruehling_Kettenleitrolle.jpg",
-      "link": "en\/collections\/trike-chains"
+      "tagline-1": "ALWAYS AT HAND",
+      "tagline-2": "WATER BOTTLES + HOLDERS",
+      "tagline-3": "AT THE ICLETTA RECUMBENT SHOP",
+      "banner": "Keyvisual_Sommer_2024_trinkflaschen.jpg",
+      "link": "en\/collections\/waterbottles"
     },
     "legrid": {
       "kachel-image-1": "kachel-ICE.jpg",
