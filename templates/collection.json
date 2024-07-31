@@ -33,14 +33,14 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<p>{{ collection.title }}<\/p>",
+            "heading": "{{ collection.title }}",
             "heading_size": "h2"
           }
         },
         "template--16752292167968__31b33854-1000-47c3-9cfd-2760172663d3-1674154947d8697547-1": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ collection.metafields.custom[\"seo-description\"] | metafield_tag }}<\/p>"
+            "text": "{{ collection.metafields.custom[\"seo-description\"] | metafield_tag }}"
           }
         }
       },
