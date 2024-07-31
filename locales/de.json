@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "password_page": {
@@ -528,11 +537,11 @@
   },
   "start": {
     "keyvisual": {
-      "tagline-1": "FIT FÜR DEN FRÜHLING!",
-      "tagline-2": "FRISCHES ZUBEHÖR",
-      "tagline-3": "FÜR DEIN TRIKE",
-      "banner": "Keyvisual_Maerz_2024_Fruehling_Kettenleitrolle.jpg",
-      "link": "collections\/kettenleitrollen"
+      "tagline-1": "IMMER GRIFFBEREIT:",
+      "tagline-2": "TRINKFLASCHEN + HALTERUNGEN",
+      "tagline-3": "IM ICLETTA ZUBEHÖRSHOP",
+      "banner": "Keyvisual_Sommer_2024_trinkflaschen.jpg",
+      "link": "collections\/trinkflasche"
     },
     "legrid": {
       "kachel-image-1": "icetrikes-websiteverweiskachel.jpg",
