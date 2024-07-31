@@ -40,7 +40,7 @@ a:visited {
 .note-for-complementary-products::before {
     content: '';
     display: block;
-    background-color: rgb(var(--color-base-accent-2));
+    background-color: #f17900;
     -webkit-mask-image: url('warning-outline.svg');
     mask-image: url('warning-outline.svg');
     width: 2.5em;
@@ -50,10 +50,10 @@ a:visited {
 
 .note-for-complementary-products {
     font-size: 1.4rem;
-    border: solid 0.1em rgb(var(--color-base-accent-2));
+    border: solid 0.1em #f17900;
     border-radius: 1em;
     padding: 1em;
-    box-shadow: rgba(var(--color-base-accent-2), 0.4) 0.1em 0.2em 0.6em;
+    box-shadow: #f1790050 0.1em 0.2em 0.6em;
 }
 
 /* Product page options */
