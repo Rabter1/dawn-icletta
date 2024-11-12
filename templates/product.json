@@ -95,7 +95,7 @@
           "settings": {
             "heading": "Produktinformationen",
             "icon": "clipboard",
-            "content": "{{ product.metafields.produktinformationen.hersteller | metafield_tag }}{{ product.metafields.produktinformationen.importeur | metafield_tag }}{{ product.metafields.produktinformationen.sicherheitsinformationen | metafield_tag }}",
+            "content": "<p><strong>Hersteller </strong></p>{{ product.metafields.produktinformationen.hersteller | metafield_tag }}<p><strong>Importeur</strong></p>{{ product.metafields.produktinformationen.importeur | metafield_tag }}<p><strong>Sicherheitsinformationen</strong></p>{{ product.metafields.produktinformationen.sicherheitsinformationen | metafield_tag }}<p></p><p></p><p></p>",
             "page": ""
           }
         }
