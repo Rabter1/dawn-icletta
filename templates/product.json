@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,13 +21,11 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -37,8 +44,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -50,7 +56,7 @@
         "d69e4434-49d2-4f1c-870e-28a89ce600f3": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% comment %} \nNote for Addon\n{% endcomment %}\n{%- if product.metafields.custom.note-for-addon != blank -%}\n<div class=\"note-for-complementary-products\">\n{{product.metafields.custom.note-for-addon | newline_to_br }}\n<\/div>\n{%- endif -%}"
+            "custom_liquid": "{% comment %} \nNote for Addon\n{% endcomment %}\n{%- if product.metafields.custom.note-for-addon != blank -%}\n<div class=\"note-for-complementary-products\">\n{{product.metafields.custom.note-for-addon | newline_to_br }}\n</div>\n{%- endif -%}"
           }
         },
         "58887f34-e8d7-4f53-874d-0a6dab50304b": {
@@ -69,19 +75,28 @@
         "a0dc0bba-189f-4dee-9eb0-8ccfe32c2cff": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% comment %} \nShort description\n{% endcomment %}\n{%- if product.metafields.custom.short_description != blank -%}\n{%- assign bulletPoint = product.metafields.custom.short_description | newline_to_br | split: '<br \/>' -%}\n<ul style=\"padding-left: 1.2em\">\n{%- for line in bulletPoint -%}\n<li>{{line}}<\/li>\n{%- endfor -%}\n<\/ul>\n{%- endif -%}"
+            "custom_liquid": "{% comment %} \nShort description\n{% endcomment %}\n{%- if product.metafields.custom.short_description != blank -%}\n{%- assign bulletPoint = product.metafields.custom.short_description | newline_to_br | split: '<br />' -%}\n<ul style=\"padding-left: 1.2em\">\n{%- for line in bulletPoint -%}\n<li>{{line}}</li>\n{%- endfor -%}\n</ul>\n{%- endif -%}"
           }
         },
         "1c902a74-4a14-4ad7-b06a-5a5852d3092b": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% comment %} \nAssembly instructions\n{% endcomment %}\n{%- if product.metafields.custom.assembly-instructions != blank -%}\n{%- assign instructions = product.metafields.custom.assembly-instructions.value -%}\n<div class=\"product__accordion accordion quick-add-hidden\">\n<details id=\"Details-{{ block.id }}-{{ section.id }}\">\n<summary>\n<div class=\"summary__title\">\n{% render 'icon-accordion', icon: 'clipboard' %}\n<h2 class=\"h4 accordion__title\">\n{{ 'products.product.assembly_instructions' | t }}\n<\/h2>\n<\/div>\n{% render 'icon-caret' %}\n<\/summary>\n<div class=\"accordion__content rte\" id=\"ProductAccordion-{{ block.id }}-{{ section.id }}\">\n<ul style=\"padding-left: 1.2em\">\n{%- for file in instructions-%}\n<li><a href=\"{{file.url}}\" target=\"_blank\">{{file.url| split: '\/' | last | split: '?' | first}}<\/a><\/li>\n{%- endfor -%}\n<\/ul>\n<\/div>\n<\/details>\n<\/div>\n{%- endif -%}"
+            "custom_liquid": "{% comment %} \nAssembly instructions\n{% endcomment %}\n{%- if product.metafields.custom.assembly-instructions != blank -%}\n{%- assign instructions = product.metafields.custom.assembly-instructions.value -%}\n<div class=\"product__accordion accordion quick-add-hidden\">\n<details id=\"Details-{{ block.id }}-{{ section.id }}\">\n<summary>\n<div class=\"summary__title\">\n{% render 'icon-accordion', icon: 'clipboard' %}\n<h2 class=\"h4 accordion__title\">\n{{ 'products.product.assembly_instructions' | t }}\n</h2>\n</div>\n{% render 'icon-caret' %}\n</summary>\n<div class=\"accordion__content rte\" id=\"ProductAccordion-{{ block.id }}-{{ section.id }}\">\n<ul style=\"padding-left: 1.2em\">\n{%- for file in instructions-%}\n<li><a href=\"{{file.url}}\" target=\"_blank\">{{file.url| split: '/' | last | split: '?' | first}}</a></li>\n{%- endfor -%}\n</ul>\n</div>\n</details>\n</div>\n{%- endif -%}"
           }
         },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
+          }
+        },
+        "collapsible_tab_C86ecb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Produktinformationen",
+            "icon": "clipboard",
+            "content": "{{ product.metafields.produktinformationen.hersteller | metafield_tag }}{{ product.metafields.produktinformationen.importeur | metafield_tag }}{{ product.metafields.produktinformationen.sicherheitsinformationen | metafield_tag }}",
+            "page": ""
           }
         }
       },
@@ -97,7 +112,8 @@
         "58887f34-e8d7-4f53-874d-0a6dab50304b",
         "a0dc0bba-189f-4dee-9eb0-8ccfe32c2cff",
         "1c902a74-4a14-4ad7-b06a-5a5852d3092b",
-        "share"
+        "share",
+        "collapsible_tab_C86ecb"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -128,7 +144,7 @@
         "template--16694958129440__cf2dd73b-1e49-4111-9f32-4640828dea03-1666768217a1155f8c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>[product_description]<\/p>"
+            "text": "<p>[product_description]</p>"
           }
         }
       },
