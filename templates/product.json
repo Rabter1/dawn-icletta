@@ -42,6 +42,12 @@
             "show_inventory_quantity": true
           }
         },
+        "sku_wD6z7k": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -89,7 +95,7 @@
           "settings": {
             "heading": "Produktinformationen",
             "icon": "clipboard",
-            "content": "<p><strong>Hersteller </strong></p>{{ product.metafields.produktinformationen.hersteller | metafield_tag }}<p><strong>Importeur</strong></p>{{ product.metafields.produktinformationen.importeur | metafield_tag }}<p><strong>Sicherheitsinformationen</strong></p>{{ product.metafields.produktinformationen.sicherheitsinformationen | metafield_tag }}<p></p><p></p><p></p>",
+            "content": "<p><strong>Hersteller </strong></p>{{ product.metafields.produktinformationen.hersteller | metafield_tag }}<p><strong>Importeur</strong></p>{{ product.metafields.produktinformationen.importeur | metafield_tag }}<p><strong>Sicherheitsinformationen</strong></p><p></p><p></p><p></p><p></p>",
             "page": ""
           }
         },
@@ -106,6 +112,7 @@
         "price",
         "variant_picker",
         "a774fef6-8b72-4f09-8bb5-7f0c5fcdf1ca",
+        "sku_wD6z7k",
         "quantity_selector",
         "buy_buttons",
         "d69e4434-49d2-4f1c-870e-28a89ce600f3",
