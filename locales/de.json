@@ -8,6 +8,37 @@
  * ------------------------------------------------------------
  */
 {
+  "icletta": {
+    "product": {
+      "media": {
+        "alt-text-for-media-id": {
+          "data-image-ID-hier": "text hier"
+        }
+      },
+      "accordion": {
+        "assembly_instructions": {
+          "heading": "Montageanleitungen"
+        },
+        "product_information": {
+          "heading": "Produktinformationen",
+          "manufacturer": "Hersteller",
+          "importer": "Importeur",
+          "safety_info": "Sicherheitsinformationen",
+          "download_label": "Herunterladen {{ filename }}"
+        }
+      },
+      "weight": "Gewicht:",
+      "varweight": "Gewichte:"
+    },
+    "footer": {
+      "payment-options": "Zahlungsmethoden:",
+      "shipping-service": "Versanddienstleister:",
+      "certification": "Zertifikate:"
+    },
+    "kategorieseite": {
+      "kategoriewort": "Kategorie:"
+    }
+  },
   "general": {
     "password_page": {
       "login_form_heading": "Shop mit Passwort betreten:",
@@ -644,25 +675,6 @@
     },
     "links": {
       "powered_by_shopify": " "
-    }
-  },
-  "icletta": {
-    "product": {
-      "media": {
-        "alt-text-for-media-id": {
-          "data-image-ID-hier": "text hier"
-        }
-      },
-      "weight": "Gewicht:",
-      "varweight": "Gewichte:"
-    },
-    "footer": {
-      "payment-options": "Zahlungsmethoden:",
-      "shipping-service": "Versanddienstleister:",
-      "certification": "Zertifikate:"
-    },
-    "kategorieseite": {
-      "kategoriewort": "Kategorie:"
     }
   },
   "customer_accounts": {
