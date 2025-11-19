@@ -42,12 +42,6 @@
             "show_inventory_quantity": true
           }
         },
-        "custom_liquid_dmY66a": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% comment %} \nSKU of product\n{% endcomment %}\n{% if product.selected_or_first_available_variant.sku != blank %}\n  <p class=\"product__sku\">\n    SKU: {{ product.selected_or_first_available_variant.sku }}\n  </p>\n{% endif %}"
-          }
-        },
         "sku_CtejXJ": {
           "type": "sku",
           "settings": {
@@ -115,7 +109,6 @@
         "price",
         "variant_picker",
         "a774fef6-8b72-4f09-8bb5-7f0c5fcdf1ca",
-        "custom_liquid_dmY66a",
         "sku_CtejXJ",
         "quantity_selector",
         "buy_buttons",
