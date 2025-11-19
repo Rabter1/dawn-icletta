@@ -120,8 +120,7 @@
         "share"
       ],
       "custom_css": [
-        ".product__sku {margin-top: -1.5rem;}",
-        ".product__sku:before {}"
+        ".product__sku {margin-top: -1.5rem;}"
       ],
       "settings": {
         "enable_sticky_info": true,
