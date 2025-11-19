@@ -7,6 +7,10 @@ a:visited {
 }*/
 /* Product page addons */
 
+.product__sku:before {
+    content: 'SKU: ';
+}
+
 .complementary-products__container .card--horizontal .card__inner {
     max-width: 100% !important;
     flex-shrink: 2;
