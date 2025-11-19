@@ -23,6 +23,12 @@
           "type": "title",
           "settings": {}
         },
+        "sku_CtejXJ": {
+          "type": "sku",
+          "settings": {
+            "text_style": "uppercase"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -40,12 +46,6 @@
             "text_style": "body",
             "inventory_threshold": 0,
             "show_inventory_quantity": true
-          }
-        },
-        "sku_CtejXJ": {
-          "type": "sku",
-          "settings": {
-            "text_style": "body"
           }
         },
         "quantity_selector": {
@@ -106,10 +106,10 @@
       "block_order": [
         "vendor",
         "title",
+        "sku_CtejXJ",
         "price",
         "variant_picker",
         "a774fef6-8b72-4f09-8bb5-7f0c5fcdf1ca",
-        "sku_CtejXJ",
         "quantity_selector",
         "buy_buttons",
         "d69e4434-49d2-4f1c-870e-28a89ce600f3",
@@ -118,6 +118,10 @@
         "1c902a74-4a14-4ad7-b06a-5a5852d3092b",
         "custom_liquid_AU3YQR",
         "share"
+      ],
+      "custom_css": [
+        ".product__sku {margin-top: -1.5rem;}",
+        ".product__sku:before {}"
       ],
       "settings": {
         "enable_sticky_info": true,
