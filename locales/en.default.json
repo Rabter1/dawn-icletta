@@ -20,6 +20,9 @@
         "assembly_instructions": {
           "heading": "Assembly instructions"
         },
+        "compatible_models": {
+          "heading": "Compatible models"
+        },
         "product_information": {
           "heading": "Product information",
           "manufacturer": "Manufacturer",
