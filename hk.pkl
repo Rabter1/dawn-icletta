@@ -1,0 +1,24 @@
+amends "package://github.com/jdx/hk/releases/download/v1.42.0/hk@1.42.0#/Config.pkl"
+
+// Pre-commit hook: validate the Shopify theme on every commit.
+// `shopify theme check` does cross-file validation (e.g. templates referencing
+// missing section files), so it must run against the whole theme — not just
+// staged files. The glob is only the trigger; the command itself walks the
+// project. Only ERROR-level findings block the commit; warnings/style notes
+// from .theme-check.yml are advisory.
+hooks {
+  ["pre-commit"] {
+    steps {
+      ["theme-check"] {
+        glob = List(
+          "**/*.liquid",
+          "**/*.json",
+          "**/*.css",
+          "**/*.js",
+          ".theme-check.yml"
+        )
+        check = "shopify theme check --fail-level error"
+      }
+    }
+  }
+}

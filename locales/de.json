@@ -19,6 +19,9 @@
         "assembly_instructions": {
           "heading": "Montageanleitungen"
         },
+        "compatible_models": {
+          "heading": "Kompatible Modelle"
+        },
         "product_information": {
           "heading": "Produktinformationen",
           "manufacturer": "Hersteller",

@@ -1,0 +1,8 @@
+[tools]
+node = "lts"
+"npm:@shopify/cli" = "latest"
+hk = "latest"
+pkl = "latest"
+
+[hooks]
+postinstall = "hk install --mise"
