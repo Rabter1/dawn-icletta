@@ -2,3 +2,30 @@ MatchingTranslations:
   enabled: false
 TemplateLength:
   enabled: false
+
+# False positives — bundled Theme Check is older than current Shopify/Dawn.
+# header.liquid uses Dawn's conditional opening-tag pattern (`<{% if ... %}sticky-header...{% else %}div{% endif %}>`)
+# which the parser treats as malformed HTML.
+# zload-metafields.liquid is a third-party (BörgerCookie / GDPR) inline-JS blob with embedded Liquid that the parser cannot tokenize.
+LiquidHTMLSyntaxError:
+  ignore:
+    - "sections/header.liquid"
+    - "snippets/zload-metafields.liquid"
+
+# Theme Check rejects the schema property `templates` (e.g. `"templates": ["password"]`),
+# but it is valid in current Shopify section schemas. Re-evaluate when bundled Theme Check is upgraded.
+ValidSchema:
+  ignore:
+    - "sections/email-signup-banner.liquid"
+
+# bc_banner.liquid is the vendor BörgerCookie banner snippet; we don't own its markup.
+ImgWidthAndHeight:
+  ignore:
+    - "snippets/bc_banner.liquid"
+
+# product-thumbnail.liquid builds the alt-text key dynamically:
+#   'icletta.product.media.alt-text-for-media-id.' | append: media.id | t
+# Static analysis can't see the appended media.id, so it reports the prefix as missing.
+TranslationKeyExists:
+  ignore:
+    - "snippets/product-thumbnail.liquid"
