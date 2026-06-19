@@ -44,9 +44,7 @@
       "block_order": [
         "eu_widerruf_button_form_inline_iBqFfU"
       ],
-      "custom_css": [
-        "div.shopify-block.shopify-app-block > :last-child {display: none !important; height: 0 !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "include_margins": true
       }
