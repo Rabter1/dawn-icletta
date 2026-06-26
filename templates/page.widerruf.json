@@ -44,7 +44,9 @@
       "block_order": [
         "eu_widerruf_button_form_inline_iBqFfU"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".shopify-app-block > div:has(> a[href*=\"euwiderrufsbutton.de\"]) {position: absolute !important; left: -200vw !important; clip-path: inset(50%) !important; pointer-events: none !important;}"
+      ],
       "settings": {
         "include_margins": true
       }
