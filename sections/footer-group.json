@@ -37,8 +37,7 @@
         "5b8b0731-6b85-4ceb-bc0a-001e2851324f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div>\n<div style=\"margin-top: 1.5em;\">\n<div><h3 style=\"margin: 0px;\">{{ \"icletta.footer.shipping-service\" | t }}</h3></div>\n<div style=\"width:20%; margin:1em 0px;\"><img style=\"border-radius: 2px;\" src=\"https://cdn.shopify.com/s/files/1/0667/7725/2128/files/pay-dhl.png?v=1676990061\" alt=\"DHL\" title=\"DHL\"></div>\n<h3>{{ \"icletta.footer.certification\" | t }}</h3>\n<div style=\"display: flex; flex-direction:row; gap: 2em; justify-content: left; margin-top: 1,5em;\"> \n<div><img src=\"https://cdn.shopify.com/s/files/1/0667/7725/2128/files/pay-sero.png?v=1676994131\" alt=\"Recycling\" title=\"Recycling\"></div>\n<div><img src=\"https://cdn.shopify.com/s/files/1/0667/7725/2128/files/pay-ssl.png?v=1676990510\" alt=\"SSL-Verschlüsselung\" title=\"SSL-Verschlüsselung\"></div>\n</div>\n</div>\n</div>",
-            "show_legal_guarantee": true
+            "custom_liquid": "<div class=\"footer__guarantee-details\">\n  <h3 class=\"footer__guarantee-subheading\">{{ \"icletta.footer.certification\" | t }}</h3>\n  <div class=\"footer__certifications\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0667/7725/2128/files/pay-sero.png?v=1676994131\" alt=\"Recycling\" loading=\"lazy\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0667/7725/2128/files/pay-ssl.png?v=1676990510\" alt=\"SSL-Verschlüsselung\" loading=\"lazy\">\n  </div>\n  <div class=\"footer__shipping-service\">\n    <h3 class=\"footer__guarantee-subheading\">{{ \"icletta.footer.shipping-service\" | t }}</h3>\n    <img src=\"https://cdn.shopify.com/s/files/1/0667/7725/2128/files/pay-dhl.png?v=1676990061\" alt=\"DHL\" loading=\"lazy\">\n  </div>\n</div>"
           }
         },
         "737fece2-af4a-45aa-b466-c3e233ac2196": {

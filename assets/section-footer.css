@@ -282,7 +282,7 @@
 
 .footer__legal-guarantee {
   width: 100%;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .footer__legal-guarantee img {
@@ -290,13 +290,38 @@
   width: 100%;
   height: auto;
   background: #fff;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 0;
 }
 
-.footer__legal-guarantee-link {
-  display: inline-block;
-  margin-bottom: 1rem;
-  overflow-wrap: anywhere;
-  color: currentColor;
+.footer__guarantee-subheading {
+  margin: 0;
+}
+
+.footer__certifications {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footer__certifications img {
+  display: block;
+  max-width: calc(50% - 0.5rem);
+  height: auto;
+}
+
+.footer__shipping-service {
+  margin-top: 2rem;
+}
+
+.footer__shipping-service img {
+  display: block;
+  width: 20%;
+  height: auto;
+  margin-top: 1rem;
 }
 
 .footer__content-bottom-wrapper--center {
