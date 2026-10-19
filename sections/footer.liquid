@@ -2,7 +2,6 @@
 {{ 'section-footer.css' | asset_url | stylesheet_tag }}
 {{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
 {{ 'component-list-menu.css' | asset_url | stylesheet_tag }}
-{{ 'component-list-payment.css' | asset_url | stylesheet_tag }}
 {{ 'component-list-social.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
@@ -29,6 +28,62 @@
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- liquid
+    assign guarantee_locale = request.locale.iso_code | split: '-' | first | downcase
+    assign guarantee_locales = 'bg,cs,da,de,el,en,es,et,fi,fr,ga,hr,hu,it,lt,lv,mt,nl,pl,pt,ro,sk,sl,sv' | split: ','
+    unless guarantee_locales contains guarantee_locale
+      assign guarantee_locale = 'en'
+    endunless
+    assign guarantee_asset = 'eu-legal-guarantee-' | append: guarantee_locale | append: '.svg'
+    assign guarantee_info_url = 'https://europa.eu/youreurope/guarantees'
+    case guarantee_locale
+      when 'bg'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/гаранции'
+      when 'hr'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/jamstva_hr'
+      when 'cs'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/záruky_cs'
+      when 'da'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/garantier'
+      when 'nl'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/garantie'
+      when 'de'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/garantien'
+      when 'el'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/εγγυήσεις'
+      when 'et'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/garantiid'
+      when 'fi'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/virhevastuu'
+      when 'fr'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/garanties'
+      when 'hu'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/jótállás'
+      when 'ga'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/ráthaíochtaí'
+      when 'it'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/garanzie'
+      when 'lt'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/garantijos'
+      when 'lv'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/garantijas'
+      when 'mt'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/garanziji'
+      when 'pl'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/gwarancje'
+      when 'pt'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/garantias'
+      when 'ro'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/garanții'
+      when 'sk'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/záruky_sk'
+      when 'sl'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/jamstva_sl'
+      when 'es'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/garantías'
+      when 'sv'
+        assign guarantee_info_url = 'https://europa.eu/youreurope/reklamationsrätt'
+    endcase
+
     assign has_social_icons = true
     if settings.social_facebook_link == blank and settings.social_instagram_link == blank and settings.social_youtube_link == blank and settings.social_tiktok_link == blank and settings.social_twitter_link == blank and settings.social_pinterest_link == blank and settings.social_snapchat_link == blank and settings.social_tumblr_link == blank and settings.social_vimeo_link == blank
       assign has_social_icons = false
@@ -280,18 +335,20 @@
         {%- endif -%}
       </div>
       <div class="footer__column footer__column--info">
-        {%- if section.settings.payment_enable -%}
-          <div class="footer__payment">
-            <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
-            <ul class="list list-payment" role="list">
-              {%- for type in shop.enabled_payment_types -%}
-                <li class="list-payment__item">
-                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
-                </li>
-              {%- endfor -%}
-            </ul>
-          </div>
-        {%- endif -%}
+        <div class="footer__legal-guarantee">
+          <a href="{{ guarantee_asset | asset_url }}" target="_blank" rel="noopener" aria-label="{% if guarantee_locale == 'de' %}EU-Gewährleistungslabel in voller Größe öffnen{% else %}Open the EU legal guarantee notice at full size{% endif %}">
+            <img
+              src="{{ guarantee_asset | asset_url }}"
+              alt="{% if guarantee_locale == 'de' %}EU-Hinweis zur gesetzlichen Gewährleistung für Waren{% else %}EU notice on the legal guarantee for goods{% endif %}"
+              width="595"
+              height="842"
+              loading="lazy"
+            >
+          </a>
+          <a class="footer__legal-guarantee-link" href="{{ guarantee_info_url }}" target="_blank" rel="noopener">
+            {{ guarantee_info_url | remove: 'https://' }}
+          </a>
+        </div>
       </div>
     </div>
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
@@ -492,16 +549,6 @@
       "id": "enable_language_selector",
       "default": true,
       "label": "t:sections.footer.settings.enable_language_selector.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__7.content"
-    },
-    {
-      "type": "checkbox",
-      "id": "payment_enable",
-      "default": true,
-      "label": "t:sections.footer.settings.payment_enable.label"
     },
     {
       "type": "header",
