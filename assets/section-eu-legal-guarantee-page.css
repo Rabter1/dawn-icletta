@@ -1,0 +1,28 @@
+.eu-legal-guarantee-page {
+  padding-top: 3.6rem;
+  padding-bottom: 5.2rem;
+}
+
+.eu-legal-guarantee-page__notice {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.eu-legal-guarantee-page__notice a,
+.eu-legal-guarantee-page__notice img {
+  display: block;
+  width: 59.5rem;
+}
+
+.eu-legal-guarantee-page__notice a {
+  margin-inline: auto;
+}
+
+.eu-legal-guarantee-page__notice img {
+  height: auto;
+}
+
+.eu-legal-guarantee-page__details {
+  margin-top: 1.6rem;
+  overflow-wrap: anywhere;
+}

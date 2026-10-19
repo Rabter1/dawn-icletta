@@ -1,0 +1,88 @@
+{{ 'section-main-page.css' | asset_url | stylesheet_tag }}
+{{ 'section-eu-legal-guarantee-page.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign guarantee_locale = request.locale.iso_code | split: '-' | first | downcase
+  assign guarantee_locales = 'bg,cs,da,de,el,en,es,et,fi,fr,ga,hr,hu,it,lt,lv,mt,nl,pl,pt,ro,sk,sl,sv' | split: ','
+  unless guarantee_locales contains guarantee_locale
+    assign guarantee_locale = 'en'
+  endunless
+
+  assign guarantee_asset = 'eu-legal-guarantee-' | append: guarantee_locale | append: '.svg'
+  assign guarantee_info_slug = 'guarantees'
+  case guarantee_locale
+    when 'bg'
+      assign guarantee_info_slug = 'гаранции'
+    when 'hr'
+      assign guarantee_info_slug = 'jamstva_hr'
+    when 'cs'
+      assign guarantee_info_slug = 'záruky_cs'
+    when 'da'
+      assign guarantee_info_slug = 'garantier'
+    when 'nl'
+      assign guarantee_info_slug = 'garantie'
+    when 'de'
+      assign guarantee_info_slug = 'garantien'
+    when 'el'
+      assign guarantee_info_slug = 'εγγυήσεις'
+    when 'et'
+      assign guarantee_info_slug = 'garantiid'
+    when 'fi'
+      assign guarantee_info_slug = 'virhevastuu'
+    when 'fr'
+      assign guarantee_info_slug = 'garanties'
+    when 'hu'
+      assign guarantee_info_slug = 'jótállás'
+    when 'ga'
+      assign guarantee_info_slug = 'ráthaíochtaí'
+    when 'it'
+      assign guarantee_info_slug = 'garanzie'
+    when 'lt'
+      assign guarantee_info_slug = 'garantijos'
+    when 'lv'
+      assign guarantee_info_slug = 'garantijas'
+    when 'mt'
+      assign guarantee_info_slug = 'garanziji'
+    when 'pl'
+      assign guarantee_info_slug = 'gwarancje'
+    when 'pt'
+      assign guarantee_info_slug = 'garantias'
+    when 'ro'
+      assign guarantee_info_slug = 'garanții'
+    when 'sk'
+      assign guarantee_info_slug = 'záruky_sk'
+    when 'sl'
+      assign guarantee_info_slug = 'jamstva_sl'
+    when 'es'
+      assign guarantee_info_slug = 'garantías'
+    when 'sv'
+      assign guarantee_info_slug = 'reklamationsrätt'
+  endcase
+  assign guarantee_info_url = 'https://europa.eu/youreurope/' | append: guarantee_info_slug
+-%}
+
+<div class="page-width page-width--narrow eu-legal-guarantee-page">
+  <h1 class="main-page-title page-title h0">{{ page.title | default: 'Gesetzliche Gewährleistung' | escape }}</h1>
+  <div class="eu-legal-guarantee-page__notice">
+    <a href="{{ guarantee_asset | asset_url }}" target="_blank" rel="noopener" aria-label="{% if guarantee_locale == 'de' %}EU-Gewährleistungshinweis in voller Größe öffnen{% else %}Open the EU legal guarantee notice at full size{% endif %}">
+      <img
+        src="{{ guarantee_asset | asset_url }}"
+        alt="{{ page.title | default: 'EU-Hinweis zur gesetzlichen Gewährleistung' | escape }}"
+        width="595"
+        height="842"
+      >
+    </a>
+  </div>
+  <p class="eu-legal-guarantee-page__details">
+    <a href="{{ guarantee_info_url }}" target="_blank" rel="noopener">{{ guarantee_info_url | remove: 'https://' }}</a>
+  </p>
+</div>
+
+{% schema %}
+{
+  "name": "EU-Gewährleistungsseite",
+  "tag": "section",
+  "class": "section",
+  "settings": []
+}
+{% endschema %}

@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "eu-legal-guarantee-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
