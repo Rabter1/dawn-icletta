@@ -144,6 +144,22 @@
                   {%- when 'custom_liquid' -%}
                     <div class="footer-block__details-content rte">
                       {{ block.settings.custom_liquid }}
+                      {%- if block.settings.show_legal_guarantee -%}
+                        <div class="footer__legal-guarantee">
+                          <a class="footer__legal-guarantee-link" href="{{ guarantee_info_url }}" target="_blank" rel="noopener">
+                            {{ guarantee_info_url | remove: 'https://' }}
+                          </a>
+                          <a href="{{ guarantee_asset | asset_url }}" target="_blank" rel="noopener" aria-label="{% if guarantee_locale == 'de' %}EU-Gewährleistungslabel in voller Größe öffnen{% else %}Open the EU legal guarantee notice at full size{% endif %}">
+                            <img
+                              src="{{ guarantee_asset | asset_url }}"
+                              alt="{% if guarantee_locale == 'de' %}EU-Hinweis zur gesetzlichen Gewährleistung für Waren{% else %}EU notice on the legal guarantee for goods{% endif %}"
+                              width="595"
+                              height="842"
+                              loading="lazy"
+                            >
+                          </a>
+                        </div>
+                      {%- endif -%}
                     </div>
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
@@ -339,22 +355,6 @@
           </localization-form>
         {%- endif -%}
       </div>
-      <div class="footer__column footer__column--info">
-        <div class="footer__legal-guarantee">
-          <a href="{{ guarantee_asset | asset_url }}" target="_blank" rel="noopener" aria-label="{% if guarantee_locale == 'de' %}EU-Gewährleistungslabel in voller Größe öffnen{% else %}Open the EU legal guarantee notice at full size{% endif %}">
-            <img
-              src="{{ guarantee_asset | asset_url }}"
-              alt="{% if guarantee_locale == 'de' %}EU-Hinweis zur gesetzlichen Gewährleistung für Waren{% else %}EU notice on the legal guarantee for goods{% endif %}"
-              width="595"
-              height="842"
-              loading="lazy"
-            >
-          </a>
-          <a class="footer__legal-guarantee-link" href="{{ guarantee_info_url }}" target="_blank" rel="noopener">
-            {{ guarantee_info_url | remove: 'https://' }}
-          </a>
-        </div>
-      </div>
     </div>
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
       <div class="footer__copyright caption">
@@ -397,6 +397,12 @@
           "id": "custom_liquid",
           "label": "t:sections.custom-liquid.settings.custom_liquid.label",
           "info": "t:sections.custom-liquid.settings.custom_liquid.info"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_legal_guarantee",
+          "default": false,
+          "label": "EU-Gewährleistungslabel anzeigen"
         }
       ]
     }, 

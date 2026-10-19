@@ -281,7 +281,8 @@
 }
 
 .footer__legal-guarantee {
-  width: min(100%, 59.5rem);
+  width: 100%;
+  margin-top: 2rem;
 }
 
 .footer__legal-guarantee img {
@@ -293,7 +294,7 @@
 
 .footer__legal-guarantee-link {
   display: inline-block;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
   overflow-wrap: anywhere;
   color: currentColor;
 }
