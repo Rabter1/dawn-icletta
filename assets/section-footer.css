@@ -280,27 +280,9 @@
   }
 }
 
-.footer__legal-guarantee {
-  width: min(100%, 59.5rem);
-}
-
-.footer__legal-guarantee img {
-  display: block;
-  width: 100%;
-  height: auto;
-  background: #fff;
-}
-
-.footer__legal-guarantee-link {
-  display: inline-block;
-  margin-top: 1rem;
-  overflow-wrap: anywhere;
-  color: currentColor;
-}
-
 @media screen and (min-width: 750px) {
-  .footer__localization:empty {
-    display: none;
+  .footer__payment {
+    margin-top: 1.5rem;
   }
 }
 
